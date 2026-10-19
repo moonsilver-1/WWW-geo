@@ -1,0 +1,9 @@
+{
+  "pages": 2,
+  "eligible_cubes": 1,
+  "parsed_state_counts": {
+    "rw_iphone15": 61,
+    "rw_switch": 64
+  },
+  "raw_rows": 128
+}

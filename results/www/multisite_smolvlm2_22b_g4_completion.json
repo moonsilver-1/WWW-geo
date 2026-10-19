@@ -1,0 +1,10 @@
+{
+  "pages": 3,
+  "eligible_cubes": 2,
+  "parsed_state_counts": {
+    "apple_iphone15": 64,
+    "nasa_new_horizons": 19,
+    "nih_gerd": 64
+  },
+  "raw_rows": 192
+}

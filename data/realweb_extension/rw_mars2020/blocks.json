@@ -1,0 +1,46 @@
+{
+  "units": [
+    {
+      "tag": 1,
+      "type": "T",
+      "role": "fact",
+      "caption": false,
+      "text": "Mars 2020 is a NASA mission that includes the rover Perseverance , the now-grounded small robotic helicopter Ingenuity , and associated delivery systems, as part of the Mars Exploration Program . Mars 2020 was launched on an Atlas V rocket at 11:50:01 UTC on July 30, 2020, [ 4 ] and landed in the Martian crater Jezero on February 18, 2021, with confirmation received at 20:55 UTC. [ 5 ] On March 5, 2021, NASA named th"
+    },
+    {
+      "tag": 2,
+      "type": "T",
+      "role": "context",
+      "caption": false,
+      "text": "Perseverance is investigating an astrobiologically relevant ancient environment on Mars for its surface geological processes and history , and assessing its past habitability , the possibility of past life on Mars , and the potential for preservation of biosignatures within accessible geological materials. [ 14 ] [ 15 ] It will cache sample containers along its route for retrieval by a potential future Mars sample-re"
+    },
+    {
+      "tag": 3,
+      "type": "I",
+      "role": "image",
+      "caption": false,
+      "image": "image.png"
+    },
+    {
+      "tag": 4,
+      "type": "T",
+      "role": "caption",
+      "caption": true,
+      "text": "Mars 2020 image"
+    },
+    {
+      "tag": 5,
+      "type": "T",
+      "role": "adjacent",
+      "caption": false,
+      "text": "The launch of Mars 2020 was the third of three space missions sent toward Mars during the July 2020 Mars launch window , with missions also launched by the national space agencies of the United Arab Emirates (the Emirates Mars Mission with the orbiter Hope on July 19, 2020) and China (the Tianwen -1 mission on July 23, 2020, with an orbiter, deployable and remote cameras, lander, and Zhurong rover)."
+    },
+    {
+      "tag": 6,
+      "type": "T",
+      "role": "distractor",
+      "caption": false,
+      "text": "The Mars 2020 mission was announced by NASA on December 4, 2012, at the fall meeting of the American Geophysical Union in San Francisco. [ 20 ] The selection of Mars as the target of NASA's flagship mission elicited surprise from some members of the scientific community. Some criticized NASA for continuing to focus on Mars exploration instead of other Solar System destinations in constrained budget times. [ 21 ] [ 22"
+    }
+  ]
+}

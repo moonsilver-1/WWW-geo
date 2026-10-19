@@ -1,0 +1,187 @@
+{
+  "id": "nasa_webb_mirrors",
+  "url": "https://science.nasa.gov/mission/webb/webbs-mirrors/",
+  "publisher": "NASA",
+  "question": "How many segments make up Webb's primary mirror?",
+  "statement": "Webb's primary mirror has 18 segments.",
+  "answer": "18",
+  "source_anchor": "the iconic 18 segment primary mirror",
+  "units": [
+    {
+      "tag": 1,
+      "type": "T",
+      "role": "context",
+      "caption": false,
+      "text": "One of the James Webb Space Telescope's science goals is to look back through time to when galaxies were young. Webb does this by observing galaxies that are very distant, at over 13 billion light years away from us. To see such far-off and faint objects, Webb needs a large mirror. A telescope’s sensitivity, or how much detail it can see, is directly related to the size of the mirror area that collects light from the objects being observed.",
+      "source_offset": [
+        6786,
+        7230
+      ],
+      "original_tag": 2,
+      "lexical_answer_match": false
+    },
+    {
+      "tag": 2,
+      "type": "T",
+      "role": "context",
+      "caption": false,
+      "text": "Webb's primary mirror is the largest ever launched into space. Since the mirror is larger than the diameter of the rocket Webb, the mirror is segmented and designed to fold for launch.",
+      "source_offset": [
+        7943,
+        8127
+      ],
+      "original_tag": 4,
+      "lexical_answer_match": false
+    },
+    {
+      "tag": 3,
+      "type": "T",
+      "role": "fact",
+      "caption": false,
+      "text": "Webb has 4 different mirrors, the iconic 18 segment primary mirror, the round secondary mirror at the end of the booms, the tertiary mirror and the fine steering mirror.",
+      "source_offset": [
+        7613,
+        7782
+      ],
+      "original_tag": 1,
+      "lexical_answer_match": true
+    },
+    {
+      "tag": 4,
+      "type": "I",
+      "role": "image",
+      "caption": false,
+      "image": "image.png",
+      "original_tag": 5,
+      "lexical_answer_match": false
+    },
+    {
+      "tag": 5,
+      "type": "T",
+      "role": "source_heading",
+      "caption": false,
+      "text": "Webb's Mirrors",
+      "source_offset": [
+        0,
+        14
+      ],
+      "original_tag": 6,
+      "lexical_answer_match": false
+    },
+    {
+      "tag": 6,
+      "type": "T",
+      "role": "context",
+      "caption": false,
+      "text": "Webb's primary mirror is  6.5 meters (21 feet 4 inches) across. Engineers determined that size was needed to measure the light from extremely distant galaxies.",
+      "source_offset": [
+        7783,
+        7942
+      ],
+      "original_tag": 3,
+      "lexical_answer_match": false
+    }
+  ],
+  "image_url": "https://science.nasa.gov/wp-content/uploads/2023/09/webb-jwstprimarymirror.jpg?w=2048",
+  "image_alt": "A image of James Webb Space Telescope's primary mirror at NASA Goddard.",
+  "original_image_size": [
+    2048,
+    1365
+  ],
+  "source_html_sha256": "6e36417dd3e48b77c48cc779c4e9e56b5962301f6951ed651268f6e84cb79463",
+  "image_original_sha256": "2f4ee2f07c5098c39b72f3f666c5d185d3dba91c88ed96eb021d058ed6b60116",
+  "status": "frozen_before_inference",
+  "human_validation": null,
+  "source_record": "data/www_candidate_sources/nasa_webb_mirrors/6e36417dd3e48b77c48cc779c4e9e56b5962301f6951ed651268f6e84cb79463.json",
+  "split": "transfer",
+  "permutation_seed": 20261013,
+  "original_tags_in_display_order": [
+    2,
+    4,
+    1,
+    5,
+    6,
+    3
+  ],
+  "answer_alias_groups": [
+    [
+      "18"
+    ]
+  ],
+  "semantic_assessment": {
+    "id": "nasa_webb_mirrors",
+    "reviewer_type": "agent",
+    "human_validation": null,
+    "blocks_sha256": "f56a0606c943f24a06811a1f4444866990b75f4d468d512145c623e05bc6dbde",
+    "text_units": [
+      {
+        "tag": 3,
+        "assessment": "supports_statement_in_page_context",
+        "evidence_quote": "Webb has 4 different mirrors, the iconic 18 segment primary mirror, the round secondary mirror at the end of the booms, the tertiary mirror and the fine steering mirror.",
+        "source_offset": [
+          7613,
+          7782
+        ],
+        "note": "Assessment uses the page entity and the exact target question; lexical answer occurrence alone is not entailment.",
+        "original_tag": 1
+      },
+      {
+        "tag": 1,
+        "assessment": "related_context_without_full_explicit_answer",
+        "evidence_quote": "One of the James Webb Space Telescope's science goals is to look back through time to when galaxies were young. Webb does this by observing galaxies that are very distant, at over 13 billion light years away from us. To see such far-off and faint objects, Webb needs a large mirror. A telescope’s sensitivity, or how much detail it can see, is directly related to the size of the mirror area that collects light from the objects being observed.",
+        "source_offset": [
+          6786,
+          7230
+        ],
+        "note": "Assessment uses the page entity and the exact target question; lexical answer occurrence alone is not entailment.",
+        "original_tag": 2
+      },
+      {
+        "tag": 6,
+        "assessment": "related_context_without_full_explicit_answer",
+        "evidence_quote": "Webb's primary mirror is  6.5 meters (21 feet 4 inches) across. Engineers determined that size was needed to measure the light from extremely distant galaxies.",
+        "source_offset": [
+          7783,
+          7942
+        ],
+        "note": "Assessment uses the page entity and the exact target question; lexical answer occurrence alone is not entailment.",
+        "original_tag": 3
+      },
+      {
+        "tag": 2,
+        "assessment": "related_context_without_full_explicit_answer",
+        "evidence_quote": "Webb's primary mirror is the largest ever launched into space. Since the mirror is larger than the diameter of the rocket Webb, the mirror is segmented and designed to fold for launch.",
+        "source_offset": [
+          7943,
+          8127
+        ],
+        "note": "Assessment uses the page entity and the exact target question; lexical answer occurrence alone is not entailment.",
+        "original_tag": 4
+      },
+      {
+        "tag": 5,
+        "assessment": "source_page_entity_metadata",
+        "evidence_quote": "Webb's Mirrors",
+        "source_offset": [
+          0,
+          14
+        ],
+        "note": "Assessment uses the page entity and the exact target question; lexical answer occurrence alone is not entailment.",
+        "original_tag": 6
+      }
+    ],
+    "image": {
+      "file": "image.png",
+      "sha256": "e9bee6d519ac0c92fdeeac2a15d943dd08919622d09a3dc0835fef9a0dab9be7",
+      "visually_inspected": true,
+      "artifact_status": "readable_article_image",
+      "assessment": "related_visual_context_not_standalone_full_answer",
+      "visible_evidence": "Segmented gold primary mirror photograph; equipment and framing obscure portions, so exact segment count is not certified by this view.",
+      "tag": 4
+    }
+  },
+  "original_cohort_same_entity": [
+    "rw_jwst"
+  ],
+  "original_cohort_related_topic": []
+}

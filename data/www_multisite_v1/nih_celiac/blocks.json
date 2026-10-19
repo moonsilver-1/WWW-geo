@@ -1,0 +1,185 @@
+{
+  "id": "nih_celiac",
+  "url": "https://www.niddk.nih.gov/health-information/digestive-diseases/celiac-disease/definition-facts",
+  "publisher": "NIH/NIDDK",
+  "question": "Which part of the digestive tract does celiac disease damage?",
+  "statement": "Celiac disease damages the small intestine.",
+  "answer": "small intestine",
+  "source_anchor": "damages the small intestine",
+  "units": [
+    {
+      "tag": 1,
+      "type": "T",
+      "role": "context",
+      "caption": false,
+      "text": "Celiac disease is also different from a wheat allergy, a type of food allergy . In both cases, your body’s immune system reacts to wheat. However, some symptoms of wheat allergies, such as having itchy eyes or a hard time breathing, are different from celiac disease. Wheat allergies also do not cause long-term damage to the small intestine.",
+      "source_offset": [
+        3441,
+        3783
+      ],
+      "original_tag": 4,
+      "lexical_answer_match": true
+    },
+    {
+      "tag": 2,
+      "type": "T",
+      "role": "source_heading",
+      "caption": false,
+      "text": "Definition & Facts for Celiac Disease",
+      "source_offset": [
+        0,
+        37
+      ],
+      "original_tag": 6,
+      "lexical_answer_match": false
+    },
+    {
+      "tag": 3,
+      "type": "I",
+      "role": "image",
+      "caption": false,
+      "image": "image.png",
+      "original_tag": 5,
+      "lexical_answer_match": false
+    },
+    {
+      "tag": 4,
+      "type": "T",
+      "role": "fact",
+      "caption": false,
+      "text": "Celiac disease is a chronic digestive and immune disorder that damages the small intestine . The disease is triggered by eating foods containing gluten. Gluten is a protein found naturally in wheat, barley, and rye, and is common in foods such as bread, pasta, cookies, and cakes. Many products contain gluten, such as prepackaged foods, lip balms and lipsticks, toothpastes, vitamin and nutrient supplements, and, rarely, medicines.",
+      "source_offset": [
+        2443,
+        2876
+      ],
+      "original_tag": 1,
+      "lexical_answer_match": true
+    },
+    {
+      "tag": 5,
+      "type": "T",
+      "role": "context",
+      "caption": false,
+      "text": "Celiac disease is different from gluten sensitivity or wheat intolerance. If you have gluten sensitivity, you may have symptoms like those of celiac disease, such as abdominal pain and tiredness. Unlike celiac disease, gluten sensitivity does not damage the small intestine.",
+      "source_offset": [
+        3166,
+        3440
+      ],
+      "original_tag": 3,
+      "lexical_answer_match": true
+    },
+    {
+      "tag": 6,
+      "type": "T",
+      "role": "context",
+      "caption": false,
+      "text": "Celiac disease can be serious. The disease can cause long-lasting digestive problems and keep your body from getting all the nutrients it needs. Celiac disease can also affect the body outside the small intestine.",
+      "source_offset": [
+        2952,
+        3165
+      ],
+      "original_tag": 2,
+      "lexical_answer_match": true
+    }
+  ],
+  "image_url": "https://www.niddk.nih.gov/-/media/Images/Health-Information/Digestive-Diseases/wheat_230x233.jpg",
+  "image_alt": "A wheat field.",
+  "original_image_size": [
+    230,
+    233
+  ],
+  "source_html_sha256": "cc66af2461ef34c8f2211be4a1706f11de749d5f2e7b8864d3aeedb1fd31aec3",
+  "image_original_sha256": "1a72c32e51e0ddda32a4e465fb8620af7fe46d2fac27dc5cef45101bce944331",
+  "status": "frozen_before_inference",
+  "human_validation": null,
+  "source_record": "data/www_candidate_sources/nih_celiac/cc66af2461ef34c8f2211be4a1706f11de749d5f2e7b8864d3aeedb1fd31aec3.json",
+  "split": "transfer",
+  "permutation_seed": 20261013,
+  "original_tags_in_display_order": [
+    4,
+    6,
+    5,
+    1,
+    3,
+    2
+  ],
+  "answer_alias_groups": [
+    [
+      "small intestine"
+    ]
+  ],
+  "semantic_assessment": {
+    "id": "nih_celiac",
+    "reviewer_type": "agent",
+    "human_validation": null,
+    "blocks_sha256": "542b64cb056182c70bf4269eff27d029355d281de4a8be2ac4e8bb91ffe1c44f",
+    "text_units": [
+      {
+        "tag": 4,
+        "assessment": "supports_statement_in_page_context",
+        "evidence_quote": "Celiac disease is a chronic digestive and immune disorder that damages the small intestine . The disease is triggered by eating foods containing gluten. Gluten is a protein found naturally in wheat, barley, and rye, and is common in foods such as bread, pasta, cookies, and cakes. Many products contain gluten, such as prepackaged foods, lip balms and lipsticks, toothpastes, vitamin and nutrient supplements, and, rarely, medicines.",
+        "source_offset": [
+          2443,
+          2876
+        ],
+        "note": "Assessment uses the page entity and the exact target question; lexical answer occurrence alone is not entailment.",
+        "original_tag": 1
+      },
+      {
+        "tag": 6,
+        "assessment": "partial_target_relation",
+        "evidence_quote": "Celiac disease can be serious. The disease can cause long-lasting digestive problems and keep your body from getting all the nutrients it needs. Celiac disease can also affect the body outside the small intestine.",
+        "source_offset": [
+          2952,
+          3165
+        ],
+        "note": "Mentions effects outside the small intestine but does not explicitly state intestinal damage.",
+        "original_tag": 2
+      },
+      {
+        "tag": 5,
+        "assessment": "contrast_implies_target_answer",
+        "evidence_quote": "Celiac disease is different from gluten sensitivity or wheat intolerance. If you have gluten sensitivity, you may have symptoms like those of celiac disease, such as abdominal pain and tiredness. Unlike celiac disease, gluten sensitivity does not damage the small intestine.",
+        "source_offset": [
+          3166,
+          3440
+        ],
+        "note": "Unlike celiac disease, gluten sensitivity does not damage the small intestine: contrast supplies the relation.",
+        "original_tag": 3
+      },
+      {
+        "tag": 1,
+        "assessment": "related_contrast_requires_inference",
+        "evidence_quote": "Celiac disease is also different from a wheat allergy, a type of food allergy . In both cases, your body’s immune system reacts to wheat. However, some symptoms of wheat allergies, such as having itchy eyes or a hard time breathing, are different from celiac disease. Wheat allergies also do not cause long-term damage to the small intestine.",
+        "source_offset": [
+          3441,
+          3783
+        ],
+        "note": "Denial of long-term damage concerns wheat allergies; answer token occurrence is not a direct assertion about celiac disease.",
+        "original_tag": 4
+      },
+      {
+        "tag": 2,
+        "assessment": "source_page_entity_metadata",
+        "evidence_quote": "Definition & Facts for Celiac Disease",
+        "source_offset": [
+          0,
+          37
+        ],
+        "note": "Assessment uses the page entity and the exact target question; lexical answer occurrence alone is not entailment.",
+        "original_tag": 6
+      }
+    ],
+    "image": {
+      "file": "image.png",
+      "sha256": "068346f84a96b6977fe8418724454b9d4ab9a0ceb75011d05118a46876880c56",
+      "visually_inspected": true,
+      "artifact_status": "readable_article_image",
+      "assessment": "related_visual_context_not_standalone_full_answer",
+      "visible_evidence": "Wheat photograph; intestinal damage is not depicted.",
+      "tag": 3
+    }
+  },
+  "original_cohort_same_entity": [],
+  "original_cohort_related_topic": []
+}

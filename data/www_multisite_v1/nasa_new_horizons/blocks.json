@@ -1,0 +1,185 @@
+{
+  "id": "nasa_new_horizons",
+  "url": "https://science.nasa.gov/mission/new-horizons/",
+  "publisher": "NASA",
+  "question": "On what date did New Horizons fly by Pluto?",
+  "statement": "New Horizons flew by Pluto on July 14, 2015.",
+  "answer": "July 14, 2015",
+  "source_anchor": "July 14, 2015",
+  "units": [
+    {
+      "tag": 1,
+      "type": "T",
+      "role": "context",
+      "caption": false,
+      "text": "New Horizons is a NASA mission to study the dwarf planet Pluto, its moons, and other objects in the Kuiper Belt, a region of the solar system that extends from about 30 AU, near the orbit of Neptune, to about 50 AU from the Sun.",
+      "source_offset": [
+        8313,
+        8541
+      ],
+      "original_tag": 3,
+      "lexical_answer_match": false
+    },
+    {
+      "tag": 2,
+      "type": "T",
+      "role": "context",
+      "caption": false,
+      "text": "The first spacecraft to explore Pluto up close, flying by the dwarf planet and its moons in 2015. After a nine-year journey, New Horizons also passed its second major science target, reaching the Kuiper Belt object Arrokoth in 2019, the most distant object ever explored up close. Also during its long trek, the spacecraft captured impressive pictures of Jupiter's moons Io, Europa, and Ganymede, and remained healthy as it flew toward the frontier of our solar system at 300 million miles per year.",
+      "source_offset": [
+        5856,
+        6355
+      ],
+      "original_tag": 2,
+      "lexical_answer_match": false
+    },
+    {
+      "tag": 3,
+      "type": "T",
+      "role": "context",
+      "caption": false,
+      "text": "It was the first mission in NASA’s New Frontiers program, a medium-class, competitively selected, and principal investigator-led series of missions. (The program also includes Juno and OSIRIS-REx.)",
+      "source_offset": [
+        8542,
+        8739
+      ],
+      "original_tag": 4,
+      "lexical_answer_match": false
+    },
+    {
+      "tag": 4,
+      "type": "T",
+      "role": "fact",
+      "caption": false,
+      "text": "July 14, 2015 : Pluto Flyby",
+      "source_offset": [
+        7803,
+        7830
+      ],
+      "original_tag": 1,
+      "lexical_answer_match": true
+    },
+    {
+      "tag": 5,
+      "type": "T",
+      "role": "source_heading",
+      "caption": false,
+      "text": "New Horizons",
+      "source_offset": [
+        0,
+        12
+      ],
+      "original_tag": 6,
+      "lexical_answer_match": false
+    },
+    {
+      "tag": 6,
+      "type": "I",
+      "role": "image",
+      "caption": false,
+      "image": "image.png",
+      "original_tag": 5,
+      "lexical_answer_match": false
+    }
+  ],
+  "image_url": "https://science.nasa.gov/wp-content/uploads/2023/06/pia11709-pluto-heart-1920x640-1.jpg?w=1920",
+  "image_alt": "Dwarf planet Pluto with a heart-shaped feature showing.",
+  "original_image_size": [
+    1920,
+    640
+  ],
+  "source_html_sha256": "76cd672dc5e9ef5890e751dde5c30ccd7533d5d4867c68996a1c9dddff370ea3",
+  "image_original_sha256": "80c2e408faba0a897f3d58c246c5fc667ebc5517e17ae5f9f6ab8f52705c0fef",
+  "status": "frozen_before_inference",
+  "human_validation": null,
+  "source_record": "data/www_candidate_sources/nasa_new_horizons/76cd672dc5e9ef5890e751dde5c30ccd7533d5d4867c68996a1c9dddff370ea3.json",
+  "split": "transfer",
+  "permutation_seed": 20261013,
+  "original_tags_in_display_order": [
+    3,
+    2,
+    4,
+    1,
+    6,
+    5
+  ],
+  "answer_alias_groups": [
+    [
+      "July 14, 2015"
+    ]
+  ],
+  "semantic_assessment": {
+    "id": "nasa_new_horizons",
+    "reviewer_type": "agent",
+    "human_validation": null,
+    "blocks_sha256": "f10c7ec0be8b4616161d02b78f103b32fc56d6ec8526702e83dfbba05785af1b",
+    "text_units": [
+      {
+        "tag": 4,
+        "assessment": "supports_statement_in_page_context",
+        "evidence_quote": "July 14, 2015 : Pluto Flyby",
+        "source_offset": [
+          7803,
+          7830
+        ],
+        "note": "Assessment uses the page entity and the exact target question; lexical answer occurrence alone is not entailment.",
+        "original_tag": 1
+      },
+      {
+        "tag": 2,
+        "assessment": "partial_target_relation",
+        "evidence_quote": "The first spacecraft to explore Pluto up close, flying by the dwarf planet and its moons in 2015. After a nine-year journey, New Horizons also passed its second major science target, reaching the Kuiper Belt object Arrokoth in 2019, the most distant object ever explored up close. Also during its long trek, the spacecraft captured impressive pictures of Jupiter's moons Io, Europa, and Ganymede, and remained healthy as it flew toward the frontier of our solar system at 300 million miles per year.",
+        "source_offset": [
+          5856,
+          6355
+        ],
+        "note": "Gives Pluto flyby year but not month and day.",
+        "original_tag": 2
+      },
+      {
+        "tag": 1,
+        "assessment": "related_context_without_full_explicit_answer",
+        "evidence_quote": "New Horizons is a NASA mission to study the dwarf planet Pluto, its moons, and other objects in the Kuiper Belt, a region of the solar system that extends from about 30 AU, near the orbit of Neptune, to about 50 AU from the Sun.",
+        "source_offset": [
+          8313,
+          8541
+        ],
+        "note": "Assessment uses the page entity and the exact target question; lexical answer occurrence alone is not entailment.",
+        "original_tag": 3
+      },
+      {
+        "tag": 3,
+        "assessment": "related_context_without_full_explicit_answer",
+        "evidence_quote": "It was the first mission in NASA’s New Frontiers program, a medium-class, competitively selected, and principal investigator-led series of missions. (The program also includes Juno and OSIRIS-REx.)",
+        "source_offset": [
+          8542,
+          8739
+        ],
+        "note": "Assessment uses the page entity and the exact target question; lexical answer occurrence alone is not entailment.",
+        "original_tag": 4
+      },
+      {
+        "tag": 5,
+        "assessment": "source_page_entity_metadata",
+        "evidence_quote": "New Horizons",
+        "source_offset": [
+          0,
+          12
+        ],
+        "note": "Assessment uses the page entity and the exact target question; lexical answer occurrence alone is not entailment.",
+        "original_tag": 6
+      }
+    ],
+    "image": {
+      "file": "image.png",
+      "sha256": "7966e302da0b03bbc06b730395958da9ed39be92460c194d3cb266e98d945c5f",
+      "visually_inspected": true,
+      "artifact_status": "readable_article_image",
+      "assessment": "related_visual_context_not_standalone_full_answer",
+      "visible_evidence": "Pluto photograph; flyby date is not displayed.",
+      "tag": 6
+    }
+  },
+  "original_cohort_same_entity": [],
+  "original_cohort_related_topic": []
+}

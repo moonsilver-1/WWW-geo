@@ -1,0 +1,46 @@
+{
+  "units": [
+    {
+      "tag": 1,
+      "type": "T",
+      "role": "fact",
+      "caption": false,
+      "text": "The Tesla Model 3 is a battery electric powered mid-size sedan with a fastback body style built by Tesla, Inc. , introduced in 2017. The Model 3 was marketed as a more affordable option compared to Tesla's previous vehicles, the Model S and Model X . The Model 3 was the world's top-selling plug-in electric car for three years, from 2018 to 2020, before the Tesla Model Y , a crossover SUV based on the Model 3 chassis,"
+    },
+    {
+      "tag": 2,
+      "type": "T",
+      "role": "context",
+      "caption": false,
+      "text": "A facelifted Model 3 with revamped interior and exterior styling was introduced in late 2023 for countries supplied by Gigafactory Shanghai and in early 2024 in North America and other countries supplied by the Tesla Fremont Factory ."
+    },
+    {
+      "tag": 3,
+      "type": "I",
+      "role": "image",
+      "caption": false,
+      "image": "image.jpg"
+    },
+    {
+      "tag": 4,
+      "type": "T",
+      "role": "caption",
+      "caption": true,
+      "text": "Tesla Model 3 image"
+    },
+    {
+      "tag": 5,
+      "type": "T",
+      "role": "adjacent",
+      "caption": false,
+      "text": "In a 2006 interview with Wired Science , Elon Musk presented the Model 3 as likely being affordable by most people able to purchase new cars, aiming for a $30,000 price point. [ 5 ] In 2008 the car was stated to be a family car. [ 6 ] In 2017 Tesla added that the Standard Range version of the all-electric car would have an estimated EPA-rated range of 215 miles (346 km) , a five-passenger seating capacity , front and"
+    },
+    {
+      "tag": 6,
+      "type": "T",
+      "role": "distractor",
+      "caption": false,
+      "text": "Within a week of unveiling the Model 3 in 2016, Tesla revealed they had taken 325,000 reservations for the car. These reservations represented potential sales of over US$14 billion . [ 10 ] [ 11 ] By August 2017, there were 455,000 net reservations. [ 12 ] [ 13 ]"
+    }
+  ]
+}

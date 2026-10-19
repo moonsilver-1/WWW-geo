@@ -1,0 +1,189 @@
+{
+  "id": "nih_peptic_ulcers",
+  "url": "https://www.niddk.nih.gov/health-information/digestive-diseases/peptic-ulcers-stomach-ulcers/definition-facts",
+  "publisher": "NIH/NIDDK",
+  "question": "On the lining of which two organs can peptic ulcers occur?",
+  "statement": "Peptic ulcers can occur on the lining of the stomach or duodenum.",
+  "answer": "stomach or duodenum",
+  "source_anchor": "A peptic ulcer is a sore on the lining",
+  "units": [
+    {
+      "tag": 1,
+      "type": "T",
+      "role": "source_heading",
+      "caption": false,
+      "text": "Definition & Facts for Peptic Ulcers (Stomach or Duodenal Ulcers)",
+      "source_offset": [
+        0,
+        65
+      ],
+      "original_tag": 6,
+      "lexical_answer_match": true
+    },
+    {
+      "tag": 2,
+      "type": "T",
+      "role": "fact",
+      "caption": false,
+      "text": "A peptic ulcer is a sore on the lining of your stomach or duodenum .",
+      "source_offset": [
+        2455,
+        2523
+      ],
+      "original_tag": 1,
+      "lexical_answer_match": true
+    },
+    {
+      "tag": 3,
+      "type": "T",
+      "role": "context",
+      "caption": false,
+      "text": "Peptic ulcers are sometimes called stomach ulcers, duodenal ulcers, or peptic ulcer disease.",
+      "source_offset": [
+        2559,
+        2651
+      ],
+      "original_tag": 2,
+      "lexical_answer_match": true
+    },
+    {
+      "tag": 4,
+      "type": "T",
+      "role": "context",
+      "caption": false,
+      "text": "Researchers estimate about 1% to 6% of people in the United States have peptic ulcers. 1",
+      "source_offset": [
+        2682,
+        2770
+      ],
+      "original_tag": 3,
+      "lexical_answer_match": false
+    },
+    {
+      "tag": 5,
+      "type": "I",
+      "role": "image",
+      "caption": false,
+      "image": "image.png",
+      "original_tag": 5,
+      "lexical_answer_match": false
+    },
+    {
+      "tag": 6,
+      "type": "T",
+      "role": "context",
+      "caption": false,
+      "text": "H. pylori infection and taking NSAIDs are the two most common causes of peptic ulcers.",
+      "source_offset": [
+        3031,
+        3117
+      ],
+      "original_tag": 4,
+      "lexical_answer_match": false
+    }
+  ],
+  "image_url": "https://www.niddk.nih.gov/-/media/Images/Health-Information/Digestive-Diseases/Peptic-Ulcers-English-FINAL_7-18-23_1200x1040.jpg",
+  "image_alt": "A close-up of peptic ulcers, showing damage to the stomach lining caused by H. pylori bacteria.",
+  "original_image_size": [
+    1200,
+    1040
+  ],
+  "source_html_sha256": "b1e99543eb6e6a6b2ca04c6c46ea86e4634de67eb97de1b136eb2f0d4164c160",
+  "image_original_sha256": "642a24f2b1e3201c3dff921915dd8d1f0f8dae2b47f71a819f6c7fe8c7542082",
+  "status": "frozen_before_inference",
+  "human_validation": null,
+  "source_record": "data/www_candidate_sources/nih_peptic_ulcers/b1e99543eb6e6a6b2ca04c6c46ea86e4634de67eb97de1b136eb2f0d4164c160.json",
+  "split": "transfer",
+  "permutation_seed": 20261013,
+  "original_tags_in_display_order": [
+    6,
+    1,
+    2,
+    3,
+    5,
+    4
+  ],
+  "answer_alias_groups": [
+    [
+      "stomach"
+    ],
+    [
+      "duodenum",
+      "duodenal"
+    ]
+  ],
+  "semantic_assessment": {
+    "id": "nih_peptic_ulcers",
+    "reviewer_type": "agent",
+    "human_validation": null,
+    "blocks_sha256": "d9b0e5b613b09c488b5cee880f1da418586dd7855ba197fd63b39c6551a842a4",
+    "text_units": [
+      {
+        "tag": 2,
+        "assessment": "supports_statement_in_page_context",
+        "evidence_quote": "A peptic ulcer is a sore on the lining of your stomach or duodenum .",
+        "source_offset": [
+          2455,
+          2523
+        ],
+        "note": "Agent source-context assessment; target requires both organ names.",
+        "original_tag": 1
+      },
+      {
+        "tag": 3,
+        "assessment": "organ_specific_names_imply_answer",
+        "evidence_quote": "Peptic ulcers are sometimes called stomach ulcers, duodenal ulcers, or peptic ulcer disease.",
+        "source_offset": [
+          2559,
+          2651
+        ],
+        "note": "Agent source-context assessment; target requires both organ names.",
+        "original_tag": 2
+      },
+      {
+        "tag": 4,
+        "assessment": "related_context_without_full_explicit_answer",
+        "evidence_quote": "Researchers estimate about 1% to 6% of people in the United States have peptic ulcers. 1",
+        "source_offset": [
+          2682,
+          2770
+        ],
+        "note": "Agent source-context assessment; target requires both organ names.",
+        "original_tag": 3
+      },
+      {
+        "tag": 6,
+        "assessment": "related_context_without_full_explicit_answer",
+        "evidence_quote": "H. pylori infection and taking NSAIDs are the two most common causes of peptic ulcers.",
+        "source_offset": [
+          3031,
+          3117
+        ],
+        "note": "Agent source-context assessment; target requires both organ names.",
+        "original_tag": 4
+      },
+      {
+        "tag": 1,
+        "assessment": "source_heading_contains_organ_names",
+        "evidence_quote": "Definition & Facts for Peptic Ulcers (Stomach or Duodenal Ulcers)",
+        "source_offset": [
+          0,
+          65
+        ],
+        "note": "Agent source-context assessment; target requires both organ names.",
+        "original_tag": 6
+      }
+    ],
+    "image": {
+      "file": "image.png",
+      "sha256": "b3fbd0743e2276ac0a3f7179c918d1096e0b39d6e54ca173408d5937a409b1bd",
+      "visually_inspected": true,
+      "artifact_status": "readable_article_image",
+      "assessment": "partial_visual_answer",
+      "visible_evidence": "Stomach and duodenum labels visible; magnified ulcers shown at stomach lining. Both labeled organ names are present, but duodenal ulcer location is not explicitly depicted.",
+      "tag": 5
+    }
+  },
+  "original_cohort_same_entity": [],
+  "original_cohort_related_topic": []
+}

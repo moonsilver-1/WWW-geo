@@ -1,0 +1,10 @@
+{
+  "pages": 3,
+  "eligible_cubes": 1,
+  "parsed_state_counts": {
+    "apple_macbookair_m2": 64,
+    "nasa_psyche": 57,
+    "nih_lactose": 61
+  },
+  "raw_rows": 192
+}

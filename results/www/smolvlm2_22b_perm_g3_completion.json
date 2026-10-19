@@ -1,0 +1,9 @@
+{
+  "pages": 2,
+  "eligible_cubes": 2,
+  "parsed_state_counts": {
+    "rw_ps5": 64,
+    "rw_ipad10": 64
+  },
+  "raw_rows": 128
+}

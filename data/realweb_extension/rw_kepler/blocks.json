@@ -1,0 +1,46 @@
+{
+  "units": [
+    {
+      "tag": 1,
+      "type": "T",
+      "role": "fact",
+      "caption": false,
+      "text": "The Kepler space telescope was a space telescope launched by NASA in 2009 [ 5 ] to discover Earth-sized planets orbiting other stars . [ 6 ] [ 7 ] Named after astronomer Johannes Kepler [ 8 ] (who, ironically, was convinced that planetary systems did not exist around any of the stars) [ 9 ] the spacecraft was launched into an Earth-trailing heliocentric orbit . The principal investigator was William J. Borucki . Afte"
+    },
+    {
+      "tag": 2,
+      "type": "T",
+      "role": "context",
+      "caption": false,
+      "text": "Designed to survey a portion of Earth's region of the Milky Way to discover Earth-size exoplanets in or near habitable zones and to estimate how many of the billions of stars in the Milky Way have such planets, [ 6 ] [ 12 ] [ 13 ] Kepler's sole scientific instrument is a photometer that continually monitored the brightness of approximately 150,000 main sequence stars in a fixed field of view. [ 14 ] These data were t"
+    },
+    {
+      "tag": 3,
+      "type": "I",
+      "role": "image",
+      "caption": false,
+      "image": "image.png"
+    },
+    {
+      "tag": 4,
+      "type": "T",
+      "role": "caption",
+      "caption": true,
+      "text": "Kepler in orbit"
+    },
+    {
+      "tag": 5,
+      "type": "T",
+      "role": "adjacent",
+      "caption": false,
+      "text": "The Kepler space telescope was part of NASA's Discovery Program of relatively low-cost science missions. The telescope's construction and initial operation were managed by NASA's Jet Propulsion Laboratory , with Ball Aerospace responsible for developing the Kepler flight system. [ 17 ]"
+    },
+    {
+      "tag": 6,
+      "type": "T",
+      "role": "distractor",
+      "caption": false,
+      "text": "In January 2006, the project's launch was delayed eight months because of budget cuts and consolidation at NASA. [ 18 ] It was delayed again by four months in March 2006 due to fiscal problems. [ 18 ] During this time, the high-gain antenna was changed from a design using a gimbal to one fixed to the frame of the spacecraft to reduce cost and complexity, at the cost of one observation day per month. [ 19 ]"
+    }
+  ]
+}

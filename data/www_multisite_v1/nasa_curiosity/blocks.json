@@ -1,0 +1,191 @@
+{
+  "id": "nasa_curiosity",
+  "url": "https://science.nasa.gov/mission/msl-curiosity/",
+  "publisher": "NASA",
+  "question": "In what year did Curiosity launch?",
+  "statement": "Curiosity launched in 2011.",
+  "answer": "2011",
+  "source_anchor": "launched in 2011",
+  "units": [
+    {
+      "tag": 1,
+      "type": "T",
+      "role": "context",
+      "caption": false,
+      "text": "Part of NASA's Mars Science Laboratory mission, at the time of launch Curiosity was the largest and most capable rover ever sent to Mars.",
+      "source_offset": [
+        6320,
+        6457
+      ],
+      "original_tag": 2,
+      "lexical_answer_match": false
+    },
+    {
+      "tag": 2,
+      "type": "I",
+      "role": "image",
+      "caption": false,
+      "image": "image.png",
+      "original_tag": 5,
+      "lexical_answer_match": false
+    },
+    {
+      "tag": 3,
+      "type": "T",
+      "role": "context",
+      "caption": false,
+      "text": "Early in its mission, Curiosity's scientific tools found chemical and mineral evidence of past habitable environments on Mars.",
+      "source_offset": [
+        6813,
+        6939
+      ],
+      "original_tag": 3,
+      "lexical_answer_match": false
+    },
+    {
+      "tag": 4,
+      "type": "T",
+      "role": "fact",
+      "caption": false,
+      "text": "Curiosity was the largest and most capable rover ever sent to Mars when it launched in 2011. Curiosity set out to answer the question: Did Mars ever have the right environmental conditions to support small life forms called microbes?",
+      "source_offset": [
+        6579,
+        6812
+      ],
+      "original_tag": 1,
+      "lexical_answer_match": true
+    },
+    {
+      "tag": 5,
+      "type": "T",
+      "role": "context",
+      "caption": false,
+      "text": "It continues to explore the rock record from a time when Mars could have been home to microbial life.",
+      "source_offset": [
+        6940,
+        7041
+      ],
+      "original_tag": 4,
+      "lexical_answer_match": false
+    },
+    {
+      "tag": 6,
+      "type": "T",
+      "role": "source_heading",
+      "caption": false,
+      "text": "Mars Science Laboratory: Curiosity Rover",
+      "source_offset": [
+        0,
+        40
+      ],
+      "original_tag": 6,
+      "lexical_answer_match": false
+    }
+  ],
+  "image_url": "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/general/images/2024/03/pia24173-crop.jpg?w=2500&h=1779&fit=clip&crop=faces%2Cfocalpoint",
+  "image_alt": "",
+  "original_image_size": [
+    2500,
+    1777
+  ],
+  "source_html_sha256": "cf1a5d92ed9e272629ff59cdaa47d70a14a00f4e94ff57eac295dafbacb213df",
+  "image_original_sha256": "a79d8d0101fb6e4f5785ab15fd4e10e1a7c377d646bdc410370ec365851a43f5",
+  "status": "frozen_before_inference",
+  "human_validation": null,
+  "source_record": "data/www_candidate_sources/nasa_curiosity/cf1a5d92ed9e272629ff59cdaa47d70a14a00f4e94ff57eac295dafbacb213df.json",
+  "text_repair": {
+    "date": "2026-10-13",
+    "method": "verbatim source-offset extraction; complete event labels and substantive passages",
+    "semantic_validation": "pending",
+    "human_validation": null
+  },
+  "split": "transfer",
+  "permutation_seed": 20261013,
+  "original_tags_in_display_order": [
+    2,
+    5,
+    3,
+    1,
+    4,
+    6
+  ],
+  "answer_alias_groups": [
+    [
+      "2011"
+    ]
+  ],
+  "semantic_assessment": {
+    "id": "nasa_curiosity",
+    "reviewer_type": "agent",
+    "human_validation": null,
+    "blocks_sha256": "5ae286abb28cc281c58237aa48af70bb4a63bda031c80d8a29f78a82c96b223d",
+    "text_units": [
+      {
+        "tag": 4,
+        "assessment": "supports_statement_in_page_context",
+        "evidence_quote": "Curiosity was the largest and most capable rover ever sent to Mars when it launched in 2011. Curiosity set out to answer the question: Did Mars ever have the right environmental conditions to support small life forms called microbes?",
+        "source_offset": [
+          6579,
+          6812
+        ],
+        "note": "Assessment uses the page entity and the exact target question; lexical answer occurrence alone is not entailment.",
+        "original_tag": 1
+      },
+      {
+        "tag": 1,
+        "assessment": "related_context_without_full_explicit_answer",
+        "evidence_quote": "Part of NASA's Mars Science Laboratory mission, at the time of launch Curiosity was the largest and most capable rover ever sent to Mars.",
+        "source_offset": [
+          6320,
+          6457
+        ],
+        "note": "Assessment uses the page entity and the exact target question; lexical answer occurrence alone is not entailment.",
+        "original_tag": 2
+      },
+      {
+        "tag": 3,
+        "assessment": "related_context_without_full_explicit_answer",
+        "evidence_quote": "Early in its mission, Curiosity's scientific tools found chemical and mineral evidence of past habitable environments on Mars.",
+        "source_offset": [
+          6813,
+          6939
+        ],
+        "note": "Assessment uses the page entity and the exact target question; lexical answer occurrence alone is not entailment.",
+        "original_tag": 3
+      },
+      {
+        "tag": 5,
+        "assessment": "related_context_without_full_explicit_answer",
+        "evidence_quote": "It continues to explore the rock record from a time when Mars could have been home to microbial life.",
+        "source_offset": [
+          6940,
+          7041
+        ],
+        "note": "Assessment uses the page entity and the exact target question; lexical answer occurrence alone is not entailment.",
+        "original_tag": 4
+      },
+      {
+        "tag": 6,
+        "assessment": "source_page_entity_metadata",
+        "evidence_quote": "Mars Science Laboratory: Curiosity Rover",
+        "source_offset": [
+          0,
+          40
+        ],
+        "note": "Assessment uses the page entity and the exact target question; lexical answer occurrence alone is not entailment.",
+        "original_tag": 6
+      }
+    ],
+    "image": {
+      "file": "image.png",
+      "sha256": "428d86fa960e9462d85bf5acfb3bc68f41f786548e527d729ce885e9dff0c4e6",
+      "visually_inspected": true,
+      "artifact_status": "readable_article_image",
+      "assessment": "related_visual_context_not_standalone_full_answer",
+      "visible_evidence": "Rover on rocky terrain; launch year is not displayed.",
+      "tag": 2
+    }
+  },
+  "original_cohort_same_entity": [],
+  "original_cohort_related_topic": []
+}

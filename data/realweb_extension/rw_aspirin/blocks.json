@@ -1,0 +1,46 @@
+{
+  "units": [
+    {
+      "tag": 1,
+      "type": "T",
+      "role": "fact",
+      "caption": false,
+      "text": "Aspirin ( / ˈ æ s p ( ə ) r ɪ n / [ 10 ] ) is the genericized trademark for acetylsalicylic acid ( ASA ), a nonsteroidal anti-inflammatory drug (NSAID) used to reduce pain , fever , and inflammation , and as an antithrombotic . [ 11 ] Aspirin is used to treat inflammatory conditions including Kawasaki disease , pericarditis , and rheumatic fever . [ 11 ]"
+    },
+    {
+      "tag": 2,
+      "type": "T",
+      "role": "context",
+      "caption": false,
+      "text": "Aspirin is also used long term to reduce the chance of heart attack , ischaemic stroke , and blood clots occurring in people considered to be at high risk for such events. [ 11 ] For pain or fever, effects typically begin within 30 minutes. [ 11 ] Aspirin works similarly to other NSAIDs but also suppresses the normal functioning of platelets . [ 11 ]"
+    },
+    {
+      "tag": 3,
+      "type": "I",
+      "role": "image",
+      "caption": false,
+      "image": "image.jpg"
+    },
+    {
+      "tag": 4,
+      "type": "T",
+      "role": "caption",
+      "caption": true,
+      "text": "Aspirin image"
+    },
+    {
+      "tag": 5,
+      "type": "T",
+      "role": "adjacent",
+      "caption": false,
+      "text": "One common adverse effect is an upset stomach . [ 11 ] More significant side effects include stomach ulcers , stomach bleeding , and worsening asthma . [ 11 ] Bleeding risk is greater among those who are older, drink alcohol , take other NSAIDs, or are on other blood thinners . [ 11 ] Aspirin is not recommended in the last part of pregnancy . [ 11 ] It is not generally recommended in children with viral infections be"
+    },
+    {
+      "tag": 6,
+      "type": "T",
+      "role": "distractor",
+      "caption": false,
+      "text": "A precursor to aspirin found in the bark of the willow tree (genus Salix ), salicin , is metabolized in the human gut into the medicinally active compound salicylic acid [ 12 ] and has been used for its health effects for at least 2,400 years. [ 13 ] [ 14 ] Pharmacology sought a synthetic alternative. In 1853, the chemist Charles Frédéric Gerhardt treated the medicine sodium salicylate with acetyl chloride to produce"
+    }
+  ]
+}

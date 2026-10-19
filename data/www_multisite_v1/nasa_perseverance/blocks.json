@@ -1,0 +1,193 @@
+{
+  "id": "nasa_perseverance",
+  "url": "https://science.nasa.gov/mission/mars-2020-perseverance/",
+  "publisher": "NASA",
+  "question": "What kind of ancient life is Perseverance searching for?",
+  "statement": "Perseverance is searching for signs of ancient microbial life.",
+  "answer": "microbial life",
+  "source_anchor": "ancient microbial life",
+  "units": [
+    {
+      "tag": 1,
+      "type": "T",
+      "role": "context",
+      "caption": false,
+      "text": "During its first five years on the Martian surface, Perseverance has collected more than two dozen geologically diverse rock samples — including one containing potential biosignatures — explored the history of geology, water, and habitable environments in Jezero crater and on the crater rim, demonstrated proof-of-concept for an off-world helicopter and onsite oxygen production, in preparation for future human exploration, and made numerous science discoveries and technical breakthroughs.",
+      "source_offset": [
+        9651,
+        10143
+      ],
+      "original_tag": 4,
+      "lexical_answer_match": false
+    },
+    {
+      "tag": 2,
+      "type": "I",
+      "role": "image",
+      "caption": false,
+      "image": "image.png",
+      "original_tag": 5,
+      "lexical_answer_match": false
+    },
+    {
+      "tag": 3,
+      "type": "T",
+      "role": "source_heading",
+      "caption": false,
+      "text": "Mars 2020: Perseverance Rover",
+      "source_offset": [
+        0,
+        29
+      ],
+      "original_tag": 6,
+      "lexical_answer_match": false
+    },
+    {
+      "tag": 4,
+      "type": "T",
+      "role": "fact",
+      "caption": false,
+      "text": "The Perseverance rover is searching for signs of ancient microbial life, which will advance NASA's quest to explore the past habitability of Mars.",
+      "source_offset": [
+        13418,
+        13564
+      ],
+      "original_tag": 1,
+      "lexical_answer_match": true
+    },
+    {
+      "tag": 5,
+      "type": "T",
+      "role": "context",
+      "caption": false,
+      "text": "The rover is collecting core samples of Martian rock and regolith (broken rock and soil), for potential pickup by a future mission that would bring them to Earth for detailed study.",
+      "source_offset": [
+        6810,
+        6991
+      ],
+      "original_tag": 2,
+      "lexical_answer_match": false
+    },
+    {
+      "tag": 6,
+      "type": "T",
+      "role": "context",
+      "caption": false,
+      "text": "NASA's Mars Perseverance rover is building a unique rock collection, which also includes samples of Mars atmosphere and loose surface material. These samples record the history of the Jezero Crater landing site, and may even preserve signs of ancient life.",
+      "source_offset": [
+        9233,
+        9489
+      ],
+      "original_tag": 3,
+      "lexical_answer_match": false
+    }
+  ],
+  "image_url": "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/general/images/2024/07/pia26344-figa-2500x.jpg?w=2500&h=1775&fit=clip&crop=faces%2Cfocalpoint",
+  "image_alt": "",
+  "original_image_size": [
+    2500,
+    1773
+  ],
+  "source_html_sha256": "ab85693dbae6ff8a120c9f04b24e75cf6a0c3ece56a32676767dd398f6c897ed",
+  "image_original_sha256": "3c2133ce2da8d5956c226bc7f61b73bd0a05cb00179792e7db9d70b2179c3b83",
+  "status": "frozen_before_inference",
+  "human_validation": null,
+  "source_record": "data/www_candidate_sources/nasa_perseverance/ab85693dbae6ff8a120c9f04b24e75cf6a0c3ece56a32676767dd398f6c897ed.json",
+  "text_repair": {
+    "date": "2026-10-13",
+    "method": "verbatim source-offset extraction; complete event labels and substantive passages",
+    "semantic_validation": "pending",
+    "human_validation": null
+  },
+  "split": "transfer",
+  "permutation_seed": 20261013,
+  "original_tags_in_display_order": [
+    4,
+    5,
+    6,
+    1,
+    2,
+    3
+  ],
+  "answer_alias_groups": [
+    [
+      "microbial life"
+    ]
+  ],
+  "semantic_assessment": {
+    "id": "nasa_perseverance",
+    "reviewer_type": "agent",
+    "human_validation": null,
+    "blocks_sha256": "fb13c609f8133e304a91f1c4fd0f50337038cd45588d6d6af66ba348f39ce6bc",
+    "text_units": [
+      {
+        "tag": 4,
+        "assessment": "supports_statement_in_page_context",
+        "evidence_quote": "The Perseverance rover is searching for signs of ancient microbial life, which will advance NASA's quest to explore the past habitability of Mars.",
+        "source_offset": [
+          13418,
+          13564
+        ],
+        "note": "Assessment uses the page entity and the exact target question; lexical answer occurrence alone is not entailment.",
+        "original_tag": 1
+      },
+      {
+        "tag": 5,
+        "assessment": "related_context_without_full_explicit_answer",
+        "evidence_quote": "The rover is collecting core samples of Martian rock and regolith (broken rock and soil), for potential pickup by a future mission that would bring them to Earth for detailed study.",
+        "source_offset": [
+          6810,
+          6991
+        ],
+        "note": "Assessment uses the page entity and the exact target question; lexical answer occurrence alone is not entailment.",
+        "original_tag": 2
+      },
+      {
+        "tag": 6,
+        "assessment": "related_context_without_full_explicit_answer",
+        "evidence_quote": "NASA's Mars Perseverance rover is building a unique rock collection, which also includes samples of Mars atmosphere and loose surface material. These samples record the history of the Jezero Crater landing site, and may even preserve signs of ancient life.",
+        "source_offset": [
+          9233,
+          9489
+        ],
+        "note": "Assessment uses the page entity and the exact target question; lexical answer occurrence alone is not entailment.",
+        "original_tag": 3
+      },
+      {
+        "tag": 1,
+        "assessment": "related_context_without_full_explicit_answer",
+        "evidence_quote": "During its first five years on the Martian surface, Perseverance has collected more than two dozen geologically diverse rock samples — including one containing potential biosignatures — explored the history of geology, water, and habitable environments in Jezero crater and on the crater rim, demonstrated proof-of-concept for an off-world helicopter and onsite oxygen production, in preparation for future human exploration, and made numerous science discoveries and technical breakthroughs.",
+        "source_offset": [
+          9651,
+          10143
+        ],
+        "note": "Assessment uses the page entity and the exact target question; lexical answer occurrence alone is not entailment.",
+        "original_tag": 4
+      },
+      {
+        "tag": 3,
+        "assessment": "source_page_entity_metadata",
+        "evidence_quote": "Mars 2020: Perseverance Rover",
+        "source_offset": [
+          0,
+          29
+        ],
+        "note": "Assessment uses the page entity and the exact target question; lexical answer occurrence alone is not entailment.",
+        "original_tag": 6
+      }
+    ],
+    "image": {
+      "file": "image.png",
+      "sha256": "9abc73b6b7238d9c242b0b04f30cdacf40dbf71f85742b8e97a3c9ead10e1f3c",
+      "visually_inspected": true,
+      "artifact_status": "readable_article_image",
+      "assessment": "related_visual_context_not_standalone_full_answer",
+      "visible_evidence": "Rover on rocky terrain; mission goal is not displayed.",
+      "tag": 2
+    }
+  },
+  "original_cohort_same_entity": [
+    "rw_mars2020"
+  ],
+  "original_cohort_related_topic": []
+}

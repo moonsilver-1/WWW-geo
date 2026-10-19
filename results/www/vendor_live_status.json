@@ -1,0 +1,105 @@
+{
+  "captured_unix": 1791817309.1337125,
+  "queue_pid": 262814,
+  "models": {
+    "qwen3vl8b": {
+      "vendor": "Alibaba",
+      "revision": "0c351dd01ed87e9c1b53cbc748cba10e6187ff3b",
+      "weight_bytes": {
+        "model-00001-of-00004.safetensors": 4902275944,
+        "model-00002-of-00004.safetensors": 4915962496,
+        "model-00004-of-00004.safetensors": 2716270024,
+        "model-00003-of-00004.safetensors": 4999831048
+      },
+      "records": 1152,
+      "parsed_records": 1152,
+      "errors": 0,
+      "cpu_checks": 36,
+      "download": {
+        "revision": "0c351dd01ed87e9c1b53cbc748cba10e6187ff3b",
+        "status": "complete",
+        "updated": 1791743994.7321992
+      }
+    },
+    "internvl35_8b": {
+      "vendor": "OpenGVLab",
+      "revision": "741a7d03020411e666c6109218ab71e08151ef86",
+      "weight_bytes": {
+        "model-00001-of-00004.safetensors": 4906355392,
+        "model-00002-of-00004.safetensors": 4915962480,
+        "model-00004-of-00004.safetensors": 2318463688,
+        "model-00003-of-00004.safetensors": 4915962496
+      },
+      "records": 1152,
+      "parsed_records": 1152,
+      "errors": 0,
+      "cpu_checks": 36,
+      "download": {
+        "revision": "741a7d03020411e666c6109218ab71e08151ef86",
+        "status": "complete",
+        "updated": 1791751544.7245355
+      }
+    },
+    "smolvlm2_22b": {
+      "vendor": "Hugging Face",
+      "revision": "482adb537c021c86670beed01cd58990d01e72e4",
+      "weight_bytes": {
+        "model-00002-of-00002.safetensors": 4027833472,
+        "model-00001-of-00002.safetensors": 4959390584
+      },
+      "records": 1152,
+      "parsed_records": 1118,
+      "errors": 0,
+      "cpu_checks": 36,
+      "download": {
+        "revision": "482adb537c021c86670beed01cd58990d01e72e4",
+        "status": "complete",
+        "updated": 1791790953.3661249
+      }
+    },
+    "pixtral12b": {
+      "vendor": "Mistral AI",
+      "revision": "c2756cbbb9422eba9f6c5c439a214b0392dfc998",
+      "weight_bytes": {
+        "model-00002-of-00006.safetensors": 4959959696,
+        "model-00003-of-00006.safetensors": 4907530672,
+        "model-00001-of-00006.safetensors": 4990957080,
+        "model-00004-of-00006.safetensors": 4907530672,
+        "model-00006-of-00006.safetensors": 1342177424,
+        "model-00005-of-00006.safetensors": 4257401696
+      },
+      "records": 246,
+      "parsed_records": 246,
+      "errors": 0,
+      "cpu_checks": 36,
+      "download": {
+        "revision": "c2756cbbb9422eba9f6c5c439a214b0392dfc998",
+        "status": "complete",
+        "updated": 1791812081.5232291
+      }
+    },
+    "phi4vision15b": {
+      "vendor": "Microsoft",
+      "revision": "c3e4fac79ddace21976ced56fbf1564b8bd8c89f",
+      "weight_bytes": {
+        "model-00002-of-00007.safetensors": 4954690712,
+        "model-00001-of-00007.safetensors": 4933656472,
+        "model-00007-of-00007.safetensors": 1027604608,
+        "model-00003-of-00007.safetensors": 4902241352,
+        "model-00005-of-00007.safetensors": 4771169120,
+        "model-00004-of-00007.safetensors": 4771169120,
+        ".cache/huggingface/download/Gj-oElv_Efw9igsqF3jPGS1wNQA=.0942ab288370b0d9bc7f861c4475285ac72790de97bea6bd9b0e93329c85831f.incomplete": 4708106240
+      },
+      "records": 0,
+      "parsed_records": 0,
+      "errors": 0,
+      "cpu_checks": 36,
+      "download": {
+        "revision": "c3e4fac79ddace21976ced56fbf1564b8bd8c89f",
+        "attempt": 8,
+        "status": "downloading",
+        "updated": 1791815917.1675406
+      }
+    }
+  }
+}

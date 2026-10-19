@@ -1,0 +1,46 @@
+{
+  "units": [
+    {
+      "tag": 1,
+      "type": "T",
+      "role": "fact",
+      "caption": false,
+      "text": "Penicillin was discovered in 1928 by the Scottish physician Alexander Fleming as a crude extract of P. rubens . [ 6 ] Fleming's student Cecil George Paine was the first to successfully use penicillin to treat eye infection ( neonatal conjunctivitis ) in 1930. The purified compound (penicillin F) was isolated in 1940 by a research team led by Howard Florey and Ernst Boris Chain at the University of Oxford . Fleming fi"
+    },
+    {
+      "tag": 2,
+      "type": "T",
+      "role": "context",
+      "caption": false,
+      "text": "Penicillins ( P , PCN or PEN ) are a group of β-lactam antibiotics originally obtained from Penicillium moulds , principally P. chrysogenum and P. rubens . Eight species of Penicillium , in the section Chrysogena, produce penicillins. [ 1 ] Most penicillins in clinical use are synthesised by P. chrysogenum using deep tank fermentation [ 2 ] and then purified. [ 3 ] [ 4 ] A number of natural penicillins have been disc"
+    },
+    {
+      "tag": 3,
+      "type": "I",
+      "role": "image",
+      "caption": false,
+      "image": "image.jpg"
+    },
+    {
+      "tag": 4,
+      "type": "T",
+      "role": "caption",
+      "caption": true,
+      "text": "Sample of penicillium mould presented by Alexander Fleming to Douglas Macleod, 1935"
+    },
+    {
+      "tag": 5,
+      "type": "T",
+      "role": "adjacent",
+      "caption": false,
+      "text": "In the United States, 10% of the population claims penicillin allergies , but because the frequency of positive skin test results decreases by 10% with each year of avoidance, 90% of these patients can eventually tolerate penicillin. Additionally, those with penicillin allergies can usually tolerate cephalosporins (another group of β-lactam) because the immunoglobulin E (IgE) cross-reactivity is only 3%. [ 5 ]"
+    },
+    {
+      "tag": 6,
+      "type": "T",
+      "role": "distractor",
+      "caption": false,
+      "text": "Several semisynthetic penicillins are effective against a broader spectrum of bacteria: these include the antistaphylococcal penicillins , aminopenicillins , and antipseudomonal penicillins ."
+    }
+  ]
+}

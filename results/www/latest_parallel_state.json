@@ -1,0 +1,353 @@
+{
+  "qwen3vl8b": {
+    "status": "complete",
+    "pid": 3812775,
+    "gpu": 0,
+    "gpu_uuid": "GPU-84122489-4201-55c9-df7f-31acea960606",
+    "command": "python -u run_web_eval.py --model qwen3vl8b --device cuda:0 --workers 4",
+    "gpu_policy": "shared",
+    "required_free_mib": 30720,
+    "prelaunch_free_mib": 37441,
+    "reserve_mib": 4096,
+    "attempts": 1,
+    "started_at_unix": 1791772491.6401172,
+    "exit_code": 0
+  },
+  "internvl35_8b": {
+    "status": "complete",
+    "pid": 3812786,
+    "gpu": 2,
+    "gpu_uuid": "GPU-ff4fe7b2-40cd-3393-b59a-9f7df9a491c5",
+    "command": "python -u run_web_eval.py --model internvl35_8b --device cuda:2 --workers 4",
+    "gpu_policy": "shared",
+    "required_free_mib": 30720,
+    "prelaunch_free_mib": 35155,
+    "reserve_mib": 4096,
+    "attempts": 1,
+    "started_at_unix": 1791772492.2119038,
+    "exit_code": 0
+  },
+  "smolvlm2_22b": {
+    "status": "complete",
+    "pid": 4018649,
+    "gpu": 2,
+    "gpu_uuid": "GPU-ff4fe7b2-40cd-3393-b59a-9f7df9a491c5",
+    "command": "python -u run_web_eval.py --model smolvlm2_22b --device cuda:2 --workers 4",
+    "gpu_policy": "shared",
+    "required_free_mib": 12288,
+    "prelaunch_free_mib": 36379,
+    "reserve_mib": 4096,
+    "attempts": 1,
+    "started_at_unix": 1791790971.7534945,
+    "exit_code": 0
+  },
+  "pixtral12b": {
+    "status": "running",
+    "pid": 262911,
+    "gpu": 0,
+    "gpu_uuid": "GPU-84122489-4201-55c9-df7f-31acea960606",
+    "command": "python -u run_web_eval.py --model pixtral12b --device cuda:0 --workers 4",
+    "gpu_policy": "shared",
+    "required_free_mib": 32768,
+    "prelaunch_free_mib": 33547,
+    "reserve_mib": 4096,
+    "attempts": 1,
+    "started_at_unix": 1791814468.0118346
+  },
+  "phi4vision15b": {
+    "status": "queued",
+    "pid": 401879,
+    "gpu": 2,
+    "gpu_uuid": "GPU-ff4fe7b2-40cd-3393-b59a-9f7df9a491c5",
+    "gpu_indices": [
+      2,
+      7
+    ],
+    "gpu_uuids": [
+      "GPU-ff4fe7b2-40cd-3393-b59a-9f7df9a491c5",
+      "GPU-2e814adc-efd4-4aef-8c5b-e05c7b744e93"
+    ],
+    "command": "python -u run_web_eval.py --model phi4vision15b --device cuda:2,cuda:7 --workers 4",
+    "model": "phi4vision15b",
+    "task": {
+      "task_id": "phi4vision15b",
+      "model": "phi4vision15b",
+      "allow_shard": true
+    },
+    "gpu_policy": "shared",
+    "required_free_mib": 36864,
+    "prelaunch_free_mib": 21949,
+    "prelaunch_gpus": [
+      {
+        "index": 2,
+        "uuid": "GPU-ff4fe7b2-40cd-3393-b59a-9f7df9a491c5",
+        "memory_mib": 26594,
+        "free_mib": 21949,
+        "total_mib": 49140,
+        "utilization": 98,
+        "process_pids": [
+          2888501,
+          3790579,
+          4072957,
+          91651,
+          249880
+        ]
+      },
+      {
+        "index": 7,
+        "uuid": "GPU-2e814adc-efd4-4aef-8c5b-e05c7b744e93",
+        "memory_mib": 28038,
+        "free_mib": 20505,
+        "total_mib": 49140,
+        "utilization": 100,
+        "process_pids": [
+          2397543,
+          91656
+        ]
+      }
+    ],
+    "max_memory_mib": {
+      "0": 14269,
+      "1": 14873
+    },
+    "reserve_mib": 4096,
+    "attempts": 0,
+    "started_at_unix": 1791820337.3211608,
+    "exit_code": 1
+  },
+  "smol_blur24_g0": {
+    "status": "running",
+    "pid": 402758,
+    "gpu": 2,
+    "gpu_uuid": "GPU-ff4fe7b2-40cd-3393-b59a-9f7df9a491c5",
+    "gpu_indices": [
+      2
+    ],
+    "gpu_uuids": [
+      "GPU-ff4fe7b2-40cd-3393-b59a-9f7df9a491c5"
+    ],
+    "command": "python -u run_web_eval.py --model smolvlm2_22b --device cuda:2 --workers 4 --task-id smol_blur24_g0 --pages rw_jwst,rw_kepler,rw_vitamind --neutral-radius 24",
+    "model": "smolvlm2_22b",
+    "task": {
+      "task_id": "smol_blur24_g0",
+      "model": "smolvlm2_22b",
+      "pages": [
+        "rw_jwst",
+        "rw_kepler",
+        "rw_vitamind"
+      ],
+      "neutral_radius": 24,
+      "preferred_gpu": 0,
+      "min_free_gib": 11
+    },
+    "gpu_policy": "shared",
+    "required_free_mib": 11264,
+    "prelaunch_free_mib": 21949,
+    "prelaunch_gpus": [
+      {
+        "index": 2,
+        "uuid": "GPU-ff4fe7b2-40cd-3393-b59a-9f7df9a491c5",
+        "memory_mib": 26594,
+        "free_mib": 21949,
+        "total_mib": 49140,
+        "utilization": 100,
+        "process_pids": [
+          2888501,
+          3790579,
+          4072957,
+          91651,
+          249880
+        ]
+      }
+    ],
+    "max_memory_mib": {},
+    "reserve_mib": 4096,
+    "attempts": 1,
+    "started_at_unix": 1791820441.062162
+  },
+  "smol_blur24_g1": {
+    "status": "running",
+    "pid": 402768,
+    "gpu": 7,
+    "gpu_uuid": "GPU-2e814adc-efd4-4aef-8c5b-e05c7b744e93",
+    "gpu_indices": [
+      7
+    ],
+    "gpu_uuids": [
+      "GPU-2e814adc-efd4-4aef-8c5b-e05c7b744e93"
+    ],
+    "command": "python -u run_web_eval.py --model smolvlm2_22b --device cuda:7 --workers 4 --task-id smol_blur24_g1 --pages rw_hubble,rw_iss,rw_aspirin --neutral-radius 24",
+    "model": "smolvlm2_22b",
+    "task": {
+      "task_id": "smol_blur24_g1",
+      "model": "smolvlm2_22b",
+      "pages": [
+        "rw_hubble",
+        "rw_iss",
+        "rw_aspirin"
+      ],
+      "neutral_radius": 24,
+      "preferred_gpu": 1,
+      "min_free_gib": 11
+    },
+    "gpu_policy": "shared",
+    "required_free_mib": 11264,
+    "prelaunch_free_mib": 20505,
+    "prelaunch_gpus": [
+      {
+        "index": 7,
+        "uuid": "GPU-2e814adc-efd4-4aef-8c5b-e05c7b744e93",
+        "memory_mib": 28038,
+        "free_mib": 20505,
+        "total_mib": 49140,
+        "utilization": 100,
+        "process_pids": [
+          2397543,
+          91656
+        ]
+      }
+    ],
+    "max_memory_mib": {},
+    "reserve_mib": 4096,
+    "attempts": 1,
+    "started_at_unix": 1791820441.7039633
+  },
+  "smol_blur24_g2": {
+    "status": "complete",
+    "pid": 402842,
+    "gpu": 6,
+    "gpu_uuid": "GPU-5bd22816-b361-7ec8-08e3-3a654662d80c",
+    "gpu_indices": [
+      6
+    ],
+    "gpu_uuids": [
+      "GPU-5bd22816-b361-7ec8-08e3-3a654662d80c"
+    ],
+    "command": "python -u run_web_eval.py --model smolvlm2_22b --device cuda:6 --workers 4 --task-id smol_blur24_g2 --pages rw_iphone15,rw_switch --neutral-radius 24",
+    "model": "smolvlm2_22b",
+    "task": {
+      "task_id": "smol_blur24_g2",
+      "model": "smolvlm2_22b",
+      "pages": [
+        "rw_iphone15",
+        "rw_switch"
+      ],
+      "neutral_radius": 24,
+      "preferred_gpu": 2,
+      "min_free_gib": 11
+    },
+    "gpu_policy": "shared",
+    "required_free_mib": 11264,
+    "prelaunch_free_mib": 16361,
+    "prelaunch_gpus": [
+      {
+        "index": 6,
+        "uuid": "GPU-5bd22816-b361-7ec8-08e3-3a654662d80c",
+        "memory_mib": 32182,
+        "free_mib": 16361,
+        "total_mib": 49140,
+        "utilization": 100,
+        "process_pids": [
+          3416897,
+          3937623
+        ]
+      }
+    ],
+    "max_memory_mib": {},
+    "reserve_mib": 4096,
+    "attempts": 1,
+    "started_at_unix": 1791820442.4078364,
+    "exit_code": 0
+  },
+  "smol_blur24_g3": {
+    "status": "running",
+    "pid": 402875,
+    "gpu": 5,
+    "gpu_uuid": "GPU-83c54b4b-b547-5419-bb5d-3c7d62565642",
+    "gpu_indices": [
+      5
+    ],
+    "gpu_uuids": [
+      "GPU-83c54b4b-b547-5419-bb5d-3c7d62565642"
+    ],
+    "command": "python -u run_web_eval.py --model smolvlm2_22b --device cuda:5 --workers 4 --task-id smol_blur24_g3 --pages rw_ps5,rw_ipad10 --neutral-radius 24",
+    "model": "smolvlm2_22b",
+    "task": {
+      "task_id": "smol_blur24_g3",
+      "model": "smolvlm2_22b",
+      "pages": [
+        "rw_ps5",
+        "rw_ipad10"
+      ],
+      "neutral_radius": 24,
+      "preferred_gpu": 3,
+      "min_free_gib": 11
+    },
+    "gpu_policy": "shared",
+    "required_free_mib": 11264,
+    "prelaunch_free_mib": 11282,
+    "prelaunch_gpus": [
+      {
+        "index": 5,
+        "uuid": "GPU-83c54b4b-b547-5419-bb5d-3c7d62565642",
+        "memory_mib": 37261,
+        "free_mib": 11282,
+        "total_mib": 49140,
+        "utilization": 93,
+        "process_pids": [
+          3225392
+        ]
+      }
+    ],
+    "max_memory_mib": {},
+    "reserve_mib": 4096,
+    "attempts": 1,
+    "started_at_unix": 1791820443.1421204
+  },
+  "smol_blur24_g4": {
+    "status": "running",
+    "pid": 405387,
+    "gpu": 6,
+    "gpu_uuid": "GPU-5bd22816-b361-7ec8-08e3-3a654662d80c",
+    "gpu_indices": [
+      6
+    ],
+    "gpu_uuids": [
+      "GPU-5bd22816-b361-7ec8-08e3-3a654662d80c"
+    ],
+    "command": "python -u run_web_eval.py --model smolvlm2_22b --device cuda:6 --workers 4 --task-id smol_blur24_g4 --pages rw_mrna,rw_xboxseries --neutral-radius 24",
+    "model": "smolvlm2_22b",
+    "task": {
+      "task_id": "smol_blur24_g4",
+      "model": "smolvlm2_22b",
+      "pages": [
+        "rw_mrna",
+        "rw_xboxseries"
+      ],
+      "neutral_radius": 24,
+      "preferred_gpu": 4,
+      "min_free_gib": 11
+    },
+    "gpu_policy": "shared",
+    "required_free_mib": 11264,
+    "prelaunch_free_mib": 16361,
+    "prelaunch_gpus": [
+      {
+        "index": 6,
+        "uuid": "GPU-5bd22816-b361-7ec8-08e3-3a654662d80c",
+        "memory_mib": 32182,
+        "free_mib": 16361,
+        "total_mib": 49140,
+        "utilization": 96,
+        "process_pids": [
+          3416897,
+          3937623
+        ]
+      }
+    ],
+    "max_memory_mib": {},
+    "reserve_mib": 4096,
+    "attempts": 1,
+    "started_at_unix": 1791820877.6143944
+  }
+}

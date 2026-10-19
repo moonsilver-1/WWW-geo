@@ -1,0 +1,185 @@
+{
+  "id": "apple_iphone14",
+  "url": "https://support.apple.com/en-us/111850",
+  "publisher": "Apple",
+  "question": "Which chip powers iPhone 14?",
+  "statement": "iPhone 14 uses the A15 Bionic chip.",
+  "answer": "A15 Bionic",
+  "source_anchor": "A15 Bionic chip",
+  "units": [
+    {
+      "tag": 1,
+      "type": "T",
+      "role": "fact",
+      "caption": false,
+      "text": "A15 Bionic chip",
+      "source_offset": [
+        1278,
+        1293
+      ],
+      "original_tag": 1,
+      "lexical_answer_match": true
+    },
+    {
+      "tag": 2,
+      "type": "T",
+      "role": "context",
+      "caption": false,
+      "text": "800 nits max brightness (typical); 1200 nits peak brightness (HDR)",
+      "source_offset": [
+        728,
+        794
+      ],
+      "original_tag": 2,
+      "lexical_answer_match": false
+    },
+    {
+      "tag": 3,
+      "type": "T",
+      "role": "source_heading",
+      "caption": false,
+      "text": "iPhone 14 - Tech Specs",
+      "source_offset": [
+        0,
+        22
+      ],
+      "original_tag": 6,
+      "lexical_answer_match": false
+    },
+    {
+      "tag": 4,
+      "type": "I",
+      "role": "image",
+      "caption": false,
+      "image": "image.png",
+      "original_tag": 5,
+      "lexical_answer_match": false
+    },
+    {
+      "tag": 5,
+      "type": "T",
+      "role": "context",
+      "caption": false,
+      "text": "The iPhone 14 display has rounded corners that follow a beautiful curved design, and these corners are within a standard rectangle. When measured as a standard rectangular shape, the screen is 6.06 inches diagonally (actual viewable area is less).",
+      "source_offset": [
+        908,
+        1155
+      ],
+      "original_tag": 4,
+      "lexical_answer_match": false
+    },
+    {
+      "tag": 6,
+      "type": "T",
+      "role": "context",
+      "caption": false,
+      "text": "Support for display of multiple languages and characters simultaneously",
+      "source_offset": [
+        836,
+        907
+      ],
+      "original_tag": 3,
+      "lexical_answer_match": false
+    }
+  ],
+  "image_url": "https://cdsassets.apple.com/live/SZLF0YNV/images/sp/111850_iphone-14_1.png",
+  "image_alt": "No alt supplied for Image",
+  "original_image_size": [
+    916,
+    646
+  ],
+  "source_html_sha256": "6c5fc6aa0ed25c07eb4b65d1e6a81a92f8830406c0e534301dd7c232ec2cc65f",
+  "image_original_sha256": "f0a8cbde4bb43a657c9e0bed5bde3d1baf516da48bfe4cfcaf8cacbc56edb4d6",
+  "status": "frozen_before_inference",
+  "human_validation": null,
+  "source_record": "data/www_candidate_sources/apple_iphone14/6c5fc6aa0ed25c07eb4b65d1e6a81a92f8830406c0e534301dd7c232ec2cc65f.json",
+  "split": "transfer",
+  "permutation_seed": 20261013,
+  "original_tags_in_display_order": [
+    1,
+    2,
+    6,
+    5,
+    4,
+    3
+  ],
+  "answer_alias_groups": [
+    [
+      "A15 Bionic"
+    ]
+  ],
+  "semantic_assessment": {
+    "id": "apple_iphone14",
+    "reviewer_type": "agent",
+    "human_validation": null,
+    "blocks_sha256": "32d81bbbff62f7207b441ae2742050ca6c076288886b6837f49bd9121d09a9f2",
+    "text_units": [
+      {
+        "tag": 1,
+        "assessment": "supports_statement_in_page_context",
+        "evidence_quote": "A15 Bionic chip",
+        "source_offset": [
+          1278,
+          1293
+        ],
+        "note": "Assessment uses the page entity and the exact target question; lexical answer occurrence alone is not entailment.",
+        "original_tag": 1
+      },
+      {
+        "tag": 2,
+        "assessment": "related_context_without_full_explicit_answer",
+        "evidence_quote": "800 nits max brightness (typical); 1200 nits peak brightness (HDR)",
+        "source_offset": [
+          728,
+          794
+        ],
+        "note": "Assessment uses the page entity and the exact target question; lexical answer occurrence alone is not entailment.",
+        "original_tag": 2
+      },
+      {
+        "tag": 6,
+        "assessment": "related_context_without_full_explicit_answer",
+        "evidence_quote": "Support for display of multiple languages and characters simultaneously",
+        "source_offset": [
+          836,
+          907
+        ],
+        "note": "Assessment uses the page entity and the exact target question; lexical answer occurrence alone is not entailment.",
+        "original_tag": 3
+      },
+      {
+        "tag": 5,
+        "assessment": "related_context_without_full_explicit_answer",
+        "evidence_quote": "The iPhone 14 display has rounded corners that follow a beautiful curved design, and these corners are within a standard rectangle. When measured as a standard rectangular shape, the screen is 6.06 inches diagonally (actual viewable area is less).",
+        "source_offset": [
+          908,
+          1155
+        ],
+        "note": "Assessment uses the page entity and the exact target question; lexical answer occurrence alone is not entailment.",
+        "original_tag": 4
+      },
+      {
+        "tag": 3,
+        "assessment": "source_page_entity_metadata",
+        "evidence_quote": "iPhone 14 - Tech Specs",
+        "source_offset": [
+          0,
+          22
+        ],
+        "note": "Assessment uses the page entity and the exact target question; lexical answer occurrence alone is not entailment.",
+        "original_tag": 6
+      }
+    ],
+    "image": {
+      "file": "image.png",
+      "sha256": "fb025748792583dce39bcc02787bf751bf7d333f03079ba17a87f954ec157cc6",
+      "visually_inspected": true,
+      "artifact_status": "readable_article_image",
+      "assessment": "related_visual_context_not_standalone_full_answer",
+      "visible_evidence": "Product photograph matches the page product type; internal chip specification or total microphone count is not visibly established.",
+      "tag": 4
+    }
+  },
+  "original_cohort_same_entity": [],
+  "original_cohort_related_topic": []
+}

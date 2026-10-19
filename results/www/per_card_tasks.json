@@ -1,0 +1,42 @@
+{
+  "0": {
+    "free_mib": 1503,
+    "running": [],
+    "queued": []
+  },
+  "1": {
+    "free_mib": 7250,
+    "running": [],
+    "queued": []
+  },
+  "2": {
+    "free_mib": 23405,
+    "running": [],
+    "queued": []
+  },
+  "3": {
+    "free_mib": 3135,
+    "running": [],
+    "queued": []
+  },
+  "4": {
+    "free_mib": 10983,
+    "running": [],
+    "queued": []
+  },
+  "5": {
+    "free_mib": 6691,
+    "running": [],
+    "queued": []
+  },
+  "6": {
+    "free_mib": 16359,
+    "running": [],
+    "queued": []
+  },
+  "7": {
+    "free_mib": 22266,
+    "running": [],
+    "queued": []
+  }
+}

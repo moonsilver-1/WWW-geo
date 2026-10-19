@@ -1,0 +1,46 @@
+{
+  "units": [
+    {
+      "tag": 1,
+      "type": "T",
+      "role": "fact",
+      "caption": false,
+      "text": "Insulin ( / ˈ ɪ n . sj ʊ . l ɪ n / ⓘ ; [ 5 ] [ 6 ] from Latin insula ' island ' ) is a peptide hormone produced by beta cells of the pancreatic islets encoded in humans by the insulin ( INS) gene . It is the main anabolic hormone of the body. [ 7 ] It regulates the metabolism of carbohydrates , fats , and protein by promoting the absorption of glucose from the blood into cells of the liver , fat , and skeletal muscle"
+    },
+    {
+      "tag": 2,
+      "type": "T",
+      "role": "context",
+      "caption": false,
+      "text": "Beta cells are sensitive to blood sugar levels so that they secrete insulin into the blood in response to high level of glucose, and inhibit secretion of insulin when glucose levels are low. [ 10 ] Insulin production is also regulated by glucose: high glucose promotes insulin production while low glucose levels lead to lower production. [ 11 ] Insulin enhances glucose uptake and metabolism in the cells, thereby reduc"
+    },
+    {
+      "tag": 3,
+      "type": "I",
+      "role": "image",
+      "caption": false,
+      "image": "image.png"
+    },
+    {
+      "tag": 4,
+      "type": "T",
+      "role": "caption",
+      "caption": true,
+      "text": "Insulin image"
+    },
+    {
+      "tag": 5,
+      "type": "T",
+      "role": "adjacent",
+      "caption": false,
+      "text": "Decreased or absent insulin activity results in diabetes , a condition of high blood sugar level ( hyperglycaemia ). There are two types of the disease. In type 1 diabetes , the beta cells are destroyed by an autoimmune reaction so that insulin can no longer be synthesized or be secreted into the blood. [ 12 ] In type 2 diabetes , the destruction of beta cells is less pronounced than in type 1, and is not due to an a"
+    },
+    {
+      "tag": 6,
+      "type": "T",
+      "role": "distractor",
+      "caption": false,
+      "text": "The human insulin protein is composed of 51 amino acids , and has a molecular mass of 5808 Da . It is a hetero dimer of an A-chain and a B-chain, which are linked together by disulfide bonds . Insulin's structure varies slightly between species of animals. Insulin from non-human animal sources differs somewhat in effectiveness (in carbohydrate metabolism effects) from human insulin because of these variations. Porcin"
+    }
+  ]
+}

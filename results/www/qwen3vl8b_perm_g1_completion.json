@@ -1,0 +1,10 @@
+{
+  "pages": 3,
+  "eligible_cubes": 3,
+  "parsed_state_counts": {
+    "rw_hubble": 64,
+    "rw_iss": 64,
+    "rw_aspirin": 64
+  },
+  "raw_rows": 192
+}

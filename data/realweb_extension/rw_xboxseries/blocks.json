@@ -1,0 +1,46 @@
+{
+  "units": [
+    {
+      "tag": 1,
+      "type": "T",
+      "role": "fact",
+      "caption": false,
+      "text": "The Xbox Series X and Xbox Series S are the fourth generation of consoles in Microsoft 's Xbox series , succeeding the previous generation's Xbox One . Released on November 10, 2020, the higher-end Series X and lower-end Series S are part of the ninth generation of video game consoles , which also includes Sony 's PlayStation 5 , released the same month. [ 3 ]"
+    },
+    {
+      "tag": 2,
+      "type": "T",
+      "role": "context",
+      "caption": false,
+      "text": "Like the Xbox One, the consoles use an AMD 64-bit x86-64 CPU and GPU . Both models have solid-state drives to reduce loading times, support for hardware-accelerated ray-tracing and spatial audio , the ability to convert games to high-dynamic-range rendering using machine learning (Auto HDR), support for HDMI 2.1 variable refresh rate and low-latency modes, and updated controllers . Xbox Series X was designed to nomin"
+    },
+    {
+      "tag": 3,
+      "type": "I",
+      "role": "image",
+      "caption": false,
+      "image": "image.png"
+    },
+    {
+      "tag": 4,
+      "type": "T",
+      "role": "caption",
+      "caption": true,
+      "text": "Xbox Series X and Series S image"
+    },
+    {
+      "tag": 5,
+      "type": "T",
+      "role": "adjacent",
+      "caption": false,
+      "text": "Critics praised the Xbox Series X/S for the hardware improvements over the Xbox One and Microsoft's emphasis on cross-generation releases, but believed that the games available at launch did not fully use the hardware capabilities. Xbox Series consoles are estimated to have sold over 35 million units worldwide as of February 2026. [ 5 ]"
+    },
+    {
+      "tag": 6,
+      "type": "T",
+      "role": "distractor",
+      "caption": false,
+      "text": "Industry rumors of new Xbox hardware had started as early as June 2018, with Microsoft 's Phil Spencer confirming they were \"deep into architecturing the next Xbox consoles\" at that time. [ 6 ] The hardware was believed to be a family of devices under the codename \"Scarlett\", including a low-cost version following a similar scheme as the Xbox One family of consoles, with major emphasis on game streaming and backward "
+    }
+  ]
+}

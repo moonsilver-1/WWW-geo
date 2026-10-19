@@ -1,0 +1,191 @@
+{
+  "id": "nih_constipation",
+  "url": "https://www.niddk.nih.gov/health-information/digestive-diseases/constipation/definition-facts",
+  "publisher": "NIH/NIDDK",
+  "question": "About how many out of 100 adults have symptoms of constipation?",
+  "statement": "About 16 out of 100 adults have symptoms of constipation.",
+  "answer": "16",
+  "source_anchor": "16 out of 100 adults",
+  "units": [
+    {
+      "tag": 1,
+      "type": "T",
+      "role": "source_heading",
+      "caption": false,
+      "text": "Definition & Facts for Constipation",
+      "source_offset": [
+        0,
+        35
+      ],
+      "original_tag": 6,
+      "lexical_answer_match": false
+    },
+    {
+      "tag": 2,
+      "type": "I",
+      "role": "image",
+      "caption": false,
+      "image": "image.png",
+      "original_tag": 5,
+      "lexical_answer_match": false
+    },
+    {
+      "tag": 3,
+      "type": "T",
+      "role": "context",
+      "caption": false,
+      "text": "Certain people are more likely to become constipated, including 2 women, especially during pregnancy or after giving birth older adults non-Caucasians people who eat little to no fiber people who take certain medicines or dietary supplements people with certain health problems , including functional gastrointestinal disorders",
+      "source_offset": [
+        3084,
+        3411
+      ],
+      "original_tag": 4,
+      "lexical_answer_match": false
+    },
+    {
+      "tag": 4,
+      "type": "T",
+      "role": "fact",
+      "caption": false,
+      "text": "Constipation is common among all ages and populations in the United States.  About 16 out of 100 adults have symptoms of constipation. About 33 out of 100 adults ages 60 and older have symptoms of constipation. 1",
+      "source_offset": [
+        2829,
+        3041
+      ],
+      "original_tag": 1,
+      "lexical_answer_match": true
+    },
+    {
+      "tag": 5,
+      "type": "T",
+      "role": "context",
+      "caption": false,
+      "text": "However, people can have different bowel movement patterns, and only you know what’s normal for you.",
+      "source_offset": [
+        2492,
+        2592
+      ],
+      "original_tag": 2,
+      "lexical_answer_match": false
+    },
+    {
+      "tag": 6,
+      "type": "T",
+      "role": "context",
+      "caption": false,
+      "text": "Constipation is not a disease, but may be a symptom of another medical problem. Constipation may last for a short or long time.",
+      "source_offset": [
+        2593,
+        2720
+      ],
+      "original_tag": 3,
+      "lexical_answer_match": false
+    }
+  ],
+  "image_url": "https://www.niddk.nih.gov/-/media/Images/Health-Information/Digestive-Diseases/couple_walking_330x220.png",
+  "image_alt": "A pregnant woman and man walk on a path.",
+  "original_image_size": [
+    330,
+    223
+  ],
+  "source_html_sha256": "c316c62f026b439ab7bd838dfe5f0277f27f9719400c0da881d09b2602f72cfd",
+  "image_original_sha256": "0bbca8c22a68774a09d12cdd696985e9aa7940414dd73885562c84aee128e5c1",
+  "status": "frozen_before_inference",
+  "human_validation": null,
+  "source_record": "data/www_candidate_sources/nih_constipation/c316c62f026b439ab7bd838dfe5f0277f27f9719400c0da881d09b2602f72cfd.json",
+  "text_repair": {
+    "date": "2026-10-13",
+    "method": "verbatim source-offset extraction; complete event labels and substantive passages",
+    "semantic_validation": "pending",
+    "human_validation": null
+  },
+  "split": "transfer",
+  "permutation_seed": 20261013,
+  "original_tags_in_display_order": [
+    6,
+    5,
+    4,
+    1,
+    2,
+    3
+  ],
+  "answer_alias_groups": [
+    [
+      "16"
+    ]
+  ],
+  "semantic_assessment": {
+    "id": "nih_constipation",
+    "reviewer_type": "agent",
+    "human_validation": null,
+    "blocks_sha256": "5c6628b8b0624da51c72c8690cb7a952ccc031babfc306dfe2efb88d49485566",
+    "text_units": [
+      {
+        "tag": 4,
+        "assessment": "supports_statement_in_page_context",
+        "evidence_quote": "Constipation is common among all ages and populations in the United States.  About 16 out of 100 adults have symptoms of constipation. About 33 out of 100 adults ages 60 and older have symptoms of constipation. 1",
+        "source_offset": [
+          2829,
+          3041
+        ],
+        "note": "Assessment uses the page entity and the exact target question; lexical answer occurrence alone is not entailment.",
+        "original_tag": 1
+      },
+      {
+        "tag": 5,
+        "assessment": "related_context_without_full_explicit_answer",
+        "evidence_quote": "However, people can have different bowel movement patterns, and only you know what’s normal for you.",
+        "source_offset": [
+          2492,
+          2592
+        ],
+        "note": "Assessment uses the page entity and the exact target question; lexical answer occurrence alone is not entailment.",
+        "original_tag": 2
+      },
+      {
+        "tag": 6,
+        "assessment": "related_context_without_full_explicit_answer",
+        "evidence_quote": "Constipation is not a disease, but may be a symptom of another medical problem. Constipation may last for a short or long time.",
+        "source_offset": [
+          2593,
+          2720
+        ],
+        "note": "Assessment uses the page entity and the exact target question; lexical answer occurrence alone is not entailment.",
+        "original_tag": 3
+      },
+      {
+        "tag": 3,
+        "assessment": "related_context_without_full_explicit_answer",
+        "evidence_quote": "Certain people are more likely to become constipated, including 2 women, especially during pregnancy or after giving birth older adults non-Caucasians people who eat little to no fiber people who take certain medicines or dietary supplements people with certain health problems , including functional gastrointestinal disorders",
+        "source_offset": [
+          3084,
+          3411
+        ],
+        "note": "Assessment uses the page entity and the exact target question; lexical answer occurrence alone is not entailment.",
+        "original_tag": 4
+      },
+      {
+        "tag": 1,
+        "assessment": "source_page_entity_metadata",
+        "evidence_quote": "Definition & Facts for Constipation",
+        "source_offset": [
+          0,
+          35
+        ],
+        "note": "Assessment uses the page entity and the exact target question; lexical answer occurrence alone is not entailment.",
+        "original_tag": 6
+      }
+    ],
+    "image": {
+      "file": "image.png",
+      "sha256": "bc5e975ca625641c2e3b50b83ecd3ca4fdd37595e332db127da6ed3198607bd8",
+      "visually_inspected": true,
+      "artifact_status": "readable_article_image",
+      "assessment": "related_visual_context_not_standalone_full_answer",
+      "visible_evidence": "People walking outdoors; the prevalence statistic is not shown.",
+      "tag": 2
+    }
+  },
+  "original_cohort_same_entity": [],
+  "original_cohort_related_topic": []
+}

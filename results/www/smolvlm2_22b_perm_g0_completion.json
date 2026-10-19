@@ -1,0 +1,10 @@
+{
+  "pages": 3,
+  "eligible_cubes": 0,
+  "parsed_state_counts": {
+    "rw_jwst": 55,
+    "rw_kepler": 23,
+    "rw_vitamind": 37
+  },
+  "raw_rows": 192
+}

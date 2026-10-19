@@ -1,0 +1,192 @@
+{
+  "id": "nasa_europa_clipper",
+  "url": "https://science.nasa.gov/mission/europa-clipper/mission-overview/",
+  "publisher": "NASA",
+  "question": "On what date did Europa Clipper launch?",
+  "statement": "Europa Clipper launched on October 14, 2024.",
+  "answer": "October 14, 2024",
+  "source_anchor": "Oct. 14, 2024",
+  "units": [
+    {
+      "tag": 1,
+      "type": "T",
+      "role": "source_heading",
+      "caption": false,
+      "text": "Europa Clipper Mission Overview",
+      "source_offset": [
+        0,
+        31
+      ],
+      "original_tag": 6,
+      "lexical_answer_match": false
+    },
+    {
+      "tag": 2,
+      "type": "T",
+      "role": "context",
+      "caption": false,
+      "text": "The spacecraft will perform dozens of close flybys of Jupiter’s moon Europa, gathering detailed measurements to investigate the moon. The spacecraft, in orbit around Jupiter, will make nearly 50 flybys of Europa at closest-approach altitudes as low as 16 miles (25 kilometers) above the surface, soaring over a different location during each flyby to scan nearly the entire moon.",
+      "source_offset": [
+        7086,
+        7465
+      ],
+      "original_tag": 4,
+      "lexical_answer_match": false
+    },
+    {
+      "tag": 3,
+      "type": "T",
+      "role": "context",
+      "caption": false,
+      "text": "Europa Clipper’s three main science objectives are to understand the nature of the ice shell and the ocean beneath it, along with the moon’s composition and geology. The mission’s detailed exploration of Europa will help scientists better understand the astrobiological potential for habitable worlds beyond our planet.",
+      "source_offset": [
+        6680,
+        6999
+      ],
+      "original_tag": 3,
+      "lexical_answer_match": false
+    },
+    {
+      "tag": 4,
+      "type": "T",
+      "role": "fact",
+      "caption": false,
+      "text": "launch date Oct. 14, 2024",
+      "source_offset": [
+        6559,
+        6584
+      ],
+      "original_tag": 1,
+      "lexical_answer_match": true
+    },
+    {
+      "tag": 5,
+      "type": "I",
+      "role": "image",
+      "caption": false,
+      "image": "image.png",
+      "original_tag": 5,
+      "lexical_answer_match": false
+    },
+    {
+      "tag": 6,
+      "type": "T",
+      "role": "context",
+      "caption": false,
+      "text": "Europa Clipper’s main science goal is to determine whether there are places below the surface of Jupiter’s icy moon, Europa, that could support life.",
+      "source_offset": [
+        6290,
+        6439
+      ],
+      "original_tag": 2,
+      "lexical_answer_match": false
+    }
+  ],
+  "image_url": "https://science.nasa.gov/wp-content/uploads/2017/12/europa-clipper-liftoff-hi-res-1920x640-1.jpg?w=1024",
+  "image_alt": "A white rocket with Europa Clipper on top in its protective fairing lifts off the launch bad with a trail of fire and white, billowy smoke below.",
+  "original_image_size": [
+    1024,
+    341
+  ],
+  "source_html_sha256": "20cae35156cfa7a159c39de28f06977343e1334bb521326e7a2959283d7069f5",
+  "image_original_sha256": "babfbe2656c80fad7ea1117d2fd483797be13099a799bcbc7bc6e280cdd8b7be",
+  "status": "frozen_before_inference",
+  "human_validation": null,
+  "source_record": "data/www_candidate_sources/nasa_europa_clipper/20cae35156cfa7a159c39de28f06977343e1334bb521326e7a2959283d7069f5.json",
+  "text_repair": {
+    "date": "2026-10-13",
+    "method": "verbatim source-offset extraction; complete event labels and substantive passages",
+    "semantic_validation": "pending",
+    "human_validation": null
+  },
+  "split": "transfer",
+  "permutation_seed": 20261013,
+  "original_tags_in_display_order": [
+    6,
+    4,
+    3,
+    1,
+    5,
+    2
+  ],
+  "answer_alias_groups": [
+    [
+      "October 14, 2024",
+      "Oct. 14, 2024"
+    ]
+  ],
+  "semantic_assessment": {
+    "id": "nasa_europa_clipper",
+    "reviewer_type": "agent",
+    "human_validation": null,
+    "blocks_sha256": "c1644202f59349fce008199541108db678de947c22b4a55886b383e3cb9488b3",
+    "text_units": [
+      {
+        "tag": 4,
+        "assessment": "supports_statement_in_page_context",
+        "evidence_quote": "launch date Oct. 14, 2024",
+        "source_offset": [
+          6559,
+          6584
+        ],
+        "note": "Assessment uses the page entity and the exact target question; lexical answer occurrence alone is not entailment.",
+        "original_tag": 1
+      },
+      {
+        "tag": 6,
+        "assessment": "related_context_without_full_explicit_answer",
+        "evidence_quote": "Europa Clipper’s main science goal is to determine whether there are places below the surface of Jupiter’s icy moon, Europa, that could support life.",
+        "source_offset": [
+          6290,
+          6439
+        ],
+        "note": "Assessment uses the page entity and the exact target question; lexical answer occurrence alone is not entailment.",
+        "original_tag": 2
+      },
+      {
+        "tag": 3,
+        "assessment": "related_context_without_full_explicit_answer",
+        "evidence_quote": "Europa Clipper’s three main science objectives are to understand the nature of the ice shell and the ocean beneath it, along with the moon’s composition and geology. The mission’s detailed exploration of Europa will help scientists better understand the astrobiological potential for habitable worlds beyond our planet.",
+        "source_offset": [
+          6680,
+          6999
+        ],
+        "note": "Assessment uses the page entity and the exact target question; lexical answer occurrence alone is not entailment.",
+        "original_tag": 3
+      },
+      {
+        "tag": 2,
+        "assessment": "related_context_without_full_explicit_answer",
+        "evidence_quote": "The spacecraft will perform dozens of close flybys of Jupiter’s moon Europa, gathering detailed measurements to investigate the moon. The spacecraft, in orbit around Jupiter, will make nearly 50 flybys of Europa at closest-approach altitudes as low as 16 miles (25 kilometers) above the surface, soaring over a different location during each flyby to scan nearly the entire moon.",
+        "source_offset": [
+          7086,
+          7465
+        ],
+        "note": "Assessment uses the page entity and the exact target question; lexical answer occurrence alone is not entailment.",
+        "original_tag": 4
+      },
+      {
+        "tag": 1,
+        "assessment": "source_page_entity_metadata",
+        "evidence_quote": "Europa Clipper Mission Overview",
+        "source_offset": [
+          0,
+          31
+        ],
+        "note": "Assessment uses the page entity and the exact target question; lexical answer occurrence alone is not entailment.",
+        "original_tag": 6
+      }
+    ],
+    "image": {
+      "file": "image.png",
+      "sha256": "29d7dd7c21c2a28e6376c36edfa86c2bf70f2048bf3e2a486cafed8cc58ec3fd",
+      "visually_inspected": true,
+      "artifact_status": "readable_article_image",
+      "assessment": "related_visual_context_not_standalone_full_answer",
+      "visible_evidence": "Rocket launching; calendar date is not displayed.",
+      "tag": 5
+    }
+  },
+  "original_cohort_same_entity": [],
+  "original_cohort_related_topic": []
+}

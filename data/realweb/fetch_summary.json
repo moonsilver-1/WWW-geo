@@ -1,0 +1,144 @@
+{
+ "rw_jwst": {
+  "domain": "technology",
+  "title": "James_Webb_Space_Telescope",
+  "n_paras": 98,
+  "n_tables": 19,
+  "n_captions": 19,
+  "images": [
+   {
+    "file": "assets/img1.png",
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/JWST_spacecraft_model_3.png/330px-JWST_spacecraft_model_3.png?u"
+   },
+   {
+    "file": "assets/img2.png",
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/Atmospheric_electromagnetic_opacity.svg/960px-Atmospheric_elect"
+   },
+   {
+    "file": "assets/img3.jpg",
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/James_Webb_Space_Telescope_2009_top.jpg/500px-James_Webb_Space_"
+   },
+   {
+    "file": "assets/img4.jpg",
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/James_Webb_Space_Telescope_2009_bottom.jpg/500px-James_Webb_Spa"
+   }
+  ]
+ },
+ "rw_hubble": {
+  "domain": "technology",
+  "title": "Hubble_Space_Telescope",
+  "n_paras": 129,
+  "n_tables": 19,
+  "n_captions": 40,
+  "images": [
+   {
+    "file": "assets/img1.jpg",
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/Hubble_2009_close-up_2.jpg/330px-Hubble_2009_close-up_2.jpg?utm"
+   },
+   {
+    "file": "assets/img2.jpg",
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9a/1946-_Lyman_Spitzer_%284526166350%29.jpg/250px-1946-_Lyman_Spit"
+   },
+   {
+    "file": "assets/img3.jpg",
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/Nancy_Grace_Roman_with_Space_Telescope_Model_in_1966_%282715477"
+   },
+   {
+    "file": "assets/img4.jpg",
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/Studio_portrait_photograph_of_Edwin_Powell_Hubble_%28cropped%29"
+   }
+  ]
+ },
+ "rw_iphone15": {
+  "domain": "product",
+  "title": "IPhone_15",
+  "n_paras": 18,
+  "n_tables": 19,
+  "n_captions": 1,
+  "images": [
+   {
+    "file": "assets/img1.png",
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/IPhone_15_Vector.svg/250px-IPhone_15_Vector.svg.png?utm_source="
+   },
+   {
+    "file": "assets/img2.jpg",
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/IPhone_Series.jpg/250px-IPhone_Series.jpg?utm_source=en.wikiped"
+   }
+  ]
+ },
+ "rw_ps5": {
+  "domain": "product",
+  "title": "PlayStation_5",
+  "n_paras": 65,
+  "n_tables": 10,
+  "n_captions": 6,
+  "images": [
+   {
+    "file": "assets/img1.png",
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Black_and_white_Playstation_5_base_edition_with_controller.png/"
+   },
+   {
+    "file": "assets/img2.jpg",
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/Mark_Cerny%2C_Gamelab_2018_%28cropped%29.jpg/250px-Mark_Cerny%2"
+   },
+   {
+    "file": "assets/img3.jpg",
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/SIE_headquarters_with_event_lighting.jpg/250px-SIE_headquarters"
+   },
+   {
+    "file": "assets/img4.png",
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Countries_sales_of_PlayStation_5.svg/250px-Countries_sales_of_P"
+   }
+  ]
+ },
+ "rw_mrna": {
+  "domain": "health",
+  "title": "MRNA_vaccine",
+  "n_paras": 46,
+  "n_tables": 26,
+  "n_captions": 9,
+  "images": [
+   {
+    "file": "assets/img1.jpg",
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/Ijms-21-06582-g002.webp/250px-Ijms-21-06582-g002.webp?utm_sourc"
+   },
+   {
+    "file": "assets/img2.jpg",
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/Ijms-21-06582-g001.webp/250px-Ijms-21-06582-g001.webp?utm_sourc"
+   },
+   {
+    "file": "assets/img3.png",
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/RNA_vaccine-en.svg/250px-RNA_vaccine-en.svg.png?utm_source=en.w"
+   },
+   {
+    "file": "assets/img4.jpg",
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/41541_2020_159_Fig2_HTML.webp/250px-41541_2020_159_Fig2_HTML.we"
+   }
+  ]
+ },
+ "rw_vitaminc": {
+  "domain": "health",
+  "title": "Vitamin_C",
+  "n_paras": 76,
+  "n_tables": 8,
+  "n_captions": 7,
+  "images": [
+   {
+    "file": "assets/img1.png",
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/L-Ascorbic_acid.svg/250px-L-Ascorbic_acid.svg.png?utm_source=en"
+   },
+   {
+    "file": "assets/img2.png",
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/Ascorbic-acid-from-xtal-1997-3D-balls.png/250px-Ascorbic-acid-f"
+   },
+   {
+    "file": "assets/img3.png",
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/Ascorbic_acid_structure.svg/250px-Ascorbic_acid_structure.svg.p"
+   },
+   {
+    "file": "assets/img4.png",
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/Dehydroascorbic_acid_2.svg/250px-Dehydroascorbic_acid_2.svg.png"
+   }
+  ]
+ }
+}

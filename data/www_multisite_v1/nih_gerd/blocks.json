@@ -1,0 +1,185 @@
+{
+  "id": "nih_gerd",
+  "url": "https://www.niddk.nih.gov/health-information/digestive-diseases/acid-reflux-ger-gerd-adults/definition-facts",
+  "publisher": "NIH/NIDDK",
+  "question": "Where do stomach contents flow back into during gastroesophageal reflux?",
+  "statement": "During gastroesophageal reflux, stomach contents flow back into the esophagus.",
+  "answer": "esophagus",
+  "source_anchor": "into your esophagus",
+  "units": [
+    {
+      "tag": 1,
+      "type": "T",
+      "role": "context",
+      "caption": false,
+      "text": "Researchers estimate that about 20 percent of people in the United States have GERD. 1",
+      "source_offset": [
+        3142,
+        3228
+      ],
+      "original_tag": 4,
+      "lexical_answer_match": false
+    },
+    {
+      "tag": 2,
+      "type": "T",
+      "role": "context",
+      "caption": false,
+      "text": "If you think you may have GERD, you should see your doctor.",
+      "source_offset": [
+        3062,
+        3121
+      ],
+      "original_tag": 3,
+      "lexical_answer_match": false
+    },
+    {
+      "tag": 3,
+      "type": "I",
+      "role": "image",
+      "caption": false,
+      "image": "image.png",
+      "original_tag": 5,
+      "lexical_answer_match": false
+    },
+    {
+      "tag": 4,
+      "type": "T",
+      "role": "source_heading",
+      "caption": false,
+      "text": "Definition & Facts for GER & GERD",
+      "source_offset": [
+        0,
+        33
+      ],
+      "original_tag": 6,
+      "lexical_answer_match": false
+    },
+    {
+      "tag": 5,
+      "type": "T",
+      "role": "context",
+      "caption": false,
+      "text": "Gastroesophageal reflux disease (GERD) is a more severe and long-lasting condition in which GER causes repeated symptoms that are bothersome or leads to complications over time.",
+      "source_offset": [
+        2884,
+        3061
+      ],
+      "original_tag": 2,
+      "lexical_answer_match": false
+    },
+    {
+      "tag": 6,
+      "type": "T",
+      "role": "fact",
+      "caption": false,
+      "text": "Gastroesophageal reflux (GER) happens when your stomach contents come back up into your esophagus . Many people have GER once in a while, and GER often happens without causing symptoms. In some cases, GER may cause heartburn , also called acid indigestion.",
+      "source_offset": [
+        2383,
+        2639
+      ],
+      "original_tag": 1,
+      "lexical_answer_match": true
+    }
+  ],
+  "image_url": "https://www.niddk.nih.gov/-/media/Images/Health-Information/Informacion-de-la-salud/Digestivas/young-woman-suffering-heartburn-during-pregnancy_2550x1700.jpg",
+  "image_alt": "A woman experiencing heartburn and pressing a hand to her chest.",
+  "original_image_size": [
+    1200,
+    800
+  ],
+  "source_html_sha256": "9277c436b8494ddd1dd2406ee5cc250c234f5f37aa8ee4d872475cc12b0caca6",
+  "image_original_sha256": "2ca87e0fc4b31c778f9f92857e529cd9ba11e97c4ea5cb3196e0d53d24fcfb38",
+  "status": "frozen_before_inference",
+  "human_validation": null,
+  "source_record": "data/www_candidate_sources/nih_gerd/9277c436b8494ddd1dd2406ee5cc250c234f5f37aa8ee4d872475cc12b0caca6.json",
+  "split": "transfer",
+  "permutation_seed": 20261013,
+  "original_tags_in_display_order": [
+    4,
+    3,
+    5,
+    6,
+    2,
+    1
+  ],
+  "answer_alias_groups": [
+    [
+      "esophagus"
+    ]
+  ],
+  "semantic_assessment": {
+    "id": "nih_gerd",
+    "reviewer_type": "agent",
+    "human_validation": null,
+    "blocks_sha256": "5b91cf45ef7b8bce393d28731e82301b9aa61dcbe84c71695f4d61cfb5c1b85d",
+    "text_units": [
+      {
+        "tag": 6,
+        "assessment": "supports_statement_in_page_context",
+        "evidence_quote": "Gastroesophageal reflux (GER) happens when your stomach contents come back up into your esophagus . Many people have GER once in a while, and GER often happens without causing symptoms. In some cases, GER may cause heartburn , also called acid indigestion.",
+        "source_offset": [
+          2383,
+          2639
+        ],
+        "note": "Assessment uses the page entity and the exact target question; lexical answer occurrence alone is not entailment.",
+        "original_tag": 1
+      },
+      {
+        "tag": 5,
+        "assessment": "related_context_without_full_explicit_answer",
+        "evidence_quote": "Gastroesophageal reflux disease (GERD) is a more severe and long-lasting condition in which GER causes repeated symptoms that are bothersome or leads to complications over time.",
+        "source_offset": [
+          2884,
+          3061
+        ],
+        "note": "Assessment uses the page entity and the exact target question; lexical answer occurrence alone is not entailment.",
+        "original_tag": 2
+      },
+      {
+        "tag": 2,
+        "assessment": "related_context_without_full_explicit_answer",
+        "evidence_quote": "If you think you may have GERD, you should see your doctor.",
+        "source_offset": [
+          3062,
+          3121
+        ],
+        "note": "Assessment uses the page entity and the exact target question; lexical answer occurrence alone is not entailment.",
+        "original_tag": 3
+      },
+      {
+        "tag": 1,
+        "assessment": "related_context_without_full_explicit_answer",
+        "evidence_quote": "Researchers estimate that about 20 percent of people in the United States have GERD. 1",
+        "source_offset": [
+          3142,
+          3228
+        ],
+        "note": "Assessment uses the page entity and the exact target question; lexical answer occurrence alone is not entailment.",
+        "original_tag": 4
+      },
+      {
+        "tag": 4,
+        "assessment": "source_page_entity_metadata",
+        "evidence_quote": "Definition & Facts for GER & GERD",
+        "source_offset": [
+          0,
+          33
+        ],
+        "note": "Assessment uses the page entity and the exact target question; lexical answer occurrence alone is not entailment.",
+        "original_tag": 6
+      }
+    ],
+    "image": {
+      "file": "image.png",
+      "sha256": "953da9e5a67cbca77f529bdad23bf37615baefa5e22d98f54142c08626a9c3ff",
+      "visually_inspected": true,
+      "artifact_status": "readable_article_image",
+      "assessment": "related_visual_context_not_standalone_full_answer",
+      "visible_evidence": "Person holding chest; the reflux destination cannot be inferred from visible anatomy.",
+      "tag": 3
+    }
+  },
+  "original_cohort_same_entity": [],
+  "original_cohort_related_topic": []
+}

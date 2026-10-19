@@ -1,0 +1,185 @@
+{
+  "id": "nasa_juno",
+  "url": "https://science.nasa.gov/mission/juno/",
+  "publisher": "NASA",
+  "question": "On what date did Juno enter orbit around Jupiter?",
+  "statement": "Juno entered orbit around Jupiter on July 4, 2016.",
+  "answer": "July 4, 2016",
+  "source_anchor": "July 4, 2016",
+  "units": [
+    {
+      "tag": 1,
+      "type": "T",
+      "role": "context",
+      "caption": false,
+      "text": "From its very first orbit, stretching across 53 days from Jupiter’s cloud tops to the frontiers of its magnetic field, Juno has upended our views of the gas giant and its surroundings. The spacecraft found previously unseen networks of vast storms swirling around Jupiter’s poles, active volcanoes and lakes of lava on the tempestuous moon, Io, and answers to a decades-old question about winds on Jupiter extending hundreds of miles toward the planet’s interior.",
+      "source_offset": [
+        7194,
+        7657
+      ],
+      "original_tag": 4,
+      "lexical_answer_match": false
+    },
+    {
+      "tag": 2,
+      "type": "T",
+      "role": "source_heading",
+      "caption": false,
+      "text": "Juno",
+      "source_offset": [
+        0,
+        4
+      ],
+      "original_tag": 6,
+      "lexical_answer_match": false
+    },
+    {
+      "tag": 3,
+      "type": "T",
+      "role": "fact",
+      "caption": false,
+      "text": "Five years after leaving Earth to make the 1.7 billion-mile journey (2.8 billion kilometers), the Juno spacecraft entered orbit around Jupiter on July 4, 2016.",
+      "source_offset": [
+        8060,
+        8219
+      ],
+      "original_tag": 1,
+      "lexical_answer_match": true
+    },
+    {
+      "tag": 4,
+      "type": "I",
+      "role": "image",
+      "caption": false,
+      "image": "image.png",
+      "original_tag": 5,
+      "lexical_answer_match": false
+    },
+    {
+      "tag": 5,
+      "type": "T",
+      "role": "context",
+      "caption": false,
+      "text": "Since it arrived at Jupiter in 2016, NASA’s Juno spacecraft has been probing beneath the dense, forbidding clouds encircling the giant planet — the first orbiter to peer so closely. It's looking to answer questions about the origin and evolution of Jupiter, our solar system, and giant planets across the cosmos.",
+      "source_offset": [
+        6053,
+        6365
+      ],
+      "original_tag": 2,
+      "lexical_answer_match": false
+    },
+    {
+      "tag": 6,
+      "type": "T",
+      "role": "context",
+      "caption": false,
+      "text": "After enduring a five-year, 1.7 billion-mile journey from Earth, and evading showers of the most punishing radiation outside the Sun, Juno has provided breathtaking images and breakthrough discoveries from Jupiter and its moons. And in their quest to engage and inspire the public, the Juno mission team shares the pictures with the world, fueling citizen science and creative artistry.",
+      "source_offset": [
+        6807,
+        7193
+      ],
+      "original_tag": 3,
+      "lexical_answer_match": false
+    }
+  ],
+  "image_url": "https://assets.science.nasa.gov/dynamicimage/assets/science/psd/solar/internal_resources/1213/juno_arrives.jpeg?w=3000&h=2740&fit=clip&crop=faces%2Cfocalpoint",
+  "image_alt": "juno arrives",
+  "original_image_size": [
+    3000,
+    2740
+  ],
+  "source_html_sha256": "357a3db271fff249995ebb3f32eb784ec06c5e7466a07c8a1d90d960b1144d0a",
+  "image_original_sha256": "ce2b36eb6723767d3cfe1e88ee75f0f04fdccdfcbbabc6c4f943445b805debc2",
+  "status": "frozen_before_inference",
+  "human_validation": null,
+  "source_record": "data/www_candidate_sources/nasa_juno/357a3db271fff249995ebb3f32eb784ec06c5e7466a07c8a1d90d960b1144d0a.json",
+  "split": "transfer",
+  "permutation_seed": 20261013,
+  "original_tags_in_display_order": [
+    4,
+    6,
+    1,
+    5,
+    2,
+    3
+  ],
+  "answer_alias_groups": [
+    [
+      "July 4, 2016"
+    ]
+  ],
+  "semantic_assessment": {
+    "id": "nasa_juno",
+    "reviewer_type": "agent",
+    "human_validation": null,
+    "blocks_sha256": "fc69ce72b8d07b03f73652ccde5064fe55cf9c027f1b50af5efc12e52c34e245",
+    "text_units": [
+      {
+        "tag": 3,
+        "assessment": "supports_statement_in_page_context",
+        "evidence_quote": "Five years after leaving Earth to make the 1.7 billion-mile journey (2.8 billion kilometers), the Juno spacecraft entered orbit around Jupiter on July 4, 2016.",
+        "source_offset": [
+          8060,
+          8219
+        ],
+        "note": "Assessment uses the page entity and the exact target question; lexical answer occurrence alone is not entailment.",
+        "original_tag": 1
+      },
+      {
+        "tag": 5,
+        "assessment": "partial_target_relation",
+        "evidence_quote": "Since it arrived at Jupiter in 2016, NASA’s Juno spacecraft has been probing beneath the dense, forbidding clouds encircling the giant planet — the first orbiter to peer so closely. It's looking to answer questions about the origin and evolution of Jupiter, our solar system, and giant planets across the cosmos.",
+        "source_offset": [
+          6053,
+          6365
+        ],
+        "note": "Gives arrival year but not the complete orbit-entry date.",
+        "original_tag": 2
+      },
+      {
+        "tag": 6,
+        "assessment": "related_context_without_full_explicit_answer",
+        "evidence_quote": "After enduring a five-year, 1.7 billion-mile journey from Earth, and evading showers of the most punishing radiation outside the Sun, Juno has provided breathtaking images and breakthrough discoveries from Jupiter and its moons. And in their quest to engage and inspire the public, the Juno mission team shares the pictures with the world, fueling citizen science and creative artistry.",
+        "source_offset": [
+          6807,
+          7193
+        ],
+        "note": "Assessment uses the page entity and the exact target question; lexical answer occurrence alone is not entailment.",
+        "original_tag": 3
+      },
+      {
+        "tag": 1,
+        "assessment": "related_context_without_full_explicit_answer",
+        "evidence_quote": "From its very first orbit, stretching across 53 days from Jupiter’s cloud tops to the frontiers of its magnetic field, Juno has upended our views of the gas giant and its surroundings. The spacecraft found previously unseen networks of vast storms swirling around Jupiter’s poles, active volcanoes and lakes of lava on the tempestuous moon, Io, and answers to a decades-old question about winds on Jupiter extending hundreds of miles toward the planet’s interior.",
+        "source_offset": [
+          7194,
+          7657
+        ],
+        "note": "Assessment uses the page entity and the exact target question; lexical answer occurrence alone is not entailment.",
+        "original_tag": 4
+      },
+      {
+        "tag": 2,
+        "assessment": "source_page_entity_metadata",
+        "evidence_quote": "Juno",
+        "source_offset": [
+          0,
+          4
+        ],
+        "note": "Assessment uses the page entity and the exact target question; lexical answer occurrence alone is not entailment.",
+        "original_tag": 6
+      }
+    ],
+    "image": {
+      "file": "image.png",
+      "sha256": "879910fca7e85be638a094cd8ae4321e467efeaafb740bfe25f831c8c6335f6c",
+      "visually_inspected": true,
+      "artifact_status": "readable_article_image",
+      "assessment": "related_visual_context_not_standalone_full_answer",
+      "visible_evidence": "Spacecraft illustration with Jupiter; orbit entry date is not displayed.",
+      "tag": 4
+    }
+  },
+  "original_cohort_same_entity": [],
+  "original_cohort_related_topic": []
+}

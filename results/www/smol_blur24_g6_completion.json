@@ -1,0 +1,9 @@
+{
+  "pages": 2,
+  "eligible_cubes": 1,
+  "parsed_state_counts": {
+    "rw_mars2020": 64,
+    "rw_penicillin": 49
+  },
+  "raw_rows": 128
+}

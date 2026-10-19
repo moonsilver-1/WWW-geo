@@ -1,0 +1,660 @@
+{
+  "revision": "482adb537c021c86670beed01cd58990d01e72e4",
+  "expected": {
+    "apple_airpods_max1": {
+      "statement": "AirPods Max 1 has nine microphones in total.",
+      "question": "How many microphones does AirPods Max 1 have in total?",
+      "split": "transfer",
+      "slot_order": [
+        2,
+        3,
+        0,
+        5,
+        4,
+        1
+      ],
+      "reference_token_ids": [
+        5097,
+        64,
+        14399,
+        7625,
+        216,
+        33,
+        553,
+        7462,
+        42327,
+        281,
+        2719,
+        30
+      ]
+    },
+    "apple_airpods_pro2": {
+      "statement": "AirPods Pro 2 uses the H2 headphone chip.",
+      "question": "Which headphone chip does AirPods Pro 2 use?",
+      "split": "transfer",
+      "slot_order": [
+        3,
+        4,
+        0,
+        2,
+        5,
+        1
+      ],
+      "reference_token_ids": [
+        5097,
+        64,
+        14399,
+        1053,
+        216,
+        34,
+        2925,
+        260,
+        407,
+        34,
+        1680,
+        6733,
+        13027,
+        30
+      ]
+    },
+    "apple_ipad10": {
+      "statement": "The tenth-generation iPad uses the A14 Bionic chip.",
+      "question": "Which chip powers the tenth-generation iPad?",
+      "split": "transfer",
+      "slot_order": [
+        3,
+        5,
+        0,
+        4,
+        1,
+        2
+      ],
+      "reference_token_ids": [
+        378,
+        23249,
+        29,
+        12334,
+        24337,
+        2925,
+        260,
+        330,
+        33,
+        36,
+        389,
+        33148,
+        13027,
+        30
+      ]
+    },
+    "apple_iphone14": {
+      "statement": "iPhone 14 uses the A15 Bionic chip.",
+      "question": "Which chip powers iPhone 14?",
+      "split": "transfer",
+      "slot_order": [
+        0,
+        1,
+        5,
+        4,
+        3,
+        2
+      ],
+      "reference_token_ids": [
+        22339,
+        216,
+        33,
+        36,
+        2925,
+        260,
+        330,
+        33,
+        37,
+        389,
+        33148,
+        13027,
+        30
+      ]
+    },
+    "apple_iphone15": {
+      "statement": "iPhone 15 uses the A16 Bionic chip.",
+      "question": "Which chip powers iPhone 15?",
+      "split": "transfer",
+      "slot_order": [
+        2,
+        5,
+        0,
+        1,
+        3,
+        4
+      ],
+      "reference_token_ids": [
+        22339,
+        216,
+        33,
+        37,
+        2925,
+        260,
+        330,
+        33,
+        38,
+        389,
+        33148,
+        13027,
+        30
+      ]
+    },
+    "apple_iphone16": {
+      "statement": "iPhone 16 uses the A18 chip.",
+      "question": "Which chip powers iPhone 16?",
+      "split": "transfer",
+      "slot_order": [
+        5,
+        3,
+        2,
+        1,
+        4,
+        0
+      ],
+      "reference_token_ids": [
+        22339,
+        216,
+        33,
+        38,
+        2925,
+        260,
+        330,
+        33,
+        40,
+        13027,
+        30
+      ]
+    },
+    "apple_macbookair_m2": {
+      "statement": "The 2022 MacBook Air uses the Apple M2 chip.",
+      "question": "Which chip powers the 2022 MacBook Air described on this page?",
+      "split": "transfer",
+      "slot_order": [
+        2,
+        3,
+        1,
+        5,
+        0,
+        4
+      ],
+      "reference_token_ids": [
+        378,
+        216,
+        34,
+        32,
+        34,
+        34,
+        5733,
+        15654,
+        5097,
+        2925,
+        260,
+        10910,
+        372,
+        34,
+        13027,
+        30
+      ]
+    },
+    "apple_watch9": {
+      "statement": "Apple Watch Series 9 uses the S9 SiP.",
+      "question": "Which chip powers Apple Watch Series 9?",
+      "split": "transfer",
+      "slot_order": [
+        4,
+        3,
+        5,
+        2,
+        1,
+        0
+      ],
+      "reference_token_ids": [
+        10910,
+        13174,
+        13123,
+        216,
+        41,
+        2925,
+        260,
+        334,
+        41,
+        14352,
+        64,
+        30
+      ]
+    },
+    "nasa_cassini": {
+      "statement": "Cassini orbited Saturn.",
+      "question": "Which planet did Cassini orbit?",
+      "split": "transfer",
+      "slot_order": [
+        2,
+        0,
+        1,
+        4,
+        5,
+        3
+      ],
+      "reference_token_ids": [
+        31653,
+        12705,
+        960,
+        16440,
+        30
+      ]
+    },
+    "nasa_curiosity": {
+      "statement": "Curiosity launched in 2011.",
+      "question": "In what year did Curiosity launch?",
+      "split": "transfer",
+      "slot_order": [
+        1,
+        4,
+        2,
+        0,
+        3,
+        5
+      ],
+      "reference_token_ids": [
+        26712,
+        7876,
+        281,
+        216,
+        34,
+        32,
+        33,
+        33,
+        30
+      ]
+    },
+    "nasa_europa_clipper": {
+      "statement": "Europa Clipper launched on October 14, 2024.",
+      "question": "On what date did Europa Clipper launch?",
+      "split": "transfer",
+      "slot_order": [
+        5,
+        3,
+        2,
+        0,
+        4,
+        1
+      ],
+      "reference_token_ids": [
+        36886,
+        32892,
+        3115,
+        7876,
+        335,
+        4451,
+        216,
+        33,
+        36,
+        28,
+        216,
+        34,
+        32,
+        34,
+        36,
+        30
+      ]
+    },
+    "nasa_juno": {
+      "statement": "Juno entered orbit around Jupiter on July 4, 2016.",
+      "question": "On what date did Juno enter orbit around Jupiter?",
+      "split": "transfer",
+      "slot_order": [
+        3,
+        5,
+        0,
+        4,
+        1,
+        2
+      ],
+      "reference_token_ids": [
+        43337,
+        7999,
+        8591,
+        1130,
+        14713,
+        335,
+        4185,
+        216,
+        36,
+        28,
+        216,
+        34,
+        32,
+        33,
+        38,
+        30
+      ]
+    },
+    "nasa_new_horizons": {
+      "statement": "New Horizons flew by Pluto on July 14, 2015.",
+      "question": "On what date did New Horizons fly by Pluto?",
+      "split": "transfer",
+      "slot_order": [
+        2,
+        1,
+        3,
+        0,
+        5,
+        4
+      ],
+      "reference_token_ids": [
+        1315,
+        35209,
+        18927,
+        411,
+        24254,
+        335,
+        4185,
+        216,
+        33,
+        36,
+        28,
+        216,
+        34,
+        32,
+        33,
+        37,
+        30
+      ]
+    },
+    "nasa_perseverance": {
+      "statement": "Perseverance is searching for signs of ancient microbial life.",
+      "question": "What kind of ancient life is Perseverance searching for?",
+      "split": "transfer",
+      "slot_order": [
+        3,
+        4,
+        5,
+        0,
+        1,
+        2
+      ],
+      "reference_token_ids": [
+        3017,
+        15150,
+        314,
+        10622,
+        327,
+        4120,
+        282,
+        3201,
+        15318,
+        1029,
+        30
+      ]
+    },
+    "nasa_psyche": {
+      "statement": "Psyche launched on October 13, 2023.",
+      "question": "On what date did Psyche launch?",
+      "split": "transfer",
+      "slot_order": [
+        1,
+        3,
+        4,
+        2,
+        0,
+        5
+      ],
+      "reference_token_ids": [
+        39489,
+        2916,
+        7876,
+        335,
+        4451,
+        216,
+        33,
+        35,
+        28,
+        216,
+        34,
+        32,
+        34,
+        35,
+        30
+      ]
+    },
+    "nasa_webb_mirrors": {
+      "statement": "Webb's primary mirror has 18 segments.",
+      "question": "How many segments make up Webb's primary mirror?",
+      "split": "transfer",
+      "slot_order": [
+        1,
+        3,
+        0,
+        4,
+        5,
+        2
+      ],
+      "reference_token_ids": [
+        30197,
+        506,
+        3003,
+        11558,
+        553,
+        216,
+        33,
+        40,
+        12523,
+        30
+      ]
+    },
+    "nih_celiac": {
+      "statement": "Celiac disease damages the small intestine.",
+      "question": "Which part of the digestive tract does celiac disease damage?",
+      "split": "transfer",
+      "slot_order": [
+        3,
+        5,
+        4,
+        0,
+        2,
+        1
+      ],
+      "reference_token_ids": [
+        340,
+        22151,
+        1611,
+        14591,
+        260,
+        1165,
+        16383,
+        30
+      ]
+    },
+    "nih_constipation": {
+      "statement": "About 16 out of 100 adults have symptoms of constipation.",
+      "question": "About how many out of 100 adults have symptoms of constipation?",
+      "split": "transfer",
+      "slot_order": [
+        5,
+        4,
+        3,
+        0,
+        1,
+        2
+      ],
+      "reference_token_ids": [
+        6810,
+        216,
+        33,
+        38,
+        578,
+        282,
+        216,
+        33,
+        32,
+        32,
+        3598,
+        457,
+        2336,
+        282,
+        19613,
+        30
+      ]
+    },
+    "nih_diabetes_overview": {
+      "statement": "The pancreas makes insulin.",
+      "question": "Which organ makes insulin?",
+      "split": "transfer",
+      "slot_order": [
+        0,
+        1,
+        4,
+        3,
+        5,
+        2
+      ],
+      "reference_token_ids": [
+        378,
+        19860,
+        2022,
+        8248,
+        30
+      ]
+    },
+    "nih_gallstones": {
+      "statement": "Gallstones form in the gallbladder.",
+      "question": "In which organ do gallstones form?",
+      "split": "transfer",
+      "slot_order": [
+        3,
+        4,
+        0,
+        5,
+        2,
+        1
+      ],
+      "reference_token_ids": [
+        10667,
+        17528,
+        910,
+        281,
+        260,
+        34814,
+        30
+      ]
+    },
+    "nih_gerd": {
+      "statement": "During gastroesophageal reflux, stomach contents flow back into the esophagus.",
+      "question": "Where do stomach contents flow back into during gastroesophageal reflux?",
+      "split": "transfer",
+      "slot_order": [
+        3,
+        2,
+        4,
+        5,
+        1,
+        0
+      ],
+      "reference_token_ids": [
+        3897,
+        13114,
+        41757,
+        20838,
+        28,
+        7145,
+        9289,
+        1874,
+        1056,
+        618,
+        260,
+        23949,
+        30
+      ]
+    },
+    "nih_kidney_nephrons": {
+      "statement": "The filtering units of the kidneys are called nephrons.",
+      "question": "What are the filtering units of the kidneys called?",
+      "split": "transfer",
+      "slot_order": [
+        4,
+        2,
+        5,
+        3,
+        0,
+        1
+      ],
+      "reference_token_ids": [
+        378,
+        18532,
+        4784,
+        282,
+        260,
+        14323,
+        359,
+        1217,
+        27878,
+        6749,
+        30
+      ]
+    },
+    "nih_lactose": {
+      "statement": "Lactose is a sugar naturally found in milk and milk products.",
+      "question": "What sugar is naturally found in milk and milk products?",
+      "split": "transfer",
+      "slot_order": [
+        5,
+        4,
+        3,
+        2,
+        0,
+        1
+      ],
+      "reference_token_ids": [
+        30415,
+        602,
+        314,
+        253,
+        3982,
+        6099,
+        983,
+        281,
+        4788,
+        284,
+        4788,
+        2320,
+        30
+      ]
+    },
+    "nih_peptic_ulcers": {
+      "statement": "Peptic ulcers can occur on the lining of the stomach or duodenum.",
+      "question": "On the lining of which two organs can peptic ulcers occur?",
+      "split": "transfer",
+      "slot_order": [
+        5,
+        0,
+        1,
+        2,
+        4,
+        3
+      ],
+      "reference_token_ids": [
+        2820,
+        8851,
+        19889,
+        416,
+        1689,
+        335,
+        260,
+        14807,
+        282,
+        260,
+        7145,
+        355,
+        5766,
+        350,
+        19264,
+        30
+      ]
+    }
+  },
+  "cohort_sha256": "92b19d663cadaf7512f86e2af7c620cb443cbf3f91e973a474191f8105ea4468",
+  "tokenizer_options": {}
+}

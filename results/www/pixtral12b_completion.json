@@ -1,0 +1,25 @@
+{
+  "pages": 18,
+  "eligible_cubes": 18,
+  "parsed_state_counts": {
+    "rw_jwst": 64,
+    "rw_hubble": 64,
+    "rw_iphone15": 64,
+    "rw_ps5": 64,
+    "rw_mrna": 64,
+    "rw_vitaminc": 64,
+    "rw_mars2020": 64,
+    "rw_voyager1": 64,
+    "rw_kepler": 64,
+    "rw_iss": 64,
+    "rw_switch": 64,
+    "rw_ipad10": 64,
+    "rw_xboxseries": 64,
+    "rw_model3": 64,
+    "rw_penicillin": 64,
+    "rw_insulin": 64,
+    "rw_vitamind": 64,
+    "rw_aspirin": 64
+  },
+  "raw_rows": 1152
+}

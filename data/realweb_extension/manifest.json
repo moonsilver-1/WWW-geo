@@ -1,0 +1,242 @@
+{
+  "rw_mars2020": {
+    "url": "https://en.wikipedia.org/wiki/Mars_2020",
+    "domain": "technology",
+    "question": "On what date was the Mars 2020 mission launched?",
+    "statement": "The Mars 2020 mission was launched on July 30, 2020.",
+    "para_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "image_index": 0,
+    "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/Mars_2020_selfie_containing_both_perseverance_rover_and_ingenuity.gif/330px-Mars_2020_selfie_containing_both_perseverance_rover_and_ingenuity.gif?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+    "html_sha256": "270bbaf0a2592d74abf92d43367855910b8fecd54e436b26d98bfbde3ab1cd6d",
+    "image_sha256": "13d95df3c5aea29f501ee8e80f7fab1889b5791862c7f3dce7be1abbbef55ee2",
+    "blocks_sha256": "b725e52c709887cfcb435ccd46df4fd30aed27dc3747742acce99c02644ab2ce",
+    "caption_source": "generic page label",
+    "source_image_sha256": "1926366ef84d86e7f49e5b6951328e628c07bb1a2b3bcb1dbf14d85e3f5fa591",
+    "fetched_utc": "2026-10-03T17:52:49+00:00"
+  },
+  "rw_voyager1": {
+    "url": "https://en.wikipedia.org/wiki/Voyager_1",
+    "domain": "technology",
+    "question": "On what date was Voyager 1 launched?",
+    "statement": "Voyager 1 was launched on September 5, 1977.",
+    "para_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "image_index": 0,
+    "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/Voyager_spacecraft_model.png/330px-Voyager_spacecraft_model.png?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+    "html_sha256": "64b11ac5e79481933c259a15c5361ce1a2f12f0cb33219a5a44983d9ef03158b",
+    "image_sha256": "5ad29b81764d74f1b04f42b32b1917a02a0da35a68472cf935586ad897ecf72c",
+    "blocks_sha256": "349dc359c823010de2de674cea307ca04d058516244d7201e728db6fe45f6231",
+    "caption_source": "article caption or image alt",
+    "source_image_sha256": "5ad29b81764d74f1b04f42b32b1917a02a0da35a68472cf935586ad897ecf72c",
+    "fetched_utc": "2026-10-03T17:52:50+00:00"
+  },
+  "rw_kepler": {
+    "url": "https://en.wikipedia.org/wiki/Kepler_space_telescope",
+    "domain": "technology",
+    "question": "In what year did NASA launch the Kepler space telescope?",
+    "statement": "NASA launched the Kepler space telescope in 2009.",
+    "para_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "image_index": 0,
+    "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/Kepler_Space_Telescope_spacecraft_model_2.png/330px-Kepler_Space_Telescope_spacecraft_model_2.png?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+    "html_sha256": "675952358128283bb2075debcefffbe29b8a5a3e3cf34b03de5e71d08305ba16",
+    "image_sha256": "bb07362d2c9f37ab1f269133f43308aa307725c49324c7fddb21018220f57f21",
+    "blocks_sha256": "52d32c592e791f6c90fea1cc4527d393f889c88c429b095ccce6af6293984f6c",
+    "caption_source": "article caption or image alt",
+    "source_image_sha256": "bb07362d2c9f37ab1f269133f43308aa307725c49324c7fddb21018220f57f21",
+    "fetched_utc": "2026-10-03T17:52:52+00:00"
+  },
+  "rw_iss": {
+    "url": "https://en.wikipedia.org/wiki/International_Space_Station",
+    "domain": "technology",
+    "question": "Which five agencies operate the International Space Station?",
+    "statement": "The International Space Station is operated by NASA, Roscosmos, ESA, JAXA, and CSA.",
+    "para_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "image_index": 0,
+    "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/The_station_pictured_from_the_SpaceX_Crew_Dragon_5.jpg/330px-The_station_pictured_from_the_SpaceX_Crew_Dragon_5.jpg?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+    "html_sha256": "23575fe0f51fa7b901fe0971c99c9f927ce181f03b4ece3e9aa3cd2f7f878d67",
+    "image_sha256": "3341f2af1647f49b12a76c319a9a5b650414a36c7e8b83eeaaa61576d4082682",
+    "blocks_sha256": "98292bed4e4859bd0d3a64bf2f38a951120156dcc5d1f60ec2e67186a8c11ae1",
+    "caption_source": "generic page label",
+    "source_image_sha256": "3341f2af1647f49b12a76c319a9a5b650414a36c7e8b83eeaaa61576d4082682",
+    "fetched_utc": "2026-10-03T17:52:53+00:00"
+  },
+  "rw_switch": {
+    "url": "https://en.wikipedia.org/wiki/Nintendo_Switch",
+    "domain": "product",
+    "question": "On what date was the Nintendo Switch released worldwide in most regions?",
+    "statement": "The Nintendo Switch was released worldwide in most regions on March 3, 2017.",
+    "para_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "image_index": 0,
+    "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Nintendo-Switch-wJoyCons-BlRd-Standing-FL.jpg/500px-Nintendo-Switch-wJoyCons-BlRd-Standing-FL.jpg?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+    "html_sha256": "139b69f82057c2a00380b926e65ddf64ad8ddbe4ce96a98f526dc9a79616ce2c",
+    "image_sha256": "605530ea20a90fda4f12cb8c403c2d84288c8dd41d3ef2bfacbf7c79330cd43a",
+    "blocks_sha256": "8aa3ac2ea14a6cb33907ec13db0fd7ab8b579c1e83ba07d55b8796dab3f2fdab",
+    "caption_source": "generic page label",
+    "source_image_sha256": "605530ea20a90fda4f12cb8c403c2d84288c8dd41d3ef2bfacbf7c79330cd43a",
+    "fetched_utc": "2026-10-03T17:52:55+00:00"
+  },
+  "rw_ipad10": {
+    "url": "https://en.wikipedia.org/wiki/iPad_%2810th_generation%29",
+    "domain": "product",
+    "question": "On what date was the tenth-generation iPad released?",
+    "statement": "The tenth-generation iPad was released on October 26, 2022.",
+    "para_indices": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "image_index": 0,
+    "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/IPad_10.png/250px-IPad_10.png?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+    "html_sha256": "09703f50dda063cf1f4b093f3dc4f29a1d9b895782b48991ebe002eb1930c20a",
+    "image_sha256": "c807d90d2bec4f45ce777eca0f455e5e6e9a69f5bffbb6959c1867e99e2105b1",
+    "blocks_sha256": "e6d3e39693aaec094ef67d1fc1cb7a99771f1e5a1adeebadae5d9a68c8fd5b46",
+    "caption_source": "generic page label",
+    "source_image_sha256": "c807d90d2bec4f45ce777eca0f455e5e6e9a69f5bffbb6959c1867e99e2105b1",
+    "fetched_utc": "2026-10-03T17:52:57+00:00"
+  },
+  "rw_xboxseries": {
+    "url": "https://en.wikipedia.org/wiki/Xbox_Series_X_and_Series_S",
+    "domain": "product",
+    "question": "On what date were the Xbox Series X and Series S released?",
+    "statement": "The Xbox Series X and Series S were released on November 10, 2020.",
+    "para_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "image_index": 0,
+    "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/Xbox_Series_X_mit_Controller_%28transparent_background%29.png/120px-Xbox_Series_X_mit_Controller_%28transparent_background%29.png?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+    "html_sha256": "4e9054d71eaf14bc0f9b3d5e61a349b4a739ee14a384db82ca61bad00a97b4c5",
+    "image_sha256": "c9e35e2975351342ac5d3b85c554a8792e1eb58ab0cf29b1a66b18933878b01a",
+    "blocks_sha256": "4b6c0bf29927780a2d4e24cb07ae7de515729ad54563bdc28b0076f023141bb0",
+    "caption_source": "generic page label",
+    "source_image_sha256": "c9e35e2975351342ac5d3b85c554a8792e1eb58ab0cf29b1a66b18933878b01a",
+    "fetched_utc": "2026-10-03T17:52:58+00:00"
+  },
+  "rw_model3": {
+    "url": "https://en.wikipedia.org/wiki/Tesla_Model_3",
+    "domain": "product",
+    "question": "In what year was the Tesla Model 3 introduced?",
+    "statement": "The Tesla Model 3 was introduced in 2017.",
+    "para_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "image_index": 0,
+    "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/Tesla_Model_3_%282023%29_Autofr%C3%BChling_Ulm_IMG_9282.jpg/330px-Tesla_Model_3_%282023%29_Autofr%C3%BChling_Ulm_IMG_9282.jpg?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+    "html_sha256": "f2b743e14bb66662c890e486945c19ae75e89a0d093a204de2fda24cbb1b8597",
+    "image_sha256": "16d7d2a1303a0e74119370125fdff37556a5317e26ac4669e79f782642c39a24",
+    "blocks_sha256": "7af42b1e18b67281f6862e2d99d2655bb8d28accae2581c9452d4bd48b3078fd",
+    "caption_source": "generic page label",
+    "source_image_sha256": "16d7d2a1303a0e74119370125fdff37556a5317e26ac4669e79f782642c39a24",
+    "fetched_utc": "2026-10-03T17:52:59+00:00"
+  },
+  "rw_penicillin": {
+    "url": "https://en.wikipedia.org/wiki/Penicillin",
+    "domain": "health",
+    "question": "Who discovered penicillin in 1928?",
+    "statement": "Penicillin was discovered in 1928 by Alexander Fleming.",
+    "para_indices": [
+      2,
+      0,
+      1,
+      3
+    ],
+    "image_index": 1,
+    "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/Sample_of_penicillin_mould_presented_by_Alexander_Fleming_to_Douglas_Macleod%2C_1935_%289672239344%29.jpg/250px-Sample_of_penicillin_mould_presented_by_Alexander_Fleming_to_Douglas_Macleod%2C_1935_%289672239344%29.jpg?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+    "html_sha256": "b3fd2e1a005b822ce070409707945309bc99608292009dd5c9ca4f6eac152032",
+    "image_sha256": "42cfbcfd085f859d450599e53d04075e3c817d10d051a848b9a49a4628c55a1b",
+    "blocks_sha256": "aab92ef8e52d395797de21156bfccf56de33e3c522a0d9f4430dd3fe70c72bff",
+    "caption_source": "article caption or image alt",
+    "source_image_sha256": "42cfbcfd085f859d450599e53d04075e3c817d10d051a848b9a49a4628c55a1b",
+    "fetched_utc": "2026-10-03T17:53:00+00:00"
+  },
+  "rw_insulin": {
+    "url": "https://en.wikipedia.org/wiki/Insulin",
+    "domain": "health",
+    "question": "Which cells produce insulin?",
+    "statement": "Insulin is produced by beta cells of the pancreatic islets.",
+    "para_indices": [
+      2,
+      3,
+      4,
+      5
+    ],
+    "image_index": 0,
+    "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/Insulin_struct.png/250px-Insulin_struct.png?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+    "html_sha256": "34c14aa70e84f4c4eddede2c0064e1f1916865cdb02014a80c09ef4c7bda1c83",
+    "image_sha256": "868117d23d681ee6e2eb178d3e7e03917cbfae2a6a64d255e23638d208845cb4",
+    "blocks_sha256": "583346e07869059a2202a729905a80d029e4c5d20c1516a9f0a05f1cd739963b",
+    "caption_source": "generic page label",
+    "source_image_sha256": "868117d23d681ee6e2eb178d3e7e03917cbfae2a6a64d255e23638d208845cb4",
+    "fetched_utc": "2026-10-03T17:53:02+00:00"
+  },
+  "rw_vitamind": {
+    "url": "https://en.wikipedia.org/wiki/Vitamin_D",
+    "domain": "health",
+    "question": "Absorption of which mineral is increased by vitamin D?",
+    "statement": "Vitamin D increases intestinal absorption of calcium.",
+    "para_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "image_index": 2,
+    "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/XrayRicketsLegssmall.jpg/250px-XrayRicketsLegssmall.jpg?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+    "html_sha256": "052f4136038f846c7151ed8e28f66f282ad4f3f58427b0f0ce9a60dce73099f4",
+    "image_sha256": "8156aec2f69443417e6692ad462444fcda400cbe4bd2c60b196e0293bcef9c9f",
+    "blocks_sha256": "aa7f49ee91ab8d3d04ba1eef506a1d88f86afe8292ae0c81d8c602ad22f8ba8d",
+    "caption_source": "article caption or image alt",
+    "source_image_sha256": "8156aec2f69443417e6692ad462444fcda400cbe4bd2c60b196e0293bcef9c9f",
+    "fetched_utc": "2026-10-03T17:53:03+00:00"
+  },
+  "rw_aspirin": {
+    "url": "https://en.wikipedia.org/wiki/Aspirin",
+    "domain": "health",
+    "question": "What chemical compound is aspirin?",
+    "statement": "Aspirin is acetylsalicylic acid.",
+    "para_indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "image_index": 0,
+    "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/Acetylsalicylic_acid.jpg/250px-Acetylsalicylic_acid.jpg?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+    "html_sha256": "652305bd47da0c4283abe865b8f91f1c6496dd32df9a952a21ad43679d00c43e",
+    "image_sha256": "fc4e979a71c3da49d061af6588870ecd3262d235a8695929b61f3330d5e51248",
+    "blocks_sha256": "beb0c61833fe968cbf98807432be3d6cb2d98a3241d26bd332976e8a3886026b",
+    "caption_source": "generic page label",
+    "source_image_sha256": "fc4e979a71c3da49d061af6588870ecd3262d235a8695929b61f3330d5e51248",
+    "fetched_utc": "2026-10-03T17:53:04+00:00"
+  }
+}

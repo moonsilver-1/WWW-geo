@@ -1,0 +1,10 @@
+{
+  "pages": 3,
+  "eligible_cubes": 3,
+  "parsed_state_counts": {
+    "apple_watch9": 64,
+    "nasa_webb_mirrors": 64,
+    "nih_peptic_ulcers": 64
+  },
+  "raw_rows": 192
+}

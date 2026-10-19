@@ -1,0 +1,21 @@
+# Python virtual environment (Linux-side venv, ~200 MB, not needed in repo)
+.venv/
+
+# Model weights (~94.6 GB of safetensors checkpoints)
+# Re-download with: python download_models.py
+models/
+
+# Python caches
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# OS / editor junk
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs and locks (runtime artifacts)
+logs/*.log
+locks/*.lock

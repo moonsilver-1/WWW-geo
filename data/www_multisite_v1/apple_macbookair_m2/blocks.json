@@ -1,0 +1,185 @@
+{
+  "id": "apple_macbookair_m2",
+  "url": "https://support.apple.com/en-us/111867",
+  "publisher": "Apple",
+  "question": "Which chip powers the 2022 MacBook Air described on this page?",
+  "statement": "The 2022 MacBook Air uses the Apple M2 chip.",
+  "answer": "M2",
+  "source_anchor": "Apple M2 chip",
+  "units": [
+    {
+      "tag": 1,
+      "type": "T",
+      "role": "context",
+      "caption": false,
+      "text": "Hardware-accelerated H.264, HEVC, ProRes, and ProRes RAW",
+      "source_offset": [
+        512,
+        568
+      ],
+      "original_tag": 3,
+      "lexical_answer_match": false
+    },
+    {
+      "tag": 2,
+      "type": "T",
+      "role": "context",
+      "caption": false,
+      "text": "13.6-inch (diagonal) LED-backlit display with IPS technology; 1",
+      "source_offset": [
+        671,
+        734
+      ],
+      "original_tag": 4,
+      "lexical_answer_match": false
+    },
+    {
+      "tag": 3,
+      "type": "T",
+      "role": "context",
+      "caption": false,
+      "text": "8-core CPU with 4 performance cores and 4 efficiency cores",
+      "source_offset": [
+        331,
+        389
+      ],
+      "original_tag": 2,
+      "lexical_answer_match": false
+    },
+    {
+      "tag": 4,
+      "type": "T",
+      "role": "source_heading",
+      "caption": false,
+      "text": "MacBook Air (M2, 2022) - Tech Specs",
+      "source_offset": [
+        0,
+        35
+      ],
+      "original_tag": 6,
+      "lexical_answer_match": true
+    },
+    {
+      "tag": 5,
+      "type": "T",
+      "role": "fact",
+      "caption": false,
+      "text": "Apple M2 chip",
+      "source_offset": [
+        317,
+        330
+      ],
+      "original_tag": 1,
+      "lexical_answer_match": true
+    },
+    {
+      "tag": 6,
+      "type": "I",
+      "role": "image",
+      "caption": false,
+      "image": "image.png",
+      "original_tag": 5,
+      "lexical_answer_match": false
+    }
+  ],
+  "image_url": "https://cdsassets.apple.com/live/SZLF0YNV/images/sp/111867_SP869-2022-macbook-air-m2-colors.png",
+  "image_alt": "No alt supplied for Image",
+  "original_image_size": [
+    940,
+    294
+  ],
+  "source_html_sha256": "bcc71c1a1ef54df28ac550cb00b335840999822473b59d81253037d44f249a78",
+  "image_original_sha256": "515616f46db3bbe7dacc634bf081baf9111f26956895dc9e6dd4debdefc02b9d",
+  "status": "frozen_before_inference",
+  "human_validation": null,
+  "source_record": "data/www_candidate_sources/apple_macbookair_m2/bcc71c1a1ef54df28ac550cb00b335840999822473b59d81253037d44f249a78.json",
+  "split": "transfer",
+  "permutation_seed": 20261013,
+  "original_tags_in_display_order": [
+    3,
+    4,
+    2,
+    6,
+    1,
+    5
+  ],
+  "answer_alias_groups": [
+    [
+      "M2"
+    ]
+  ],
+  "semantic_assessment": {
+    "id": "apple_macbookair_m2",
+    "reviewer_type": "agent",
+    "human_validation": null,
+    "blocks_sha256": "94469ea573653b585fbcb35bc80ef7b4133f879f4b1ef431c5b6b72cd84e0dcd",
+    "text_units": [
+      {
+        "tag": 5,
+        "assessment": "supports_statement_in_page_context",
+        "evidence_quote": "Apple M2 chip",
+        "source_offset": [
+          317,
+          330
+        ],
+        "note": "Assessment uses the page entity and the exact target question; lexical answer occurrence alone is not entailment.",
+        "original_tag": 1
+      },
+      {
+        "tag": 3,
+        "assessment": "related_context_without_full_explicit_answer",
+        "evidence_quote": "8-core CPU with 4 performance cores and 4 efficiency cores",
+        "source_offset": [
+          331,
+          389
+        ],
+        "note": "Assessment uses the page entity and the exact target question; lexical answer occurrence alone is not entailment.",
+        "original_tag": 2
+      },
+      {
+        "tag": 1,
+        "assessment": "related_context_without_full_explicit_answer",
+        "evidence_quote": "Hardware-accelerated H.264, HEVC, ProRes, and ProRes RAW",
+        "source_offset": [
+          512,
+          568
+        ],
+        "note": "Assessment uses the page entity and the exact target question; lexical answer occurrence alone is not entailment.",
+        "original_tag": 3
+      },
+      {
+        "tag": 2,
+        "assessment": "related_context_without_full_explicit_answer",
+        "evidence_quote": "13.6-inch (diagonal) LED-backlit display with IPS technology; 1",
+        "source_offset": [
+          671,
+          734
+        ],
+        "note": "Assessment uses the page entity and the exact target question; lexical answer occurrence alone is not entailment.",
+        "original_tag": 4
+      },
+      {
+        "tag": 4,
+        "assessment": "source_page_entity_metadata",
+        "evidence_quote": "MacBook Air (M2, 2022) - Tech Specs",
+        "source_offset": [
+          0,
+          35
+        ],
+        "note": "Assessment uses the page entity and the exact target question; lexical answer occurrence alone is not entailment.",
+        "original_tag": 6
+      }
+    ],
+    "image": {
+      "file": "image.png",
+      "sha256": "d93ad799164d301ee7b6d8c6d5785cffa29ea023ded931152bd77baf75e4bdfa",
+      "visually_inspected": true,
+      "artifact_status": "readable_article_image",
+      "assessment": "related_visual_context_not_standalone_full_answer",
+      "visible_evidence": "Product photograph matches the page product type; internal chip specification or total microphone count is not visibly established.",
+      "tag": 6
+    }
+  },
+  "original_cohort_same_entity": [],
+  "original_cohort_related_topic": []
+}

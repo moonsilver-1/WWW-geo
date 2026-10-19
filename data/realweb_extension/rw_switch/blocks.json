@@ -1,0 +1,46 @@
+{
+  "units": [
+    {
+      "tag": 1,
+      "type": "T",
+      "role": "fact",
+      "caption": false,
+      "text": "The Nintendo Switch [ n ] is a video game console developed by Nintendo and released worldwide in most regions on March 3, 2017. Released in the middle of the eighth generation of home consoles , the Switch succeeded the Wii U and competed with Sony 's PlayStation 4 and Microsoft 's Xbox One ; it also competes with the ninth-generation consoles , the PlayStation 5 and Xbox Series X/S ."
+    },
+    {
+      "tag": 2,
+      "type": "T",
+      "role": "context",
+      "caption": false,
+      "text": "The Switch is a tablet that can either be docked for home console use or used as a portable device , making it a hybrid console . Its wireless Joy-Con controllers function as two halves of a standard controller and alternatively as individual controllers, featuring buttons, directional analog sticks for user input, motion sensing, and tactile feedback. A pair can attach to the sides of the console for handheld play, "
+    },
+    {
+      "tag": 3,
+      "type": "I",
+      "role": "image",
+      "caption": false,
+      "image": "image.jpg"
+    },
+    {
+      "tag": 4,
+      "type": "T",
+      "role": "caption",
+      "caption": true,
+      "text": "Nintendo Switch image"
+    },
+    {
+      "tag": 5,
+      "type": "T",
+      "role": "adjacent",
+      "caption": false,
+      "text": "The Switch was unveiled on October 20, 2016; the concept came about following Nintendo's financial losses from poor Wii U sales and market competition from mobile games . Nintendo's then-president Satoru Iwata pushed the company towards mobile gaming and novel hardware. The Switch's design was aimed at a wide demographic of players through multiple modes of use. Nintendo preemptively sought the support of many third-"
+    },
+    {
+      "tag": 6,
+      "type": "T",
+      "role": "distractor",
+      "caption": false,
+      "text": "The Switch received positive reviews, with praise for its innovative concept, intuitive design, and software library, but criticism for certain hardware and controller issues. It became a major commercial success; with over 155 million units shipped worldwide as of December 2025 [ update ] , it is the second-best-selling console , behind the PlayStation 2 , and the best-selling Nintendo console . The Nintendo Switch "
+    }
+  ]
+}

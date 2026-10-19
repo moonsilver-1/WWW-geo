@@ -1,0 +1,187 @@
+{
+  "id": "apple_ipad10",
+  "url": "https://support.apple.com/en-us/111840",
+  "publisher": "Apple",
+  "question": "Which chip powers the tenth-generation iPad?",
+  "statement": "The tenth-generation iPad uses the A14 Bionic chip.",
+  "answer": "A14 Bionic",
+  "source_anchor": "A14 Bionic chip",
+  "units": [
+    {
+      "tag": 1,
+      "type": "T",
+      "role": "context",
+      "caption": false,
+      "text": "◆ Pair and charge Apple Pencil (1st generation) using USB‑C to Apple Pencil Adapter.",
+      "source_offset": [
+        1257,
+        1341
+      ],
+      "original_tag": 4,
+      "lexical_answer_match": false
+    },
+    {
+      "tag": 2,
+      "type": "T",
+      "role": "source_heading",
+      "caption": false,
+      "text": "iPad (10th generation) - Tech Specs",
+      "source_offset": [
+        0,
+        35
+      ],
+      "original_tag": 6,
+      "lexical_answer_match": false
+    },
+    {
+      "tag": 3,
+      "type": "T",
+      "role": "fact",
+      "caption": false,
+      "text": "A14 Bionic chip",
+      "source_offset": [
+        1347,
+        1362
+      ],
+      "original_tag": 1,
+      "lexical_answer_match": true
+    },
+    {
+      "tag": 4,
+      "type": "I",
+      "role": "image",
+      "caption": false,
+      "image": "image.png",
+      "original_tag": 5,
+      "lexical_answer_match": false
+    },
+    {
+      "tag": 5,
+      "type": "T",
+      "role": "context",
+      "caption": false,
+      "text": "Supports Apple Pencil (USB-C) , Apple Pencil (1st generation) ◆",
+      "source_offset": [
+        1056,
+        1119
+      ],
+      "original_tag": 2,
+      "lexical_answer_match": false
+    },
+    {
+      "tag": 6,
+      "type": "T",
+      "role": "context",
+      "caption": false,
+      "text": "The iPad display has rounded corners. When measured diagonally as a rectangle, the screen is 10.86 inches. Actual viewable area is less.",
+      "source_offset": [
+        1120,
+        1256
+      ],
+      "original_tag": 3,
+      "lexical_answer_match": false
+    }
+  ],
+  "image_url": "https://cdsassets.apple.com/live/SZLF0YNV/images/sp/111840_sp884-ipad-10gen-960.png",
+  "image_alt": "No alt supplied for Image",
+  "original_image_size": [
+    960,
+    791
+  ],
+  "source_html_sha256": "f5bd6bab14b5b04383c3107ec511ed63078357119fa3e87ee9fd58f2058934f8",
+  "image_original_sha256": "8459b2208cfb617f0e5f36fe64a25e0a6d6b9bd23daa0dce526901751c18653b",
+  "status": "frozen_before_inference",
+  "human_validation": null,
+  "source_record": "data/www_candidate_sources/apple_ipad10/f5bd6bab14b5b04383c3107ec511ed63078357119fa3e87ee9fd58f2058934f8.json",
+  "split": "transfer",
+  "permutation_seed": 20261013,
+  "original_tags_in_display_order": [
+    4,
+    6,
+    1,
+    5,
+    2,
+    3
+  ],
+  "answer_alias_groups": [
+    [
+      "A14 Bionic"
+    ]
+  ],
+  "semantic_assessment": {
+    "id": "apple_ipad10",
+    "reviewer_type": "agent",
+    "human_validation": null,
+    "blocks_sha256": "b412a999dfbcca40dcae6b7aa2740ce56b3d18c38457687cd2e270d9dc1634c1",
+    "text_units": [
+      {
+        "tag": 3,
+        "assessment": "supports_statement_in_page_context",
+        "evidence_quote": "A14 Bionic chip",
+        "source_offset": [
+          1347,
+          1362
+        ],
+        "note": "Assessment uses the page entity and the exact target question; lexical answer occurrence alone is not entailment.",
+        "original_tag": 1
+      },
+      {
+        "tag": 5,
+        "assessment": "related_context_without_full_explicit_answer",
+        "evidence_quote": "Supports Apple Pencil (USB-C) , Apple Pencil (1st generation) ◆",
+        "source_offset": [
+          1056,
+          1119
+        ],
+        "note": "Assessment uses the page entity and the exact target question; lexical answer occurrence alone is not entailment.",
+        "original_tag": 2
+      },
+      {
+        "tag": 6,
+        "assessment": "related_context_without_full_explicit_answer",
+        "evidence_quote": "The iPad display has rounded corners. When measured diagonally as a rectangle, the screen is 10.86 inches. Actual viewable area is less.",
+        "source_offset": [
+          1120,
+          1256
+        ],
+        "note": "Assessment uses the page entity and the exact target question; lexical answer occurrence alone is not entailment.",
+        "original_tag": 3
+      },
+      {
+        "tag": 1,
+        "assessment": "related_context_without_full_explicit_answer",
+        "evidence_quote": "◆ Pair and charge Apple Pencil (1st generation) using USB‑C to Apple Pencil Adapter.",
+        "source_offset": [
+          1257,
+          1341
+        ],
+        "note": "Assessment uses the page entity and the exact target question; lexical answer occurrence alone is not entailment.",
+        "original_tag": 4
+      },
+      {
+        "tag": 2,
+        "assessment": "source_page_entity_metadata",
+        "evidence_quote": "iPad (10th generation) - Tech Specs",
+        "source_offset": [
+          0,
+          35
+        ],
+        "note": "Assessment uses the page entity and the exact target question; lexical answer occurrence alone is not entailment.",
+        "original_tag": 6
+      }
+    ],
+    "image": {
+      "file": "image.png",
+      "sha256": "afe54892aae98e70bb2e454e82042aa62f52928797e9770e10b6067ec17b8232",
+      "visually_inspected": true,
+      "artifact_status": "readable_article_image",
+      "assessment": "related_visual_context_not_standalone_full_answer",
+      "visible_evidence": "Product photograph matches the page product type; internal chip specification or total microphone count is not visibly established.",
+      "tag": 4
+    }
+  },
+  "original_cohort_same_entity": [
+    "rw_ipad10"
+  ],
+  "original_cohort_related_topic": []
+}

@@ -1,0 +1,525 @@
+{
+  "purpose": "Paired visual-neutralization robustness control; radius24 versus archived radius12",
+  "created": "2026-10-12",
+  "deadline_cst": "2026-10-13 09:28",
+  "tasks": [
+    {
+      "task_id": "smol_blur24_g0",
+      "model": "smolvlm2_22b",
+      "pages": [
+        "rw_jwst",
+        "rw_kepler",
+        "rw_vitamind"
+      ],
+      "neutral_radius": 24,
+      "preferred_gpu": 0,
+      "min_free_gib": 11
+    },
+    {
+      "task_id": "smol_blur24_g1",
+      "model": "smolvlm2_22b",
+      "pages": [
+        "rw_hubble",
+        "rw_iss",
+        "rw_aspirin"
+      ],
+      "neutral_radius": 24,
+      "preferred_gpu": 1,
+      "min_free_gib": 11
+    },
+    {
+      "task_id": "smol_blur24_g2",
+      "model": "smolvlm2_22b",
+      "pages": [
+        "rw_iphone15",
+        "rw_switch"
+      ],
+      "neutral_radius": 24,
+      "preferred_gpu": 2,
+      "min_free_gib": 11
+    },
+    {
+      "task_id": "smol_blur24_g3",
+      "model": "smolvlm2_22b",
+      "pages": [
+        "rw_ps5",
+        "rw_ipad10"
+      ],
+      "neutral_radius": 24,
+      "preferred_gpu": 3,
+      "min_free_gib": 11
+    },
+    {
+      "task_id": "smol_blur24_g4",
+      "model": "smolvlm2_22b",
+      "pages": [
+        "rw_mrna",
+        "rw_xboxseries"
+      ],
+      "neutral_radius": 24,
+      "preferred_gpu": 4,
+      "min_free_gib": 11
+    },
+    {
+      "task_id": "smol_blur24_g5",
+      "model": "smolvlm2_22b",
+      "pages": [
+        "rw_vitaminc",
+        "rw_model3"
+      ],
+      "neutral_radius": 24,
+      "preferred_gpu": 5,
+      "min_free_gib": 11
+    },
+    {
+      "task_id": "smol_blur24_g6",
+      "model": "smolvlm2_22b",
+      "pages": [
+        "rw_mars2020",
+        "rw_penicillin"
+      ],
+      "neutral_radius": 24,
+      "preferred_gpu": 6,
+      "min_free_gib": 11
+    },
+    {
+      "task_id": "smol_blur24_g7",
+      "model": "smolvlm2_22b",
+      "pages": [
+        "rw_voyager1",
+        "rw_insulin"
+      ],
+      "neutral_radius": 24,
+      "preferred_gpu": 7,
+      "min_free_gib": 11
+    },
+    {
+      "task_id": "qwen3vl8b_perm_g0",
+      "model": "qwen3vl8b",
+      "pages": [
+        "rw_jwst",
+        "rw_kepler",
+        "rw_vitamind"
+      ],
+      "neutral_radius": 12,
+      "preferred_gpu": 0,
+      "min_free_gib": 30,
+      "permutation_seed": 20261013
+    },
+    {
+      "task_id": "qwen3vl8b_perm_g1",
+      "model": "qwen3vl8b",
+      "pages": [
+        "rw_hubble",
+        "rw_iss",
+        "rw_aspirin"
+      ],
+      "neutral_radius": 12,
+      "preferred_gpu": 1,
+      "min_free_gib": 30,
+      "permutation_seed": 20261013
+    },
+    {
+      "task_id": "qwen3vl8b_perm_g2",
+      "model": "qwen3vl8b",
+      "pages": [
+        "rw_iphone15",
+        "rw_switch"
+      ],
+      "neutral_radius": 12,
+      "preferred_gpu": 2,
+      "min_free_gib": 30,
+      "permutation_seed": 20261013
+    },
+    {
+      "task_id": "qwen3vl8b_perm_g3",
+      "model": "qwen3vl8b",
+      "pages": [
+        "rw_ps5",
+        "rw_ipad10"
+      ],
+      "neutral_radius": 12,
+      "preferred_gpu": 3,
+      "min_free_gib": 30,
+      "permutation_seed": 20261013
+    },
+    {
+      "task_id": "qwen3vl8b_perm_g4",
+      "model": "qwen3vl8b",
+      "pages": [
+        "rw_mrna",
+        "rw_xboxseries"
+      ],
+      "neutral_radius": 12,
+      "preferred_gpu": 4,
+      "min_free_gib": 30,
+      "permutation_seed": 20261013
+    },
+    {
+      "task_id": "qwen3vl8b_perm_g5",
+      "model": "qwen3vl8b",
+      "pages": [
+        "rw_vitaminc",
+        "rw_model3"
+      ],
+      "neutral_radius": 12,
+      "preferred_gpu": 5,
+      "min_free_gib": 30,
+      "permutation_seed": 20261013
+    },
+    {
+      "task_id": "qwen3vl8b_perm_g6",
+      "model": "qwen3vl8b",
+      "pages": [
+        "rw_mars2020",
+        "rw_penicillin"
+      ],
+      "neutral_radius": 12,
+      "preferred_gpu": 6,
+      "min_free_gib": 30,
+      "permutation_seed": 20261013
+    },
+    {
+      "task_id": "qwen3vl8b_perm_g7",
+      "model": "qwen3vl8b",
+      "pages": [
+        "rw_voyager1",
+        "rw_insulin"
+      ],
+      "neutral_radius": 12,
+      "preferred_gpu": 7,
+      "min_free_gib": 30,
+      "permutation_seed": 20261013
+    },
+    {
+      "task_id": "smolvlm2_22b_perm_g0",
+      "model": "smolvlm2_22b",
+      "pages": [
+        "rw_jwst",
+        "rw_kepler",
+        "rw_vitamind"
+      ],
+      "neutral_radius": 12,
+      "preferred_gpu": 0,
+      "min_free_gib": 11,
+      "permutation_seed": 20261013
+    },
+    {
+      "task_id": "smolvlm2_22b_perm_g1",
+      "model": "smolvlm2_22b",
+      "pages": [
+        "rw_hubble",
+        "rw_iss",
+        "rw_aspirin"
+      ],
+      "neutral_radius": 12,
+      "preferred_gpu": 1,
+      "min_free_gib": 11,
+      "permutation_seed": 20261013
+    },
+    {
+      "task_id": "smolvlm2_22b_perm_g2",
+      "model": "smolvlm2_22b",
+      "pages": [
+        "rw_iphone15",
+        "rw_switch"
+      ],
+      "neutral_radius": 12,
+      "preferred_gpu": 2,
+      "min_free_gib": 11,
+      "permutation_seed": 20261013
+    },
+    {
+      "task_id": "smolvlm2_22b_perm_g3",
+      "model": "smolvlm2_22b",
+      "pages": [
+        "rw_ps5",
+        "rw_ipad10"
+      ],
+      "neutral_radius": 12,
+      "preferred_gpu": 3,
+      "min_free_gib": 11,
+      "permutation_seed": 20261013
+    },
+    {
+      "task_id": "smolvlm2_22b_perm_g4",
+      "model": "smolvlm2_22b",
+      "pages": [
+        "rw_mrna",
+        "rw_xboxseries"
+      ],
+      "neutral_radius": 12,
+      "preferred_gpu": 4,
+      "min_free_gib": 11,
+      "permutation_seed": 20261013
+    },
+    {
+      "task_id": "smolvlm2_22b_perm_g5",
+      "model": "smolvlm2_22b",
+      "pages": [
+        "rw_vitaminc",
+        "rw_model3"
+      ],
+      "neutral_radius": 12,
+      "preferred_gpu": 5,
+      "min_free_gib": 11,
+      "permutation_seed": 20261013
+    },
+    {
+      "task_id": "smolvlm2_22b_perm_g6",
+      "model": "smolvlm2_22b",
+      "pages": [
+        "rw_mars2020",
+        "rw_penicillin"
+      ],
+      "neutral_radius": 12,
+      "preferred_gpu": 6,
+      "min_free_gib": 11,
+      "permutation_seed": 20261013
+    },
+    {
+      "task_id": "smolvlm2_22b_perm_g7",
+      "model": "smolvlm2_22b",
+      "pages": [
+        "rw_voyager1",
+        "rw_insulin"
+      ],
+      "neutral_radius": 12,
+      "preferred_gpu": 7,
+      "min_free_gib": 11,
+      "permutation_seed": 20261013
+    },
+    {
+      "task_id": "multisite_qwen3vl8b_g0",
+      "model": "qwen3vl8b",
+      "pages": [
+        "apple_airpods_max1",
+        "nasa_cassini",
+        "nih_celiac"
+      ],
+      "neutral_radius": 12,
+      "preferred_gpu": 0,
+      "min_free_gib": 30,
+      "allow_shard": true,
+      "cohort_manifest": "data/www_multisite_v1/manifest.json"
+    },
+    {
+      "task_id": "multisite_qwen3vl8b_g1",
+      "model": "qwen3vl8b",
+      "pages": [
+        "apple_airpods_pro2",
+        "nasa_curiosity",
+        "nih_constipation"
+      ],
+      "neutral_radius": 12,
+      "preferred_gpu": 1,
+      "min_free_gib": 30,
+      "allow_shard": true,
+      "cohort_manifest": "data/www_multisite_v1/manifest.json"
+    },
+    {
+      "task_id": "multisite_qwen3vl8b_g2",
+      "model": "qwen3vl8b",
+      "pages": [
+        "apple_ipad10",
+        "nasa_europa_clipper",
+        "nih_diabetes_overview"
+      ],
+      "neutral_radius": 12,
+      "preferred_gpu": 2,
+      "min_free_gib": 30,
+      "allow_shard": true,
+      "cohort_manifest": "data/www_multisite_v1/manifest.json"
+    },
+    {
+      "task_id": "multisite_qwen3vl8b_g3",
+      "model": "qwen3vl8b",
+      "pages": [
+        "apple_iphone14",
+        "nasa_juno",
+        "nih_gallstones"
+      ],
+      "neutral_radius": 12,
+      "preferred_gpu": 3,
+      "min_free_gib": 30,
+      "allow_shard": true,
+      "cohort_manifest": "data/www_multisite_v1/manifest.json"
+    },
+    {
+      "task_id": "multisite_qwen3vl8b_g4",
+      "model": "qwen3vl8b",
+      "pages": [
+        "apple_iphone15",
+        "nasa_new_horizons",
+        "nih_gerd"
+      ],
+      "neutral_radius": 12,
+      "preferred_gpu": 4,
+      "min_free_gib": 30,
+      "allow_shard": true,
+      "cohort_manifest": "data/www_multisite_v1/manifest.json"
+    },
+    {
+      "task_id": "multisite_qwen3vl8b_g5",
+      "model": "qwen3vl8b",
+      "pages": [
+        "apple_iphone16",
+        "nasa_perseverance",
+        "nih_kidney_nephrons"
+      ],
+      "neutral_radius": 12,
+      "preferred_gpu": 5,
+      "min_free_gib": 30,
+      "allow_shard": true,
+      "cohort_manifest": "data/www_multisite_v1/manifest.json"
+    },
+    {
+      "task_id": "multisite_qwen3vl8b_g6",
+      "model": "qwen3vl8b",
+      "pages": [
+        "apple_macbookair_m2",
+        "nasa_psyche",
+        "nih_lactose"
+      ],
+      "neutral_radius": 12,
+      "preferred_gpu": 6,
+      "min_free_gib": 30,
+      "allow_shard": true,
+      "cohort_manifest": "data/www_multisite_v1/manifest.json"
+    },
+    {
+      "task_id": "multisite_qwen3vl8b_g7",
+      "model": "qwen3vl8b",
+      "pages": [
+        "apple_watch9",
+        "nasa_webb_mirrors",
+        "nih_peptic_ulcers"
+      ],
+      "neutral_radius": 12,
+      "preferred_gpu": 7,
+      "min_free_gib": 30,
+      "allow_shard": true,
+      "cohort_manifest": "data/www_multisite_v1/manifest.json"
+    },
+    {
+      "task_id": "multisite_smolvlm2_22b_g0",
+      "model": "smolvlm2_22b",
+      "pages": [
+        "apple_airpods_max1",
+        "nasa_cassini",
+        "nih_celiac"
+      ],
+      "neutral_radius": 12,
+      "preferred_gpu": 0,
+      "min_free_gib": 10.72,
+      "allow_shard": false,
+      "cohort_manifest": "data/www_multisite_v1/manifest.json",
+      "memory_basis": "Archived max reserved6756MiB +4096MiB reserve; frozen-cohort first73 states max5628MiB; allocator cap and OOM requeue remain active."
+    },
+    {
+      "task_id": "multisite_smolvlm2_22b_g1",
+      "model": "smolvlm2_22b",
+      "pages": [
+        "apple_airpods_pro2",
+        "nasa_curiosity",
+        "nih_constipation"
+      ],
+      "neutral_radius": 12,
+      "preferred_gpu": 1,
+      "min_free_gib": 10.72,
+      "allow_shard": false,
+      "cohort_manifest": "data/www_multisite_v1/manifest.json",
+      "memory_basis": "Archived max reserved6756MiB +4096MiB reserve; frozen-cohort first73 states max5628MiB; allocator cap and OOM requeue remain active."
+    },
+    {
+      "task_id": "multisite_smolvlm2_22b_g2",
+      "model": "smolvlm2_22b",
+      "pages": [
+        "apple_ipad10",
+        "nasa_europa_clipper",
+        "nih_diabetes_overview"
+      ],
+      "neutral_radius": 12,
+      "preferred_gpu": 2,
+      "min_free_gib": 10.72,
+      "allow_shard": false,
+      "cohort_manifest": "data/www_multisite_v1/manifest.json",
+      "memory_basis": "Archived max reserved6756MiB +4096MiB reserve; frozen-cohort first73 states max5628MiB; allocator cap and OOM requeue remain active."
+    },
+    {
+      "task_id": "multisite_smolvlm2_22b_g3",
+      "model": "smolvlm2_22b",
+      "pages": [
+        "apple_iphone14",
+        "nasa_juno",
+        "nih_gallstones"
+      ],
+      "neutral_radius": 12,
+      "preferred_gpu": 3,
+      "min_free_gib": 10.72,
+      "allow_shard": false,
+      "cohort_manifest": "data/www_multisite_v1/manifest.json",
+      "memory_basis": "Archived max reserved6756MiB +4096MiB reserve; frozen-cohort first73 states max5628MiB; allocator cap and OOM requeue remain active."
+    },
+    {
+      "task_id": "multisite_smolvlm2_22b_g4",
+      "model": "smolvlm2_22b",
+      "pages": [
+        "apple_iphone15",
+        "nasa_new_horizons",
+        "nih_gerd"
+      ],
+      "neutral_radius": 12,
+      "preferred_gpu": 4,
+      "min_free_gib": 10.72,
+      "allow_shard": false,
+      "cohort_manifest": "data/www_multisite_v1/manifest.json",
+      "memory_basis": "Archived max reserved6756MiB +4096MiB reserve; frozen-cohort first73 states max5628MiB; allocator cap and OOM requeue remain active."
+    },
+    {
+      "task_id": "multisite_smolvlm2_22b_g5",
+      "model": "smolvlm2_22b",
+      "pages": [
+        "apple_iphone16",
+        "nasa_perseverance",
+        "nih_kidney_nephrons"
+      ],
+      "neutral_radius": 12,
+      "preferred_gpu": 5,
+      "min_free_gib": 10.72,
+      "allow_shard": false,
+      "cohort_manifest": "data/www_multisite_v1/manifest.json",
+      "memory_basis": "Archived max reserved6756MiB +4096MiB reserve; frozen-cohort first73 states max5628MiB; allocator cap and OOM requeue remain active."
+    },
+    {
+      "task_id": "multisite_smolvlm2_22b_g6",
+      "model": "smolvlm2_22b",
+      "pages": [
+        "apple_macbookair_m2",
+        "nasa_psyche",
+        "nih_lactose"
+      ],
+      "neutral_radius": 12,
+      "preferred_gpu": 6,
+      "min_free_gib": 10.72,
+      "allow_shard": false,
+      "cohort_manifest": "data/www_multisite_v1/manifest.json",
+      "memory_basis": "Archived max reserved6756MiB +4096MiB reserve; frozen-cohort first73 states max5628MiB; allocator cap and OOM requeue remain active."
+    },
+    {
+      "task_id": "multisite_smolvlm2_22b_g7",
+      "model": "smolvlm2_22b",
+      "pages": [
+        "apple_watch9",
+        "nasa_webb_mirrors",
+        "nih_peptic_ulcers"
+      ],
+      "neutral_radius": 12,
+      "preferred_gpu": 7,
+      "min_free_gib": 10.72,
+      "allow_shard": false,
+      "cohort_manifest": "data/www_multisite_v1/manifest.json",
+      "memory_basis": "Archived max reserved6756MiB +4096MiB reserve; frozen-cohort first73 states max5628MiB; allocator cap and OOM requeue remain active."
+    }
+  ]
+}

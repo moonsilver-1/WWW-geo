@@ -1,0 +1,2214 @@
+{
+  "jobs": {
+    "qwen3vl8b": {
+      "status": "complete",
+      "pid": 3812775,
+      "gpu": 0,
+      "gpu_uuid": "GPU-84122489-4201-55c9-df7f-31acea960606",
+      "command": "python -u run_web_eval.py --model qwen3vl8b --device cuda:0 --workers 4",
+      "gpu_policy": "shared",
+      "required_free_mib": 30720,
+      "prelaunch_free_mib": 37441,
+      "reserve_mib": 4096,
+      "attempts": 1,
+      "started_at_unix": 1791772491.6401172,
+      "exit_code": 0
+    },
+    "internvl35_8b": {
+      "status": "complete",
+      "pid": 3812786,
+      "gpu": 2,
+      "gpu_uuid": "GPU-ff4fe7b2-40cd-3393-b59a-9f7df9a491c5",
+      "command": "python -u run_web_eval.py --model internvl35_8b --device cuda:2 --workers 4",
+      "gpu_policy": "shared",
+      "required_free_mib": 30720,
+      "prelaunch_free_mib": 35155,
+      "reserve_mib": 4096,
+      "attempts": 1,
+      "started_at_unix": 1791772492.2119038,
+      "exit_code": 0
+    },
+    "smolvlm2_22b": {
+      "status": "complete",
+      "pid": 4018649,
+      "gpu": 2,
+      "gpu_uuid": "GPU-ff4fe7b2-40cd-3393-b59a-9f7df9a491c5",
+      "command": "python -u run_web_eval.py --model smolvlm2_22b --device cuda:2 --workers 4",
+      "gpu_policy": "shared",
+      "required_free_mib": 12288,
+      "prelaunch_free_mib": 36379,
+      "reserve_mib": 4096,
+      "attempts": 1,
+      "started_at_unix": 1791790971.7534945,
+      "exit_code": 0
+    },
+    "pixtral12b": {
+      "status": "complete",
+      "pid": 262911,
+      "gpu": 0,
+      "gpu_uuid": "GPU-84122489-4201-55c9-df7f-31acea960606",
+      "command": "python -u run_web_eval.py --model pixtral12b --device cuda:0 --workers 4",
+      "gpu_policy": "shared",
+      "required_free_mib": 32768,
+      "prelaunch_free_mib": 33547,
+      "reserve_mib": 4096,
+      "attempts": 1,
+      "started_at_unix": 1791814468.0118346,
+      "exit_code": 0
+    },
+    "phi4vision15b": {
+      "status": "complete",
+      "pid": 414993,
+      "gpu": 2,
+      "gpu_uuid": "GPU-ff4fe7b2-40cd-3393-b59a-9f7df9a491c5",
+      "gpu_indices": [
+        2,
+        7
+      ],
+      "gpu_uuids": [
+        "GPU-ff4fe7b2-40cd-3393-b59a-9f7df9a491c5",
+        "GPU-2e814adc-efd4-4aef-8c5b-e05c7b744e93"
+      ],
+      "command": "python -u run_web_eval.py --model phi4vision15b --device cuda:2,cuda:7 --workers 4",
+      "model": "phi4vision15b",
+      "task": {
+        "task_id": "phi4vision15b",
+        "model": "phi4vision15b",
+        "allow_shard": true
+      },
+      "gpu_policy": "shared",
+      "required_free_mib": 36864,
+      "prelaunch_free_mib": 21949,
+      "prelaunch_gpus": [
+        {
+          "index": 2,
+          "uuid": "GPU-ff4fe7b2-40cd-3393-b59a-9f7df9a491c5",
+          "memory_mib": 26594,
+          "free_mib": 21949,
+          "total_mib": 49140,
+          "utilization": 100,
+          "process_pids": [
+            2888501,
+            3790579,
+            4072957,
+            91651,
+            249880
+          ]
+        },
+        {
+          "index": 7,
+          "uuid": "GPU-2e814adc-efd4-4aef-8c5b-e05c7b744e93",
+          "memory_mib": 28038,
+          "free_mib": 20505,
+          "total_mib": 49140,
+          "utilization": 100,
+          "process_pids": [
+            2397543,
+            91656
+          ]
+        }
+      ],
+      "max_memory_mib": {
+        "0": 14269,
+        "1": 14873
+      },
+      "reserve_mib": 4096,
+      "attempts": 1,
+      "started_at_unix": 1791821924.641579,
+      "exit_code": 0
+    },
+    "smol_blur24_g0": {
+      "status": "complete",
+      "pid": 402758,
+      "gpu": 2,
+      "gpu_uuid": "GPU-ff4fe7b2-40cd-3393-b59a-9f7df9a491c5",
+      "gpu_indices": [
+        2
+      ],
+      "gpu_uuids": [
+        "GPU-ff4fe7b2-40cd-3393-b59a-9f7df9a491c5"
+      ],
+      "command": "python -u run_web_eval.py --model smolvlm2_22b --device cuda:2 --workers 4 --task-id smol_blur24_g0 --pages rw_jwst,rw_kepler,rw_vitamind --neutral-radius 24",
+      "model": "smolvlm2_22b",
+      "task": {
+        "task_id": "smol_blur24_g0",
+        "model": "smolvlm2_22b",
+        "pages": [
+          "rw_jwst",
+          "rw_kepler",
+          "rw_vitamind"
+        ],
+        "neutral_radius": 24,
+        "preferred_gpu": 0,
+        "min_free_gib": 11
+      },
+      "gpu_policy": "shared",
+      "required_free_mib": 11264,
+      "prelaunch_free_mib": 21949,
+      "prelaunch_gpus": [
+        {
+          "index": 2,
+          "uuid": "GPU-ff4fe7b2-40cd-3393-b59a-9f7df9a491c5",
+          "memory_mib": 26594,
+          "free_mib": 21949,
+          "total_mib": 49140,
+          "utilization": 100,
+          "process_pids": [
+            2888501,
+            3790579,
+            4072957,
+            91651,
+            249880
+          ]
+        }
+      ],
+      "max_memory_mib": {},
+      "reserve_mib": 4096,
+      "attempts": 1,
+      "started_at_unix": 1791820441.062162,
+      "exit_code": 0
+    },
+    "smol_blur24_g1": {
+      "status": "complete",
+      "pid": 402768,
+      "gpu": 7,
+      "gpu_uuid": "GPU-2e814adc-efd4-4aef-8c5b-e05c7b744e93",
+      "gpu_indices": [
+        7
+      ],
+      "gpu_uuids": [
+        "GPU-2e814adc-efd4-4aef-8c5b-e05c7b744e93"
+      ],
+      "command": "python -u run_web_eval.py --model smolvlm2_22b --device cuda:7 --workers 4 --task-id smol_blur24_g1 --pages rw_hubble,rw_iss,rw_aspirin --neutral-radius 24",
+      "model": "smolvlm2_22b",
+      "task": {
+        "task_id": "smol_blur24_g1",
+        "model": "smolvlm2_22b",
+        "pages": [
+          "rw_hubble",
+          "rw_iss",
+          "rw_aspirin"
+        ],
+        "neutral_radius": 24,
+        "preferred_gpu": 1,
+        "min_free_gib": 11
+      },
+      "gpu_policy": "shared",
+      "required_free_mib": 11264,
+      "prelaunch_free_mib": 20505,
+      "prelaunch_gpus": [
+        {
+          "index": 7,
+          "uuid": "GPU-2e814adc-efd4-4aef-8c5b-e05c7b744e93",
+          "memory_mib": 28038,
+          "free_mib": 20505,
+          "total_mib": 49140,
+          "utilization": 100,
+          "process_pids": [
+            2397543,
+            91656
+          ]
+        }
+      ],
+      "max_memory_mib": {},
+      "reserve_mib": 4096,
+      "attempts": 1,
+      "started_at_unix": 1791820441.7039633,
+      "exit_code": 0
+    },
+    "smol_blur24_g2": {
+      "status": "complete",
+      "pid": 402842,
+      "gpu": 6,
+      "gpu_uuid": "GPU-5bd22816-b361-7ec8-08e3-3a654662d80c",
+      "gpu_indices": [
+        6
+      ],
+      "gpu_uuids": [
+        "GPU-5bd22816-b361-7ec8-08e3-3a654662d80c"
+      ],
+      "command": "python -u run_web_eval.py --model smolvlm2_22b --device cuda:6 --workers 4 --task-id smol_blur24_g2 --pages rw_iphone15,rw_switch --neutral-radius 24",
+      "model": "smolvlm2_22b",
+      "task": {
+        "task_id": "smol_blur24_g2",
+        "model": "smolvlm2_22b",
+        "pages": [
+          "rw_iphone15",
+          "rw_switch"
+        ],
+        "neutral_radius": 24,
+        "preferred_gpu": 2,
+        "min_free_gib": 11
+      },
+      "gpu_policy": "shared",
+      "required_free_mib": 11264,
+      "prelaunch_free_mib": 16361,
+      "prelaunch_gpus": [
+        {
+          "index": 6,
+          "uuid": "GPU-5bd22816-b361-7ec8-08e3-3a654662d80c",
+          "memory_mib": 32182,
+          "free_mib": 16361,
+          "total_mib": 49140,
+          "utilization": 100,
+          "process_pids": [
+            3416897,
+            3937623
+          ]
+        }
+      ],
+      "max_memory_mib": {},
+      "reserve_mib": 4096,
+      "attempts": 1,
+      "started_at_unix": 1791820442.4078364,
+      "exit_code": 0
+    },
+    "smol_blur24_g3": {
+      "status": "complete",
+      "pid": 402875,
+      "gpu": 5,
+      "gpu_uuid": "GPU-83c54b4b-b547-5419-bb5d-3c7d62565642",
+      "gpu_indices": [
+        5
+      ],
+      "gpu_uuids": [
+        "GPU-83c54b4b-b547-5419-bb5d-3c7d62565642"
+      ],
+      "command": "python -u run_web_eval.py --model smolvlm2_22b --device cuda:5 --workers 4 --task-id smol_blur24_g3 --pages rw_ps5,rw_ipad10 --neutral-radius 24",
+      "model": "smolvlm2_22b",
+      "task": {
+        "task_id": "smol_blur24_g3",
+        "model": "smolvlm2_22b",
+        "pages": [
+          "rw_ps5",
+          "rw_ipad10"
+        ],
+        "neutral_radius": 24,
+        "preferred_gpu": 3,
+        "min_free_gib": 11
+      },
+      "gpu_policy": "shared",
+      "required_free_mib": 11264,
+      "prelaunch_free_mib": 11282,
+      "prelaunch_gpus": [
+        {
+          "index": 5,
+          "uuid": "GPU-83c54b4b-b547-5419-bb5d-3c7d62565642",
+          "memory_mib": 37261,
+          "free_mib": 11282,
+          "total_mib": 49140,
+          "utilization": 93,
+          "process_pids": [
+            3225392
+          ]
+        }
+      ],
+      "max_memory_mib": {},
+      "reserve_mib": 4096,
+      "attempts": 1,
+      "started_at_unix": 1791820443.1421204,
+      "exit_code": 0
+    },
+    "smol_blur24_g4": {
+      "status": "complete",
+      "pid": 405387,
+      "gpu": 6,
+      "gpu_uuid": "GPU-5bd22816-b361-7ec8-08e3-3a654662d80c",
+      "gpu_indices": [
+        6
+      ],
+      "gpu_uuids": [
+        "GPU-5bd22816-b361-7ec8-08e3-3a654662d80c"
+      ],
+      "command": "python -u run_web_eval.py --model smolvlm2_22b --device cuda:6 --workers 4 --task-id smol_blur24_g4 --pages rw_mrna,rw_xboxseries --neutral-radius 24",
+      "model": "smolvlm2_22b",
+      "task": {
+        "task_id": "smol_blur24_g4",
+        "model": "smolvlm2_22b",
+        "pages": [
+          "rw_mrna",
+          "rw_xboxseries"
+        ],
+        "neutral_radius": 24,
+        "preferred_gpu": 4,
+        "min_free_gib": 11
+      },
+      "gpu_policy": "shared",
+      "required_free_mib": 11264,
+      "prelaunch_free_mib": 16361,
+      "prelaunch_gpus": [
+        {
+          "index": 6,
+          "uuid": "GPU-5bd22816-b361-7ec8-08e3-3a654662d80c",
+          "memory_mib": 32182,
+          "free_mib": 16361,
+          "total_mib": 49140,
+          "utilization": 96,
+          "process_pids": [
+            3416897,
+            3937623
+          ]
+        }
+      ],
+      "max_memory_mib": {},
+      "reserve_mib": 4096,
+      "attempts": 1,
+      "started_at_unix": 1791820877.6143944,
+      "exit_code": 0
+    },
+    "smol_blur24_g5": {
+      "status": "complete",
+      "pid": 406913,
+      "gpu": 7,
+      "gpu_uuid": "GPU-2e814adc-efd4-4aef-8c5b-e05c7b744e93",
+      "gpu_indices": [
+        7
+      ],
+      "gpu_uuids": [
+        "GPU-2e814adc-efd4-4aef-8c5b-e05c7b744e93"
+      ],
+      "command": "python -u run_web_eval.py --model smolvlm2_22b --device cuda:7 --workers 4 --task-id smol_blur24_g5 --pages rw_vitaminc,rw_model3 --neutral-radius 24",
+      "model": "smolvlm2_22b",
+      "task": {
+        "task_id": "smol_blur24_g5",
+        "model": "smolvlm2_22b",
+        "pages": [
+          "rw_vitaminc",
+          "rw_model3"
+        ],
+        "neutral_radius": 24,
+        "preferred_gpu": 5,
+        "min_free_gib": 11
+      },
+      "gpu_policy": "shared",
+      "required_free_mib": 11264,
+      "prelaunch_free_mib": 20505,
+      "prelaunch_gpus": [
+        {
+          "index": 7,
+          "uuid": "GPU-2e814adc-efd4-4aef-8c5b-e05c7b744e93",
+          "memory_mib": 28038,
+          "free_mib": 20505,
+          "total_mib": 49140,
+          "utilization": 0,
+          "process_pids": [
+            2397543,
+            91656
+          ]
+        }
+      ],
+      "max_memory_mib": {},
+      "reserve_mib": 4096,
+      "attempts": 1,
+      "started_at_unix": 1791821137.3767424,
+      "exit_code": 0
+    },
+    "smol_blur24_g6": {
+      "status": "complete",
+      "pid": 407185,
+      "gpu": 5,
+      "gpu_uuid": "GPU-83c54b4b-b547-5419-bb5d-3c7d62565642",
+      "gpu_indices": [
+        5
+      ],
+      "gpu_uuids": [
+        "GPU-83c54b4b-b547-5419-bb5d-3c7d62565642"
+      ],
+      "command": "python -u run_web_eval.py --model smolvlm2_22b --device cuda:5 --workers 4 --task-id smol_blur24_g6 --pages rw_mars2020,rw_penicillin --neutral-radius 24",
+      "model": "smolvlm2_22b",
+      "task": {
+        "task_id": "smol_blur24_g6",
+        "model": "smolvlm2_22b",
+        "pages": [
+          "rw_mars2020",
+          "rw_penicillin"
+        ],
+        "neutral_radius": 24,
+        "preferred_gpu": 6,
+        "min_free_gib": 11
+      },
+      "gpu_policy": "shared",
+      "required_free_mib": 11264,
+      "prelaunch_free_mib": 11282,
+      "prelaunch_gpus": [
+        {
+          "index": 5,
+          "uuid": "GPU-83c54b4b-b547-5419-bb5d-3c7d62565642",
+          "memory_mib": 37261,
+          "free_mib": 11282,
+          "total_mib": 49140,
+          "utilization": 0,
+          "process_pids": [
+            3225392
+          ]
+        }
+      ],
+      "max_memory_mib": {},
+      "reserve_mib": 4096,
+      "attempts": 1,
+      "started_at_unix": 1791821210.310611,
+      "exit_code": 0
+    },
+    "smol_blur24_g7": {
+      "status": "complete",
+      "pid": 408752,
+      "gpu": 6,
+      "gpu_uuid": "GPU-5bd22816-b361-7ec8-08e3-3a654662d80c",
+      "gpu_indices": [
+        6
+      ],
+      "gpu_uuids": [
+        "GPU-5bd22816-b361-7ec8-08e3-3a654662d80c"
+      ],
+      "command": "python -u run_web_eval.py --model smolvlm2_22b --device cuda:6 --workers 4 --task-id smol_blur24_g7 --pages rw_voyager1,rw_insulin --neutral-radius 24",
+      "model": "smolvlm2_22b",
+      "task": {
+        "task_id": "smol_blur24_g7",
+        "model": "smolvlm2_22b",
+        "pages": [
+          "rw_voyager1",
+          "rw_insulin"
+        ],
+        "neutral_radius": 24,
+        "preferred_gpu": 7,
+        "min_free_gib": 11
+      },
+      "gpu_policy": "shared",
+      "required_free_mib": 11264,
+      "prelaunch_free_mib": 16361,
+      "prelaunch_gpus": [
+        {
+          "index": 6,
+          "uuid": "GPU-5bd22816-b361-7ec8-08e3-3a654662d80c",
+          "memory_mib": 32182,
+          "free_mib": 16361,
+          "total_mib": 49140,
+          "utilization": 100,
+          "process_pids": [
+            3416897,
+            3937623
+          ]
+        }
+      ],
+      "max_memory_mib": {},
+      "reserve_mib": 4096,
+      "attempts": 1,
+      "started_at_unix": 1791821375.8883057,
+      "exit_code": 0
+    },
+    "qwen3vl8b_perm_g0": {
+      "status": "complete",
+      "pid": 543014,
+      "gpu": 0,
+      "gpu_uuid": "GPU-84122489-4201-55c9-df7f-31acea960606",
+      "gpu_indices": [
+        0
+      ],
+      "gpu_uuids": [
+        "GPU-84122489-4201-55c9-df7f-31acea960606"
+      ],
+      "command": "python -u run_web_eval.py --model qwen3vl8b --device cuda:0 --workers 4 --task-id qwen3vl8b_perm_g0 --pages rw_jwst,rw_kepler,rw_vitamind --neutral-radius 12 --permutation-seed 20261013",
+      "model": "qwen3vl8b",
+      "task": {
+        "task_id": "qwen3vl8b_perm_g0",
+        "model": "qwen3vl8b",
+        "pages": [
+          "rw_jwst",
+          "rw_kepler",
+          "rw_vitamind"
+        ],
+        "neutral_radius": 12,
+        "preferred_gpu": 0,
+        "min_free_gib": 30,
+        "permutation_seed": 20261013
+      },
+      "gpu_policy": "shared",
+      "required_free_mib": 30720,
+      "prelaunch_free_mib": 42474,
+      "prelaunch_gpus": [
+        {
+          "index": 0,
+          "uuid": "GPU-84122489-4201-55c9-df7f-31acea960606",
+          "memory_mib": 6069,
+          "free_mib": 42474,
+          "total_mib": 49140,
+          "utilization": 96,
+          "process_pids": [
+            3937622
+          ]
+        }
+      ],
+      "max_memory_mib": {},
+      "reserve_mib": 4096,
+      "attempts": 1,
+      "started_at_unix": 1791846528.5256877,
+      "exit_code": 0
+    },
+    "smolvlm2_22b_perm_g0": {
+      "status": "complete",
+      "pid": 543070,
+      "gpu": 6,
+      "gpu_uuid": "GPU-5bd22816-b361-7ec8-08e3-3a654662d80c",
+      "gpu_indices": [
+        6
+      ],
+      "gpu_uuids": [
+        "GPU-5bd22816-b361-7ec8-08e3-3a654662d80c"
+      ],
+      "command": "python -u run_web_eval.py --model smolvlm2_22b --device cuda:6 --workers 4 --task-id smolvlm2_22b_perm_g0 --pages rw_jwst,rw_kepler,rw_vitamind --neutral-radius 12 --permutation-seed 20261013",
+      "model": "smolvlm2_22b",
+      "task": {
+        "task_id": "smolvlm2_22b_perm_g0",
+        "model": "smolvlm2_22b",
+        "pages": [
+          "rw_jwst",
+          "rw_kepler",
+          "rw_vitamind"
+        ],
+        "neutral_radius": 12,
+        "preferred_gpu": 0,
+        "min_free_gib": 11,
+        "permutation_seed": 20261013
+      },
+      "gpu_policy": "shared",
+      "required_free_mib": 11264,
+      "prelaunch_free_mib": 16359,
+      "prelaunch_gpus": [
+        {
+          "index": 6,
+          "uuid": "GPU-5bd22816-b361-7ec8-08e3-3a654662d80c",
+          "memory_mib": 32184,
+          "free_mib": 16359,
+          "total_mib": 49140,
+          "utilization": 100,
+          "process_pids": [
+            3416897,
+            3937623
+          ]
+        }
+      ],
+      "max_memory_mib": {},
+      "reserve_mib": 4096,
+      "attempts": 1,
+      "started_at_unix": 1791846529.1889412,
+      "exit_code": 0
+    },
+    "smolvlm2_22b_perm_g1": {
+      "status": "complete",
+      "pid": 543081,
+      "gpu": 5,
+      "gpu_uuid": "GPU-83c54b4b-b547-5419-bb5d-3c7d62565642",
+      "gpu_indices": [
+        5
+      ],
+      "gpu_uuids": [
+        "GPU-83c54b4b-b547-5419-bb5d-3c7d62565642"
+      ],
+      "command": "python -u run_web_eval.py --model smolvlm2_22b --device cuda:5 --workers 4 --task-id smolvlm2_22b_perm_g1 --pages rw_hubble,rw_iss,rw_aspirin --neutral-radius 12 --permutation-seed 20261013",
+      "model": "smolvlm2_22b",
+      "task": {
+        "task_id": "smolvlm2_22b_perm_g1",
+        "model": "smolvlm2_22b",
+        "pages": [
+          "rw_hubble",
+          "rw_iss",
+          "rw_aspirin"
+        ],
+        "neutral_radius": 12,
+        "preferred_gpu": 1,
+        "min_free_gib": 11,
+        "permutation_seed": 20261013
+      },
+      "gpu_policy": "shared",
+      "required_free_mib": 11264,
+      "prelaunch_free_mib": 11282,
+      "prelaunch_gpus": [
+        {
+          "index": 5,
+          "uuid": "GPU-83c54b4b-b547-5419-bb5d-3c7d62565642",
+          "memory_mib": 37261,
+          "free_mib": 11282,
+          "total_mib": 49140,
+          "utilization": 100,
+          "process_pids": [
+            3225392
+          ]
+        }
+      ],
+      "max_memory_mib": {},
+      "reserve_mib": 4096,
+      "attempts": 1,
+      "started_at_unix": 1791846529.8279822,
+      "exit_code": 0
+    },
+    "smolvlm2_22b_perm_g2": {
+      "status": "complete",
+      "pid": 546694,
+      "gpu": 5,
+      "gpu_uuid": "GPU-83c54b4b-b547-5419-bb5d-3c7d62565642",
+      "gpu_indices": [
+        5
+      ],
+      "gpu_uuids": [
+        "GPU-83c54b4b-b547-5419-bb5d-3c7d62565642"
+      ],
+      "command": "python -u run_web_eval.py --model smolvlm2_22b --device cuda:5 --workers 4 --task-id smolvlm2_22b_perm_g2 --pages rw_iphone15,rw_switch --neutral-radius 12 --permutation-seed 20261013",
+      "model": "smolvlm2_22b",
+      "task": {
+        "task_id": "smolvlm2_22b_perm_g2",
+        "model": "smolvlm2_22b",
+        "pages": [
+          "rw_iphone15",
+          "rw_switch"
+        ],
+        "neutral_radius": 12,
+        "preferred_gpu": 2,
+        "min_free_gib": 11,
+        "permutation_seed": 20261013
+      },
+      "gpu_policy": "shared",
+      "required_free_mib": 11264,
+      "prelaunch_free_mib": 11282,
+      "prelaunch_gpus": [
+        {
+          "index": 5,
+          "uuid": "GPU-83c54b4b-b547-5419-bb5d-3c7d62565642",
+          "memory_mib": 37261,
+          "free_mib": 11282,
+          "total_mib": 49140,
+          "utilization": 100,
+          "process_pids": [
+            3225392
+          ]
+        }
+      ],
+      "max_memory_mib": {},
+      "reserve_mib": 4096,
+      "attempts": 1,
+      "started_at_unix": 1791847272.9236593,
+      "exit_code": 0
+    },
+    "qwen3vl8b_perm_g1": {
+      "status": "complete",
+      "pid": 548880,
+      "gpu": 0,
+      "gpu_uuid": "GPU-84122489-4201-55c9-df7f-31acea960606",
+      "gpu_indices": [
+        0
+      ],
+      "gpu_uuids": [
+        "GPU-84122489-4201-55c9-df7f-31acea960606"
+      ],
+      "command": "python -u run_web_eval.py --model qwen3vl8b --device cuda:0 --workers 4 --task-id qwen3vl8b_perm_g1 --pages rw_hubble,rw_iss,rw_aspirin --neutral-radius 12 --permutation-seed 20261013",
+      "model": "qwen3vl8b",
+      "task": {
+        "task_id": "qwen3vl8b_perm_g1",
+        "model": "qwen3vl8b",
+        "pages": [
+          "rw_hubble",
+          "rw_iss",
+          "rw_aspirin"
+        ],
+        "neutral_radius": 12,
+        "preferred_gpu": 1,
+        "min_free_gib": 30,
+        "permutation_seed": 20261013
+      },
+      "gpu_policy": "shared",
+      "required_free_mib": 30720,
+      "prelaunch_free_mib": 42474,
+      "prelaunch_gpus": [
+        {
+          "index": 0,
+          "uuid": "GPU-84122489-4201-55c9-df7f-31acea960606",
+          "memory_mib": 6069,
+          "free_mib": 42474,
+          "total_mib": 49140,
+          "utilization": 100,
+          "process_pids": [
+            3937622
+          ]
+        }
+      ],
+      "max_memory_mib": {},
+      "reserve_mib": 4096,
+      "attempts": 1,
+      "started_at_unix": 1791847624.477947,
+      "exit_code": 0
+    },
+    "smolvlm2_22b_perm_g3": {
+      "status": "complete",
+      "pid": 549179,
+      "gpu": 5,
+      "gpu_uuid": "GPU-83c54b4b-b547-5419-bb5d-3c7d62565642",
+      "gpu_indices": [
+        5
+      ],
+      "gpu_uuids": [
+        "GPU-83c54b4b-b547-5419-bb5d-3c7d62565642"
+      ],
+      "command": "python -u run_web_eval.py --model smolvlm2_22b --device cuda:5 --workers 4 --task-id smolvlm2_22b_perm_g3 --pages rw_ps5,rw_ipad10 --neutral-radius 12 --permutation-seed 20261013",
+      "model": "smolvlm2_22b",
+      "task": {
+        "task_id": "smolvlm2_22b_perm_g3",
+        "model": "smolvlm2_22b",
+        "pages": [
+          "rw_ps5",
+          "rw_ipad10"
+        ],
+        "neutral_radius": 12,
+        "preferred_gpu": 3,
+        "min_free_gib": 11,
+        "permutation_seed": 20261013
+      },
+      "gpu_policy": "shared",
+      "required_free_mib": 11264,
+      "prelaunch_free_mib": 11282,
+      "prelaunch_gpus": [
+        {
+          "index": 5,
+          "uuid": "GPU-83c54b4b-b547-5419-bb5d-3c7d62565642",
+          "memory_mib": 37261,
+          "free_mib": 11282,
+          "total_mib": 49140,
+          "utilization": 100,
+          "process_pids": [
+            3225392
+          ]
+        }
+      ],
+      "max_memory_mib": {},
+      "reserve_mib": 4096,
+      "attempts": 1,
+      "started_at_unix": 1791847748.979143,
+      "exit_code": 0
+    },
+    "smolvlm2_22b_perm_g4": {
+      "status": "complete",
+      "pid": 550412,
+      "gpu": 6,
+      "gpu_uuid": "GPU-5bd22816-b361-7ec8-08e3-3a654662d80c",
+      "gpu_indices": [
+        6
+      ],
+      "gpu_uuids": [
+        "GPU-5bd22816-b361-7ec8-08e3-3a654662d80c"
+      ],
+      "command": "python -u run_web_eval.py --model smolvlm2_22b --device cuda:6 --workers 4 --task-id smolvlm2_22b_perm_g4 --pages rw_mrna,rw_xboxseries --neutral-radius 12 --permutation-seed 20261013",
+      "model": "smolvlm2_22b",
+      "task": {
+        "task_id": "smolvlm2_22b_perm_g4",
+        "model": "smolvlm2_22b",
+        "pages": [
+          "rw_mrna",
+          "rw_xboxseries"
+        ],
+        "neutral_radius": 12,
+        "preferred_gpu": 4,
+        "min_free_gib": 11,
+        "permutation_seed": 20261013
+      },
+      "gpu_policy": "shared",
+      "required_free_mib": 11264,
+      "prelaunch_free_mib": 16359,
+      "prelaunch_gpus": [
+        {
+          "index": 6,
+          "uuid": "GPU-5bd22816-b361-7ec8-08e3-3a654662d80c",
+          "memory_mib": 32184,
+          "free_mib": 16359,
+          "total_mib": 49140,
+          "utilization": 100,
+          "process_pids": [
+            3416897,
+            3937623
+          ]
+        }
+      ],
+      "max_memory_mib": {},
+      "reserve_mib": 4096,
+      "attempts": 1,
+      "started_at_unix": 1791848027.6295276,
+      "exit_code": 0
+    },
+    "smolvlm2_22b_perm_g5": {
+      "status": "complete",
+      "pid": 551375,
+      "gpu": 5,
+      "gpu_uuid": "GPU-83c54b4b-b547-5419-bb5d-3c7d62565642",
+      "gpu_indices": [
+        5
+      ],
+      "gpu_uuids": [
+        "GPU-83c54b4b-b547-5419-bb5d-3c7d62565642"
+      ],
+      "command": "python -u run_web_eval.py --model smolvlm2_22b --device cuda:5 --workers 4 --task-id smolvlm2_22b_perm_g5 --pages rw_vitaminc,rw_model3 --neutral-radius 12 --permutation-seed 20261013",
+      "model": "smolvlm2_22b",
+      "task": {
+        "task_id": "smolvlm2_22b_perm_g5",
+        "model": "smolvlm2_22b",
+        "pages": [
+          "rw_vitaminc",
+          "rw_model3"
+        ],
+        "neutral_radius": 12,
+        "preferred_gpu": 5,
+        "min_free_gib": 11,
+        "permutation_seed": 20261013
+      },
+      "gpu_policy": "shared",
+      "required_free_mib": 11264,
+      "prelaunch_free_mib": 11282,
+      "prelaunch_gpus": [
+        {
+          "index": 5,
+          "uuid": "GPU-83c54b4b-b547-5419-bb5d-3c7d62565642",
+          "memory_mib": 37261,
+          "free_mib": 11282,
+          "total_mib": 49140,
+          "utilization": 97,
+          "process_pids": [
+            3225392
+          ]
+        }
+      ],
+      "max_memory_mib": {},
+      "reserve_mib": 4096,
+      "attempts": 1,
+      "started_at_unix": 1791848234.7542717,
+      "exit_code": 0
+    },
+    "qwen3vl8b_perm_g2": {
+      "status": "complete",
+      "pid": 553051,
+      "gpu": 2,
+      "gpu_uuid": "GPU-ff4fe7b2-40cd-3393-b59a-9f7df9a491c5",
+      "gpu_indices": [
+        2
+      ],
+      "gpu_uuids": [
+        "GPU-ff4fe7b2-40cd-3393-b59a-9f7df9a491c5"
+      ],
+      "command": "python -u run_web_eval.py --model qwen3vl8b --device cuda:2 --workers 4 --task-id qwen3vl8b_perm_g2 --pages rw_iphone15,rw_switch --neutral-radius 12 --permutation-seed 20261013",
+      "model": "qwen3vl8b",
+      "task": {
+        "task_id": "qwen3vl8b_perm_g2",
+        "model": "qwen3vl8b",
+        "pages": [
+          "rw_iphone15",
+          "rw_switch"
+        ],
+        "neutral_radius": 12,
+        "preferred_gpu": 2,
+        "min_free_gib": 30,
+        "permutation_seed": 20261013
+      },
+      "gpu_policy": "shared",
+      "required_free_mib": 30720,
+      "prelaunch_free_mib": 30851,
+      "prelaunch_gpus": [
+        {
+          "index": 2,
+          "uuid": "GPU-ff4fe7b2-40cd-3393-b59a-9f7df9a491c5",
+          "memory_mib": 17691,
+          "free_mib": 30851,
+          "total_mib": 49140,
+          "utilization": 100,
+          "process_pids": [
+            2888501,
+            3790579,
+            249880
+          ]
+        }
+      ],
+      "max_memory_mib": {},
+      "reserve_mib": 4096,
+      "attempts": 1,
+      "started_at_unix": 1791848658.3909454,
+      "exit_code": 0
+    },
+    "smolvlm2_22b_perm_g6": {
+      "status": "complete",
+      "pid": 553061,
+      "gpu": 7,
+      "gpu_uuid": "GPU-2e814adc-efd4-4aef-8c5b-e05c7b744e93",
+      "gpu_indices": [
+        7
+      ],
+      "gpu_uuids": [
+        "GPU-2e814adc-efd4-4aef-8c5b-e05c7b744e93"
+      ],
+      "command": "python -u run_web_eval.py --model smolvlm2_22b --device cuda:7 --workers 4 --task-id smolvlm2_22b_perm_g6 --pages rw_mars2020,rw_penicillin --neutral-radius 12 --permutation-seed 20261013",
+      "model": "smolvlm2_22b",
+      "task": {
+        "task_id": "smolvlm2_22b_perm_g6",
+        "model": "smolvlm2_22b",
+        "pages": [
+          "rw_mars2020",
+          "rw_penicillin"
+        ],
+        "neutral_radius": 12,
+        "preferred_gpu": 6,
+        "min_free_gib": 11,
+        "permutation_seed": 20261013
+      },
+      "gpu_policy": "shared",
+      "required_free_mib": 11264,
+      "prelaunch_free_mib": 22266,
+      "prelaunch_gpus": [
+        {
+          "index": 7,
+          "uuid": "GPU-2e814adc-efd4-4aef-8c5b-e05c7b744e93",
+          "memory_mib": 26277,
+          "free_mib": 22266,
+          "total_mib": 49140,
+          "utilization": 100,
+          "process_pids": [
+            2397543
+          ]
+        }
+      ],
+      "max_memory_mib": {},
+      "reserve_mib": 4096,
+      "attempts": 1,
+      "started_at_unix": 1791848659.0761847,
+      "exit_code": 0
+    },
+    "smolvlm2_22b_perm_g7": {
+      "status": "complete",
+      "pid": 553238,
+      "gpu": 5,
+      "gpu_uuid": "GPU-83c54b4b-b547-5419-bb5d-3c7d62565642",
+      "gpu_indices": [
+        5
+      ],
+      "gpu_uuids": [
+        "GPU-83c54b4b-b547-5419-bb5d-3c7d62565642"
+      ],
+      "command": "python -u run_web_eval.py --model smolvlm2_22b --device cuda:5 --workers 4 --task-id smolvlm2_22b_perm_g7 --pages rw_voyager1,rw_insulin --neutral-radius 12 --permutation-seed 20261013",
+      "model": "smolvlm2_22b",
+      "task": {
+        "task_id": "smolvlm2_22b_perm_g7",
+        "model": "smolvlm2_22b",
+        "pages": [
+          "rw_voyager1",
+          "rw_insulin"
+        ],
+        "neutral_radius": 12,
+        "preferred_gpu": 7,
+        "min_free_gib": 11,
+        "permutation_seed": 20261013
+      },
+      "gpu_policy": "shared",
+      "required_free_mib": 11264,
+      "prelaunch_free_mib": 11282,
+      "prelaunch_gpus": [
+        {
+          "index": 5,
+          "uuid": "GPU-83c54b4b-b547-5419-bb5d-3c7d62565642",
+          "memory_mib": 37261,
+          "free_mib": 11282,
+          "total_mib": 49140,
+          "utilization": 98,
+          "process_pids": [
+            3225392
+          ]
+        }
+      ],
+      "max_memory_mib": {},
+      "reserve_mib": 4096,
+      "attempts": 1,
+      "started_at_unix": 1791848721.7356513,
+      "exit_code": 0
+    },
+    "qwen3vl8b_perm_g3": {
+      "status": "complete",
+      "pid": 553305,
+      "gpu": 0,
+      "gpu_uuid": "GPU-84122489-4201-55c9-df7f-31acea960606",
+      "gpu_indices": [
+        0
+      ],
+      "gpu_uuids": [
+        "GPU-84122489-4201-55c9-df7f-31acea960606"
+      ],
+      "command": "python -u run_web_eval.py --model qwen3vl8b --device cuda:0 --workers 4 --task-id qwen3vl8b_perm_g3 --pages rw_ps5,rw_ipad10 --neutral-radius 12 --permutation-seed 20261013",
+      "model": "qwen3vl8b",
+      "task": {
+        "task_id": "qwen3vl8b_perm_g3",
+        "model": "qwen3vl8b",
+        "pages": [
+          "rw_ps5",
+          "rw_ipad10"
+        ],
+        "neutral_radius": 12,
+        "preferred_gpu": 3,
+        "min_free_gib": 30,
+        "permutation_seed": 20261013
+      },
+      "gpu_policy": "shared",
+      "required_free_mib": 30720,
+      "prelaunch_free_mib": 42474,
+      "prelaunch_gpus": [
+        {
+          "index": 0,
+          "uuid": "GPU-84122489-4201-55c9-df7f-31acea960606",
+          "memory_mib": 6069,
+          "free_mib": 42474,
+          "total_mib": 49140,
+          "utilization": 100,
+          "process_pids": [
+            3937622
+          ]
+        }
+      ],
+      "max_memory_mib": {},
+      "reserve_mib": 4096,
+      "attempts": 1,
+      "started_at_unix": 1791848743.028219,
+      "exit_code": 0
+    },
+    "qwen3vl8b_perm_g4": {
+      "status": "complete",
+      "pid": 556672,
+      "gpu": 0,
+      "gpu_uuid": "GPU-84122489-4201-55c9-df7f-31acea960606",
+      "gpu_indices": [
+        0
+      ],
+      "gpu_uuids": [
+        "GPU-84122489-4201-55c9-df7f-31acea960606"
+      ],
+      "command": "python -u run_web_eval.py --model qwen3vl8b --device cuda:0 --workers 4 --task-id qwen3vl8b_perm_g4 --pages rw_mrna,rw_xboxseries --neutral-radius 12 --permutation-seed 20261013",
+      "model": "qwen3vl8b",
+      "task": {
+        "task_id": "qwen3vl8b_perm_g4",
+        "model": "qwen3vl8b",
+        "pages": [
+          "rw_mrna",
+          "rw_xboxseries"
+        ],
+        "neutral_radius": 12,
+        "preferred_gpu": 4,
+        "min_free_gib": 30,
+        "permutation_seed": 20261013
+      },
+      "gpu_policy": "shared",
+      "required_free_mib": 30720,
+      "prelaunch_free_mib": 42474,
+      "prelaunch_gpus": [
+        {
+          "index": 0,
+          "uuid": "GPU-84122489-4201-55c9-df7f-31acea960606",
+          "memory_mib": 6069,
+          "free_mib": 42474,
+          "total_mib": 49140,
+          "utilization": 100,
+          "process_pids": [
+            3937622
+          ]
+        }
+      ],
+      "max_memory_mib": {},
+      "reserve_mib": 4096,
+      "attempts": 1,
+      "started_at_unix": 1791849465.3588405,
+      "exit_code": 0
+    },
+    "qwen3vl8b_perm_g5": {
+      "status": "complete",
+      "pid": 558874,
+      "gpu": 2,
+      "gpu_uuid": "GPU-ff4fe7b2-40cd-3393-b59a-9f7df9a491c5",
+      "gpu_indices": [
+        2
+      ],
+      "gpu_uuids": [
+        "GPU-ff4fe7b2-40cd-3393-b59a-9f7df9a491c5"
+      ],
+      "command": "python -u run_web_eval.py --model qwen3vl8b --device cuda:2 --workers 4 --task-id qwen3vl8b_perm_g5 --pages rw_vitaminc,rw_model3 --neutral-radius 12 --permutation-seed 20261013",
+      "model": "qwen3vl8b",
+      "task": {
+        "task_id": "qwen3vl8b_perm_g5",
+        "model": "qwen3vl8b",
+        "pages": [
+          "rw_vitaminc",
+          "rw_model3"
+        ],
+        "neutral_radius": 12,
+        "preferred_gpu": 5,
+        "min_free_gib": 30,
+        "permutation_seed": 20261013
+      },
+      "gpu_policy": "shared",
+      "required_free_mib": 30720,
+      "prelaunch_free_mib": 30851,
+      "prelaunch_gpus": [
+        {
+          "index": 2,
+          "uuid": "GPU-ff4fe7b2-40cd-3393-b59a-9f7df9a491c5",
+          "memory_mib": 17691,
+          "free_mib": 30851,
+          "total_mib": 49140,
+          "utilization": 100,
+          "process_pids": [
+            2888501,
+            3790579,
+            249880
+          ]
+        }
+      ],
+      "max_memory_mib": {},
+      "reserve_mib": 4096,
+      "attempts": 1,
+      "started_at_unix": 1791850033.4825764,
+      "exit_code": 0
+    },
+    "qwen3vl8b_perm_g6": {
+      "status": "complete",
+      "pid": 559404,
+      "gpu": 0,
+      "gpu_uuid": "GPU-84122489-4201-55c9-df7f-31acea960606",
+      "gpu_indices": [
+        0
+      ],
+      "gpu_uuids": [
+        "GPU-84122489-4201-55c9-df7f-31acea960606"
+      ],
+      "command": "python -u run_web_eval.py --model qwen3vl8b --device cuda:0 --workers 4 --task-id qwen3vl8b_perm_g6 --pages rw_mars2020,rw_penicillin --neutral-radius 12 --permutation-seed 20261013",
+      "model": "qwen3vl8b",
+      "task": {
+        "task_id": "qwen3vl8b_perm_g6",
+        "model": "qwen3vl8b",
+        "pages": [
+          "rw_mars2020",
+          "rw_penicillin"
+        ],
+        "neutral_radius": 12,
+        "preferred_gpu": 6,
+        "min_free_gib": 30,
+        "permutation_seed": 20261013
+      },
+      "gpu_policy": "shared",
+      "required_free_mib": 30720,
+      "prelaunch_free_mib": 42474,
+      "prelaunch_gpus": [
+        {
+          "index": 0,
+          "uuid": "GPU-84122489-4201-55c9-df7f-31acea960606",
+          "memory_mib": 6069,
+          "free_mib": 42474,
+          "total_mib": 49140,
+          "utilization": 100,
+          "process_pids": [
+            3937622
+          ]
+        }
+      ],
+      "max_memory_mib": {},
+      "reserve_mib": 4096,
+      "attempts": 1,
+      "started_at_unix": 1791850209.717376,
+      "exit_code": 0
+    },
+    "qwen3vl8b_perm_g7": {
+      "status": "complete",
+      "pid": 563879,
+      "gpu": 0,
+      "gpu_uuid": "GPU-84122489-4201-55c9-df7f-31acea960606",
+      "gpu_indices": [
+        0
+      ],
+      "gpu_uuids": [
+        "GPU-84122489-4201-55c9-df7f-31acea960606"
+      ],
+      "command": "python -u run_web_eval.py --model qwen3vl8b --device cuda:0 --workers 4 --task-id qwen3vl8b_perm_g7 --pages rw_voyager1,rw_insulin --neutral-radius 12 --permutation-seed 20261013",
+      "model": "qwen3vl8b",
+      "task": {
+        "task_id": "qwen3vl8b_perm_g7",
+        "model": "qwen3vl8b",
+        "pages": [
+          "rw_voyager1",
+          "rw_insulin"
+        ],
+        "neutral_radius": 12,
+        "preferred_gpu": 7,
+        "min_free_gib": 30,
+        "permutation_seed": 20261013
+      },
+      "gpu_policy": "shared",
+      "required_free_mib": 30720,
+      "prelaunch_free_mib": 42474,
+      "prelaunch_gpus": [
+        {
+          "index": 0,
+          "uuid": "GPU-84122489-4201-55c9-df7f-31acea960606",
+          "memory_mib": 6069,
+          "free_mib": 42474,
+          "total_mib": 49140,
+          "utilization": 100,
+          "process_pids": [
+            3937622
+          ]
+        }
+      ],
+      "max_memory_mib": {},
+      "reserve_mib": 4096,
+      "attempts": 1,
+      "started_at_unix": 1791850933.1633408,
+      "exit_code": 0
+    },
+    "multisite_qwen3vl8b_g0": {
+      "status": "complete",
+      "pid": 3641950,
+      "gpu": 2,
+      "gpu_uuid": "GPU-ff4fe7b2-40cd-3393-b59a-9f7df9a491c5",
+      "gpu_indices": [
+        2,
+        7
+      ],
+      "gpu_uuids": [
+        "GPU-ff4fe7b2-40cd-3393-b59a-9f7df9a491c5",
+        "GPU-2e814adc-efd4-4aef-8c5b-e05c7b744e93"
+      ],
+      "command": "python -u run_web_eval.py --model qwen3vl8b --device cuda:2,cuda:7 --workers 4 --task-id multisite_qwen3vl8b_g0 --pages apple_airpods_max1,nasa_cassini,nih_celiac --neutral-radius 12 --cohort-manifest data/www_multisite_v1/manifest.json",
+      "model": "qwen3vl8b",
+      "task": {
+        "task_id": "multisite_qwen3vl8b_g0",
+        "model": "qwen3vl8b",
+        "pages": [
+          "apple_airpods_max1",
+          "nasa_cassini",
+          "nih_celiac"
+        ],
+        "neutral_radius": 12,
+        "preferred_gpu": 0,
+        "min_free_gib": 30,
+        "allow_shard": true,
+        "cohort_manifest": "data/www_multisite_v1/manifest.json"
+      },
+      "gpu_policy": "shared",
+      "required_free_mib": 30720,
+      "prelaunch_free_mib": 26725,
+      "prelaunch_gpus": [
+        {
+          "index": 2,
+          "uuid": "GPU-ff4fe7b2-40cd-3393-b59a-9f7df9a491c5",
+          "memory_mib": 21818,
+          "free_mib": 26725,
+          "total_mib": 49140,
+          "utilization": 100,
+          "process_pids": [
+            2888501,
+            3790579,
+            249880,
+            598987,
+            3633643
+          ]
+        },
+        {
+          "index": 7,
+          "uuid": "GPU-2e814adc-efd4-4aef-8c5b-e05c7b744e93",
+          "memory_mib": 30379,
+          "free_mib": 18163,
+          "total_mib": 49140,
+          "utilization": 100,
+          "process_pids": [
+            2397543,
+            599126,
+            3633644
+          ]
+        }
+      ],
+      "max_memory_mib": {
+        "0": 19045,
+        "1": 12531
+      },
+      "reserve_mib": 4096,
+      "attempts": 1,
+      "started_at_unix": 1791869868.580168,
+      "exit_code": 0
+    },
+    "multisite_smolvlm2_22b_g0": {
+      "status": "complete",
+      "pid": 3642285,
+      "gpu": 6,
+      "gpu_uuid": "GPU-5bd22816-b361-7ec8-08e3-3a654662d80c",
+      "gpu_indices": [
+        6
+      ],
+      "gpu_uuids": [
+        "GPU-5bd22816-b361-7ec8-08e3-3a654662d80c"
+      ],
+      "command": "python -u run_web_eval.py --model smolvlm2_22b --device cuda:6 --workers 4 --task-id multisite_smolvlm2_22b_g0 --pages apple_airpods_max1,nasa_cassini,nih_celiac --neutral-radius 12 --cohort-manifest data/www_multisite_v1/manifest.json",
+      "model": "smolvlm2_22b",
+      "task": {
+        "task_id": "multisite_smolvlm2_22b_g0",
+        "model": "smolvlm2_22b",
+        "pages": [
+          "apple_airpods_max1",
+          "nasa_cassini",
+          "nih_celiac"
+        ],
+        "neutral_radius": 12,
+        "preferred_gpu": 0,
+        "min_free_gib": 11,
+        "allow_shard": false,
+        "cohort_manifest": "data/www_multisite_v1/manifest.json"
+      },
+      "gpu_policy": "shared",
+      "required_free_mib": 11264,
+      "prelaunch_free_mib": 14585,
+      "prelaunch_gpus": [
+        {
+          "index": 6,
+          "uuid": "GPU-5bd22816-b361-7ec8-08e3-3a654662d80c",
+          "memory_mib": 33957,
+          "free_mib": 14585,
+          "total_mib": 49140,
+          "utilization": 97,
+          "process_pids": [
+            3416897,
+            3937623,
+            598992
+          ]
+        }
+      ],
+      "max_memory_mib": {},
+      "reserve_mib": 4096,
+      "attempts": 1,
+      "started_at_unix": 1791869879.568178,
+      "exit_code": 0
+    },
+    "multisite_smolvlm2_22b_g1": {
+      "status": "complete",
+      "pid": 3642310,
+      "gpu": 5,
+      "gpu_uuid": "GPU-83c54b4b-b547-5419-bb5d-3c7d62565642",
+      "gpu_indices": [
+        5
+      ],
+      "gpu_uuids": [
+        "GPU-83c54b4b-b547-5419-bb5d-3c7d62565642"
+      ],
+      "command": "python -u run_web_eval.py --model smolvlm2_22b --device cuda:5 --workers 4 --task-id multisite_smolvlm2_22b_g1 --pages apple_airpods_pro2,nasa_curiosity,nih_constipation --neutral-radius 12 --cohort-manifest data/www_multisite_v1/manifest.json",
+      "model": "smolvlm2_22b",
+      "task": {
+        "task_id": "multisite_smolvlm2_22b_g1",
+        "model": "smolvlm2_22b",
+        "pages": [
+          "apple_airpods_pro2",
+          "nasa_curiosity",
+          "nih_constipation"
+        ],
+        "neutral_radius": 12,
+        "preferred_gpu": 1,
+        "min_free_gib": 11,
+        "allow_shard": false,
+        "cohort_manifest": "data/www_multisite_v1/manifest.json"
+      },
+      "gpu_policy": "shared",
+      "required_free_mib": 11264,
+      "prelaunch_free_mib": 11282,
+      "prelaunch_gpus": [
+        {
+          "index": 5,
+          "uuid": "GPU-83c54b4b-b547-5419-bb5d-3c7d62565642",
+          "memory_mib": 37261,
+          "free_mib": 11282,
+          "total_mib": 49140,
+          "utilization": 100,
+          "process_pids": [
+            3225392
+          ]
+        }
+      ],
+      "max_memory_mib": {},
+      "reserve_mib": 4096,
+      "attempts": 1,
+      "started_at_unix": 1791869880.3273113,
+      "exit_code": 0
+    },
+    "multisite_qwen3vl8b_g1": {
+      "status": "complete",
+      "pid": 3644090,
+      "gpu": 0,
+      "gpu_uuid": "GPU-84122489-4201-55c9-df7f-31acea960606",
+      "gpu_indices": [
+        0
+      ],
+      "gpu_uuids": [
+        "GPU-84122489-4201-55c9-df7f-31acea960606"
+      ],
+      "command": "python -u run_web_eval.py --model qwen3vl8b --device cuda:0 --workers 4 --task-id multisite_qwen3vl8b_g1 --pages apple_airpods_pro2,nasa_curiosity,nih_constipation --neutral-radius 12 --cohort-manifest data/www_multisite_v1/manifest.json",
+      "model": "qwen3vl8b",
+      "task": {
+        "task_id": "multisite_qwen3vl8b_g1",
+        "model": "qwen3vl8b",
+        "pages": [
+          "apple_airpods_pro2",
+          "nasa_curiosity",
+          "nih_constipation"
+        ],
+        "neutral_radius": 12,
+        "preferred_gpu": 1,
+        "min_free_gib": 30,
+        "allow_shard": true,
+        "cohort_manifest": "data/www_multisite_v1/manifest.json"
+      },
+      "gpu_policy": "shared",
+      "required_free_mib": 30720,
+      "prelaunch_free_mib": 40701,
+      "prelaunch_gpus": [
+        {
+          "index": 0,
+          "uuid": "GPU-84122489-4201-55c9-df7f-31acea960606",
+          "memory_mib": 7842,
+          "free_mib": 40701,
+          "total_mib": 49140,
+          "utilization": 100,
+          "process_pids": [
+            3937622,
+            598974
+          ]
+        }
+      ],
+      "max_memory_mib": {},
+      "reserve_mib": 4096,
+      "attempts": 1,
+      "started_at_unix": 1791869974.2033534,
+      "exit_code": 0
+    },
+    "multisite_smolvlm2_22b_g2": {
+      "status": "complete",
+      "pid": 3656728,
+      "gpu": 4,
+      "gpu_uuid": "GPU-0cbc097c-5e16-7547-1253-0c8b74d81e24",
+      "gpu_indices": [
+        4
+      ],
+      "gpu_uuids": [
+        "GPU-0cbc097c-5e16-7547-1253-0c8b74d81e24"
+      ],
+      "command": "python -u run_web_eval.py --model smolvlm2_22b --device cuda:4 --workers 4 --task-id multisite_smolvlm2_22b_g2 --pages apple_ipad10,nasa_europa_clipper,nih_diabetes_overview --neutral-radius 12 --cohort-manifest data/www_multisite_v1/manifest.json",
+      "model": "smolvlm2_22b",
+      "task": {
+        "task_id": "multisite_smolvlm2_22b_g2",
+        "model": "smolvlm2_22b",
+        "pages": [
+          "apple_ipad10",
+          "nasa_europa_clipper",
+          "nih_diabetes_overview"
+        ],
+        "neutral_radius": 12,
+        "preferred_gpu": 2,
+        "min_free_gib": 10.72,
+        "allow_shard": false,
+        "cohort_manifest": "data/www_multisite_v1/manifest.json",
+        "memory_basis": "Archived max reserved6756MiB +4096MiB reserve; frozen-cohort first73 states max5628MiB; allocator cap and OOM requeue remain active."
+      },
+      "gpu_policy": "shared",
+      "required_free_mib": 10977,
+      "prelaunch_free_mib": 10983,
+      "prelaunch_gpus": [
+        {
+          "index": 4,
+          "uuid": "GPU-0cbc097c-5e16-7547-1253-0c8b74d81e24",
+          "memory_mib": 37560,
+          "free_mib": 10983,
+          "total_mib": 49140,
+          "utilization": 100,
+          "process_pids": [
+            3225391,
+            3225392
+          ]
+        }
+      ],
+      "max_memory_mib": {},
+      "reserve_mib": 4096,
+      "attempts": 1,
+      "started_at_unix": 1791870264.225121,
+      "exit_code": 0
+    },
+    "multisite_smolvlm2_22b_g3": {
+      "status": "complete",
+      "pid": 3662614,
+      "gpu": 5,
+      "gpu_uuid": "GPU-83c54b4b-b547-5419-bb5d-3c7d62565642",
+      "gpu_indices": [
+        5
+      ],
+      "gpu_uuids": [
+        "GPU-83c54b4b-b547-5419-bb5d-3c7d62565642"
+      ],
+      "command": "python -u run_web_eval.py --model smolvlm2_22b --device cuda:5 --workers 4 --task-id multisite_smolvlm2_22b_g3 --pages apple_iphone14,nasa_juno,nih_gallstones --neutral-radius 12 --cohort-manifest data/www_multisite_v1/manifest.json",
+      "model": "smolvlm2_22b",
+      "task": {
+        "task_id": "multisite_smolvlm2_22b_g3",
+        "model": "smolvlm2_22b",
+        "pages": [
+          "apple_iphone14",
+          "nasa_juno",
+          "nih_gallstones"
+        ],
+        "neutral_radius": 12,
+        "preferred_gpu": 3,
+        "min_free_gib": 10.72,
+        "allow_shard": false,
+        "cohort_manifest": "data/www_multisite_v1/manifest.json",
+        "memory_basis": "Archived max reserved6756MiB +4096MiB reserve; frozen-cohort first73 states max5628MiB; allocator cap and OOM requeue remain active."
+      },
+      "gpu_policy": "shared",
+      "required_free_mib": 10977,
+      "prelaunch_free_mib": 11282,
+      "prelaunch_gpus": [
+        {
+          "index": 5,
+          "uuid": "GPU-83c54b4b-b547-5419-bb5d-3c7d62565642",
+          "memory_mib": 37261,
+          "free_mib": 11282,
+          "total_mib": 49140,
+          "utilization": 100,
+          "process_pids": [
+            3225392
+          ]
+        }
+      ],
+      "max_memory_mib": {},
+      "reserve_mib": 4096,
+      "attempts": 1,
+      "started_at_unix": 1791870709.7195675,
+      "exit_code": 0
+    },
+    "multisite_smolvlm2_22b_g4": {
+      "status": "complete",
+      "pid": 3667955,
+      "gpu": 4,
+      "gpu_uuid": "GPU-0cbc097c-5e16-7547-1253-0c8b74d81e24",
+      "gpu_indices": [
+        4
+      ],
+      "gpu_uuids": [
+        "GPU-0cbc097c-5e16-7547-1253-0c8b74d81e24"
+      ],
+      "command": "python -u run_web_eval.py --model smolvlm2_22b --device cuda:4 --workers 4 --task-id multisite_smolvlm2_22b_g4 --pages apple_iphone15,nasa_new_horizons,nih_gerd --neutral-radius 12 --cohort-manifest data/www_multisite_v1/manifest.json",
+      "model": "smolvlm2_22b",
+      "task": {
+        "task_id": "multisite_smolvlm2_22b_g4",
+        "model": "smolvlm2_22b",
+        "pages": [
+          "apple_iphone15",
+          "nasa_new_horizons",
+          "nih_gerd"
+        ],
+        "neutral_radius": 12,
+        "preferred_gpu": 4,
+        "min_free_gib": 10.72,
+        "allow_shard": false,
+        "cohort_manifest": "data/www_multisite_v1/manifest.json",
+        "memory_basis": "Archived max reserved6756MiB +4096MiB reserve; frozen-cohort first73 states max5628MiB; allocator cap and OOM requeue remain active."
+      },
+      "gpu_policy": "shared",
+      "required_free_mib": 10977,
+      "prelaunch_free_mib": 10983,
+      "prelaunch_gpus": [
+        {
+          "index": 4,
+          "uuid": "GPU-0cbc097c-5e16-7547-1253-0c8b74d81e24",
+          "memory_mib": 37560,
+          "free_mib": 10983,
+          "total_mib": 49140,
+          "utilization": 100,
+          "process_pids": [
+            3225391,
+            3225392
+          ]
+        }
+      ],
+      "max_memory_mib": {},
+      "reserve_mib": 4096,
+      "attempts": 1,
+      "started_at_unix": 1791871124.4238,
+      "exit_code": 0
+    },
+    "multisite_smolvlm2_22b_g5": {
+      "status": "complete",
+      "pid": 3669760,
+      "gpu": 6,
+      "gpu_uuid": "GPU-5bd22816-b361-7ec8-08e3-3a654662d80c",
+      "gpu_indices": [
+        6
+      ],
+      "gpu_uuids": [
+        "GPU-5bd22816-b361-7ec8-08e3-3a654662d80c"
+      ],
+      "command": "python -u run_web_eval.py --model smolvlm2_22b --device cuda:6 --workers 4 --task-id multisite_smolvlm2_22b_g5 --pages apple_iphone16,nasa_perseverance,nih_kidney_nephrons --neutral-radius 12 --cohort-manifest data/www_multisite_v1/manifest.json",
+      "model": "smolvlm2_22b",
+      "task": {
+        "task_id": "multisite_smolvlm2_22b_g5",
+        "model": "smolvlm2_22b",
+        "pages": [
+          "apple_iphone16",
+          "nasa_perseverance",
+          "nih_kidney_nephrons"
+        ],
+        "neutral_radius": 12,
+        "preferred_gpu": 5,
+        "min_free_gib": 10.72,
+        "allow_shard": false,
+        "cohort_manifest": "data/www_multisite_v1/manifest.json",
+        "memory_basis": "Archived max reserved6756MiB +4096MiB reserve; frozen-cohort first73 states max5628MiB; allocator cap and OOM requeue remain active."
+      },
+      "gpu_policy": "shared",
+      "required_free_mib": 10977,
+      "prelaunch_free_mib": 14585,
+      "prelaunch_gpus": [
+        {
+          "index": 6,
+          "uuid": "GPU-5bd22816-b361-7ec8-08e3-3a654662d80c",
+          "memory_mib": 33957,
+          "free_mib": 14585,
+          "total_mib": 49140,
+          "utilization": 100,
+          "process_pids": [
+            3416897,
+            3937623,
+            598992
+          ]
+        }
+      ],
+      "max_memory_mib": {},
+      "reserve_mib": 4096,
+      "attempts": 1,
+      "started_at_unix": 1791871259.8000076,
+      "exit_code": 0
+    },
+    "multisite_smolvlm2_22b_g6": {
+      "status": "complete",
+      "pid": 3675263,
+      "gpu": 5,
+      "gpu_uuid": "GPU-83c54b4b-b547-5419-bb5d-3c7d62565642",
+      "gpu_indices": [
+        5
+      ],
+      "gpu_uuids": [
+        "GPU-83c54b4b-b547-5419-bb5d-3c7d62565642"
+      ],
+      "command": "python -u run_web_eval.py --model smolvlm2_22b --device cuda:5 --workers 4 --task-id multisite_smolvlm2_22b_g6 --pages apple_macbookair_m2,nasa_psyche,nih_lactose --neutral-radius 12 --cohort-manifest data/www_multisite_v1/manifest.json",
+      "model": "smolvlm2_22b",
+      "task": {
+        "task_id": "multisite_smolvlm2_22b_g6",
+        "model": "smolvlm2_22b",
+        "pages": [
+          "apple_macbookair_m2",
+          "nasa_psyche",
+          "nih_lactose"
+        ],
+        "neutral_radius": 12,
+        "preferred_gpu": 6,
+        "min_free_gib": 10.72,
+        "allow_shard": false,
+        "cohort_manifest": "data/www_multisite_v1/manifest.json",
+        "memory_basis": "Archived max reserved6756MiB +4096MiB reserve; frozen-cohort first73 states max5628MiB; allocator cap and OOM requeue remain active."
+      },
+      "gpu_policy": "shared",
+      "required_free_mib": 10977,
+      "prelaunch_free_mib": 11282,
+      "prelaunch_gpus": [
+        {
+          "index": 5,
+          "uuid": "GPU-83c54b4b-b547-5419-bb5d-3c7d62565642",
+          "memory_mib": 37261,
+          "free_mib": 11282,
+          "total_mib": 49140,
+          "utilization": 100,
+          "process_pids": [
+            3225392
+          ]
+        }
+      ],
+      "max_memory_mib": {},
+      "reserve_mib": 4096,
+      "attempts": 1,
+      "started_at_unix": 1791871570.7435918,
+      "exit_code": 0
+    },
+    "multisite_qwen3vl8b_g2": {
+      "status": "complete",
+      "pid": 3676230,
+      "gpu": 3,
+      "gpu_uuid": "GPU-23bf0ce9-391e-3f64-724e-641f07ce96b8",
+      "gpu_indices": [
+        3
+      ],
+      "gpu_uuids": [
+        "GPU-23bf0ce9-391e-3f64-724e-641f07ce96b8"
+      ],
+      "command": "python -u run_web_eval.py --model qwen3vl8b --device cuda:3 --workers 4 --task-id multisite_qwen3vl8b_g2 --pages apple_ipad10,nasa_europa_clipper,nih_diabetes_overview --neutral-radius 12 --cohort-manifest data/www_multisite_v1/manifest.json",
+      "model": "qwen3vl8b",
+      "task": {
+        "task_id": "multisite_qwen3vl8b_g2",
+        "model": "qwen3vl8b",
+        "pages": [
+          "apple_ipad10",
+          "nasa_europa_clipper",
+          "nih_diabetes_overview"
+        ],
+        "neutral_radius": 12,
+        "preferred_gpu": 2,
+        "min_free_gib": 30,
+        "allow_shard": true,
+        "cohort_manifest": "data/www_multisite_v1/manifest.json"
+      },
+      "gpu_policy": "shared",
+      "required_free_mib": 30720,
+      "prelaunch_free_mib": 42832,
+      "prelaunch_gpus": [
+        {
+          "index": 3,
+          "uuid": "GPU-23bf0ce9-391e-3f64-724e-641f07ce96b8",
+          "memory_mib": 5711,
+          "free_mib": 42832,
+          "total_mib": 49140,
+          "utilization": 100,
+          "process_pids": [
+            2888502
+          ]
+        }
+      ],
+      "max_memory_mib": {},
+      "reserve_mib": 4096,
+      "attempts": 1,
+      "started_at_unix": 1791871581.8859377,
+      "exit_code": 0
+    },
+    "multisite_qwen3vl8b_g3": {
+      "status": "complete",
+      "pid": 3680300,
+      "gpu": 0,
+      "gpu_uuid": "GPU-84122489-4201-55c9-df7f-31acea960606",
+      "gpu_indices": [
+        0
+      ],
+      "gpu_uuids": [
+        "GPU-84122489-4201-55c9-df7f-31acea960606"
+      ],
+      "command": "python -u run_web_eval.py --model qwen3vl8b --device cuda:0 --workers 4 --task-id multisite_qwen3vl8b_g3 --pages apple_iphone14,nasa_juno,nih_gallstones --neutral-radius 12 --cohort-manifest data/www_multisite_v1/manifest.json",
+      "model": "qwen3vl8b",
+      "task": {
+        "task_id": "multisite_qwen3vl8b_g3",
+        "model": "qwen3vl8b",
+        "pages": [
+          "apple_iphone14",
+          "nasa_juno",
+          "nih_gallstones"
+        ],
+        "neutral_radius": 12,
+        "preferred_gpu": 3,
+        "min_free_gib": 30,
+        "allow_shard": true,
+        "cohort_manifest": "data/www_multisite_v1/manifest.json"
+      },
+      "gpu_policy": "shared",
+      "required_free_mib": 30720,
+      "prelaunch_free_mib": 38371,
+      "prelaunch_gpus": [
+        {
+          "index": 0,
+          "uuid": "GPU-84122489-4201-55c9-df7f-31acea960606",
+          "memory_mib": 10171,
+          "free_mib": 38371,
+          "total_mib": 49140,
+          "utilization": 99,
+          "process_pids": [
+            3937622,
+            598974,
+            3644366
+          ]
+        }
+      ],
+      "max_memory_mib": {},
+      "reserve_mib": 4096,
+      "attempts": 1,
+      "started_at_unix": 1791871916.4267957,
+      "exit_code": 0
+    },
+    "multisite_smolvlm2_22b_g7": {
+      "status": "complete",
+      "pid": 3681114,
+      "gpu": 4,
+      "gpu_uuid": "GPU-0cbc097c-5e16-7547-1253-0c8b74d81e24",
+      "gpu_indices": [
+        4
+      ],
+      "gpu_uuids": [
+        "GPU-0cbc097c-5e16-7547-1253-0c8b74d81e24"
+      ],
+      "command": "python -u run_web_eval.py --model smolvlm2_22b --device cuda:4 --workers 4 --task-id multisite_smolvlm2_22b_g7 --pages apple_watch9,nasa_webb_mirrors,nih_peptic_ulcers --neutral-radius 12 --cohort-manifest data/www_multisite_v1/manifest.json",
+      "model": "smolvlm2_22b",
+      "task": {
+        "task_id": "multisite_smolvlm2_22b_g7",
+        "model": "smolvlm2_22b",
+        "pages": [
+          "apple_watch9",
+          "nasa_webb_mirrors",
+          "nih_peptic_ulcers"
+        ],
+        "neutral_radius": 12,
+        "preferred_gpu": 7,
+        "min_free_gib": 10.72,
+        "allow_shard": false,
+        "cohort_manifest": "data/www_multisite_v1/manifest.json",
+        "memory_basis": "Archived max reserved6756MiB +4096MiB reserve; frozen-cohort first73 states max5628MiB; allocator cap and OOM requeue remain active."
+      },
+      "gpu_policy": "shared",
+      "required_free_mib": 10977,
+      "prelaunch_free_mib": 10983,
+      "prelaunch_gpus": [
+        {
+          "index": 4,
+          "uuid": "GPU-0cbc097c-5e16-7547-1253-0c8b74d81e24",
+          "memory_mib": 37560,
+          "free_mib": 10983,
+          "total_mib": 49140,
+          "utilization": 100,
+          "process_pids": [
+            3225391,
+            3225392
+          ]
+        }
+      ],
+      "max_memory_mib": {},
+      "reserve_mib": 4096,
+      "attempts": 1,
+      "started_at_unix": 1791871947.8925085,
+      "exit_code": 0
+    },
+    "multisite_qwen3vl8b_g4": {
+      "status": "complete",
+      "pid": 693080,
+      "gpu": 0,
+      "gpu_uuid": "GPU-84122489-4201-55c9-df7f-31acea960606",
+      "gpu_indices": [
+        0
+      ],
+      "gpu_uuids": [
+        "GPU-84122489-4201-55c9-df7f-31acea960606"
+      ],
+      "command": "python -u run_web_eval.py --model qwen3vl8b --device cuda:0 --workers 4 --task-id multisite_qwen3vl8b_g4 --pages apple_iphone15,nasa_new_horizons,nih_gerd --neutral-radius 12 --cohort-manifest data/www_multisite_v1/manifest.json",
+      "model": "qwen3vl8b",
+      "task": {
+        "task_id": "multisite_qwen3vl8b_g4",
+        "model": "qwen3vl8b",
+        "pages": [
+          "apple_iphone15",
+          "nasa_new_horizons",
+          "nih_gerd"
+        ],
+        "neutral_radius": 12,
+        "preferred_gpu": 4,
+        "min_free_gib": 30,
+        "allow_shard": true,
+        "cohort_manifest": "data/www_multisite_v1/manifest.json"
+      },
+      "gpu_policy": "shared",
+      "required_free_mib": 30720,
+      "prelaunch_free_mib": 38949,
+      "prelaunch_gpus": [
+        {
+          "index": 0,
+          "uuid": "GPU-84122489-4201-55c9-df7f-31acea960606",
+          "memory_mib": 9593,
+          "free_mib": 38949,
+          "total_mib": 49140,
+          "utilization": 100,
+          "process_pids": [
+            3937622,
+            3644366,
+            3706593
+          ]
+        }
+      ],
+      "max_memory_mib": {},
+      "reserve_mib": 4096,
+      "attempts": 1,
+      "started_at_unix": 1791873867.9048972,
+      "exit_code": 0
+    },
+    "multisite_qwen3vl8b_g5": {
+      "status": "complete",
+      "pid": 1195179,
+      "gpu": 0,
+      "gpu_uuid": "GPU-84122489-4201-55c9-df7f-31acea960606",
+      "gpu_indices": [
+        0
+      ],
+      "gpu_uuids": [
+        "GPU-84122489-4201-55c9-df7f-31acea960606"
+      ],
+      "command": "python -u run_web_eval.py --model qwen3vl8b --device cuda:0 --workers 4 --task-id multisite_qwen3vl8b_g5 --pages apple_iphone16,nasa_perseverance,nih_kidney_nephrons --neutral-radius 12 --cohort-manifest data/www_multisite_v1/manifest.json",
+      "model": "qwen3vl8b",
+      "task": {
+        "task_id": "multisite_qwen3vl8b_g5",
+        "model": "qwen3vl8b",
+        "pages": [
+          "apple_iphone16",
+          "nasa_perseverance",
+          "nih_kidney_nephrons"
+        ],
+        "neutral_radius": 12,
+        "preferred_gpu": 5,
+        "min_free_gib": 30,
+        "allow_shard": true,
+        "cohort_manifest": "data/www_multisite_v1/manifest.json"
+      },
+      "gpu_policy": "shared",
+      "required_free_mib": 30720,
+      "prelaunch_free_mib": 38697,
+      "prelaunch_gpus": [
+        {
+          "index": 0,
+          "uuid": "GPU-84122489-4201-55c9-df7f-31acea960606",
+          "memory_mib": 9845,
+          "free_mib": 38697,
+          "total_mib": 49140,
+          "utilization": 100,
+          "process_pids": [
+            3937622,
+            3644366,
+            1153899
+          ]
+        }
+      ],
+      "max_memory_mib": {},
+      "reserve_mib": 4096,
+      "attempts": 1,
+      "started_at_unix": 1791875704.943007,
+      "exit_code": 0
+    },
+    "multisite_qwen3vl8b_g6": {
+      "status": "complete",
+      "pid": 1921394,
+      "gpu": 2,
+      "gpu_uuid": "GPU-ff4fe7b2-40cd-3393-b59a-9f7df9a491c5",
+      "gpu_indices": [
+        2,
+        7
+      ],
+      "gpu_uuids": [
+        "GPU-ff4fe7b2-40cd-3393-b59a-9f7df9a491c5",
+        "GPU-2e814adc-efd4-4aef-8c5b-e05c7b744e93"
+      ],
+      "command": "python -u run_web_eval.py --model qwen3vl8b --device cuda:2,cuda:7 --workers 4 --task-id multisite_qwen3vl8b_g6 --pages apple_macbookair_m2,nasa_psyche,nih_lactose --neutral-radius 12 --cohort-manifest data/www_multisite_v1/manifest.json",
+      "model": "qwen3vl8b",
+      "task": {
+        "task_id": "multisite_qwen3vl8b_g6",
+        "model": "qwen3vl8b",
+        "pages": [
+          "apple_macbookair_m2",
+          "nasa_psyche",
+          "nih_lactose"
+        ],
+        "neutral_radius": 12,
+        "preferred_gpu": 6,
+        "min_free_gib": 30,
+        "allow_shard": true,
+        "cohort_manifest": "data/www_multisite_v1/manifest.json"
+      },
+      "gpu_policy": "shared",
+      "required_free_mib": 30720,
+      "prelaunch_free_mib": 27063,
+      "prelaunch_gpus": [
+        {
+          "index": 2,
+          "uuid": "GPU-ff4fe7b2-40cd-3393-b59a-9f7df9a491c5",
+          "memory_mib": 21480,
+          "free_mib": 27063,
+          "total_mib": 49140,
+          "utilization": 100,
+          "process_pids": [
+            2888501,
+            3790579,
+            249880,
+            3633643,
+            1407058
+          ]
+        },
+        {
+          "index": 7,
+          "uuid": "GPU-2e814adc-efd4-4aef-8c5b-e05c7b744e93",
+          "memory_mib": 26277,
+          "free_mib": 22266,
+          "total_mib": 49140,
+          "utilization": 100,
+          "process_pids": [
+            2397543
+          ]
+        }
+      ],
+      "max_memory_mib": {
+        "0": 19383,
+        "1": 16634
+      },
+      "reserve_mib": 4096,
+      "attempts": 1,
+      "started_at_unix": 1791876922.8238845,
+      "exit_code": 0
+    },
+    "multisite_qwen3vl8b_g7": {
+      "status": "complete",
+      "pid": 2733143,
+      "gpu": 0,
+      "gpu_uuid": "GPU-84122489-4201-55c9-df7f-31acea960606",
+      "gpu_indices": [
+        0
+      ],
+      "gpu_uuids": [
+        "GPU-84122489-4201-55c9-df7f-31acea960606"
+      ],
+      "command": "python -u run_web_eval.py --model qwen3vl8b --device cuda:0 --workers 4 --task-id multisite_qwen3vl8b_g7 --pages apple_watch9,nasa_webb_mirrors,nih_peptic_ulcers --neutral-radius 12 --cohort-manifest data/www_multisite_v1/manifest.json",
+      "model": "qwen3vl8b",
+      "task": {
+        "task_id": "multisite_qwen3vl8b_g7",
+        "model": "qwen3vl8b",
+        "pages": [
+          "apple_watch9",
+          "nasa_webb_mirrors",
+          "nih_peptic_ulcers"
+        ],
+        "neutral_radius": 12,
+        "preferred_gpu": 7,
+        "min_free_gib": 30,
+        "allow_shard": true,
+        "cohort_manifest": "data/www_multisite_v1/manifest.json"
+      },
+      "gpu_policy": "shared",
+      "required_free_mib": 30720,
+      "prelaunch_free_mib": 39015,
+      "prelaunch_gpus": [
+        {
+          "index": 0,
+          "uuid": "GPU-84122489-4201-55c9-df7f-31acea960606",
+          "memory_mib": 9527,
+          "free_mib": 39015,
+          "total_mib": 49140,
+          "utilization": 100,
+          "process_pids": [
+            3937622,
+            3644366,
+            2677444
+          ]
+        }
+      ],
+      "max_memory_mib": {},
+      "reserve_mib": 4096,
+      "attempts": 1,
+      "started_at_unix": 1791877541.8902497,
+      "exit_code": 0
+    }
+  },
+  "gpus": [
+    {
+      "index": 0,
+      "uuid": "GPU-84122489-4201-55c9-df7f-31acea960606",
+      "memory_mib": 47040,
+      "free_mib": 1503,
+      "total_mib": 49140,
+      "utilization": 100,
+      "process_pids": [
+        3937622,
+        3156720,
+        3162128,
+        3169236,
+        3178433
+      ]
+    },
+    {
+      "index": 1,
+      "uuid": "GPU-767a421f-b63e-cc82-ed5e-6ab1668e4017",
+      "memory_mib": 41293,
+      "free_mib": 7250,
+      "total_mib": 49140,
+      "utilization": 12,
+      "process_pids": [
+        3343196
+      ]
+    },
+    {
+      "index": 2,
+      "uuid": "GPU-ff4fe7b2-40cd-3393-b59a-9f7df9a491c5",
+      "memory_mib": 25138,
+      "free_mib": 23405,
+      "total_mib": 49140,
+      "utilization": 100,
+      "process_pids": [
+        2888501,
+        3790579,
+        2751684,
+        3169237,
+        3178007
+      ]
+    },
+    {
+      "index": 3,
+      "uuid": "GPU-23bf0ce9-391e-3f64-724e-641f07ce96b8",
+      "memory_mib": 45408,
+      "free_mib": 3135,
+      "total_mib": 49140,
+      "utilization": 100,
+      "process_pids": [
+        2888502,
+        2907785
+      ]
+    },
+    {
+      "index": 4,
+      "uuid": "GPU-0cbc097c-5e16-7547-1253-0c8b74d81e24",
+      "memory_mib": 37560,
+      "free_mib": 10983,
+      "total_mib": 49140,
+      "utilization": 100,
+      "process_pids": [
+        3225391,
+        3225392
+      ]
+    },
+    {
+      "index": 5,
+      "uuid": "GPU-83c54b4b-b547-5419-bb5d-3c7d62565642",
+      "memory_mib": 41852,
+      "free_mib": 6691,
+      "total_mib": 49140,
+      "utilization": 97,
+      "process_pids": [
+        3225392,
+        3699965
+      ]
+    },
+    {
+      "index": 6,
+      "uuid": "GPU-5bd22816-b361-7ec8-08e3-3a654662d80c",
+      "memory_mib": 32184,
+      "free_mib": 16359,
+      "total_mib": 49140,
+      "utilization": 100,
+      "process_pids": [
+        3416897,
+        3937623
+      ]
+    },
+    {
+      "index": 7,
+      "uuid": "GPU-2e814adc-efd4-4aef-8c5b-e05c7b744e93",
+      "memory_mib": 26277,
+      "free_mib": 22266,
+      "total_mib": 49140,
+      "utilization": 100,
+      "process_pids": [
+        2397543
+      ]
+    }
+  ],
+  "gpu_policy": "shared",
+  "observed_at_unix": 1791882597.3646436
+}

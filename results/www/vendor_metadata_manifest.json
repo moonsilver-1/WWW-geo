@@ -1,0 +1,14 @@
+{
+  "smolvlm2_22b": {
+    "repository": "HuggingFaceTB/SmolVLM2-2.2B-Instruct",
+    "revision": "482adb537c021c86670beed01cd58990d01e72e4"
+  },
+  "pixtral12b": {
+    "repository": "mistral-experimental/pixtral-12b",
+    "revision": "c2756cbbb9422eba9f6c5c439a214b0392dfc998"
+  },
+  "phi4vision15b": {
+    "repository": "microsoft/Phi-4-reasoning-vision-15B",
+    "revision": "c3e4fac79ddace21976ced56fbf1564b8bd8c89f"
+  }
+}

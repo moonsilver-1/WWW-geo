@@ -1,0 +1,185 @@
+{
+  "id": "nih_kidney_nephrons",
+  "url": "https://www.niddk.nih.gov/health-information/kidney-disease/kidneys-how-they-work",
+  "publisher": "NIH/NIDDK",
+  "question": "What are the filtering units of the kidneys called?",
+  "statement": "The filtering units of the kidneys are called nephrons.",
+  "answer": "nephrons",
+  "source_anchor": "about a million filtering units called nephrons",
+  "units": [
+    {
+      "tag": 1,
+      "type": "I",
+      "role": "image",
+      "caption": false,
+      "image": "image.png",
+      "original_tag": 5,
+      "lexical_answer_match": false
+    },
+    {
+      "tag": 2,
+      "type": "T",
+      "role": "context",
+      "caption": false,
+      "text": "Healthy kidneys filter about a half cup of blood every minute, removing wastes and extra water to make urine . The urine flows from the kidneys to the bladder through two thin tubes of muscle called ureters, one on each side of your bladder. Your bladder stores urine. Your kidneys, ureters, and bladder are part of your urinary tract .",
+      "source_offset": [
+        3501,
+        3837
+      ],
+      "original_tag": 3,
+      "lexical_answer_match": false
+    },
+    {
+      "tag": 3,
+      "type": "T",
+      "role": "source_heading",
+      "caption": false,
+      "text": "Your Kidneys & How They Work",
+      "source_offset": [
+        0,
+        28
+      ],
+      "original_tag": 6,
+      "lexical_answer_match": false
+    },
+    {
+      "tag": 4,
+      "type": "T",
+      "role": "context",
+      "caption": false,
+      "text": "Your kidneys remove wastes and extra fluid from your body. Your kidneys also remove acid that is produced by the cells of your body and maintain a healthy balance of water, salts, and minerals—such as sodium , calcium , phosphorus , and potassium —in your blood.",
+      "source_offset": [
+        3961,
+        4223
+      ],
+      "original_tag": 4,
+      "lexical_answer_match": false
+    },
+    {
+      "tag": 5,
+      "type": "T",
+      "role": "fact",
+      "caption": false,
+      "text": "Each of your kidneys is made up of about a million filtering units called nephrons. Each nephron includes a filter, called the glomerulus , and a tubule . The nephrons work through a two-step process: the glomerulus filters your blood, and the tubule returns needed substances to your blood and removes wastes.",
+      "source_offset": [
+        4509,
+        4819
+      ],
+      "original_tag": 1,
+      "lexical_answer_match": true
+    },
+    {
+      "tag": 6,
+      "type": "T",
+      "role": "context",
+      "caption": false,
+      "text": "The kidneys are two bean-shaped organs, each about the size of a fist. They are located just below the rib cage, one on each side of your spine.",
+      "source_offset": [
+        3356,
+        3500
+      ],
+      "original_tag": 2,
+      "lexical_answer_match": false
+    }
+  ],
+  "image_url": "https://www.niddk.nih.gov/-/media/Images/Health-Information/Kidney/Nephron_Extraction_330x380.png",
+  "image_alt": "Drawing of a nephron showing that a blood vessel from the renal artery leads to the glomerulus before branching across the u-shaped tubule and leading to the renal vein.",
+  "original_image_size": [
+    330,
+    380
+  ],
+  "source_html_sha256": "b0ccbee31b0b8e2040df10b3e41c2f0005fd709047667ebe20cf7558e859aff9",
+  "image_original_sha256": "669788fc898524d20d0c0c2423e8f2a00fb75e3cc52b797c3aa7a993e6891275",
+  "status": "frozen_before_inference",
+  "human_validation": null,
+  "source_record": "data/www_candidate_sources/nih_kidney_nephrons/b0ccbee31b0b8e2040df10b3e41c2f0005fd709047667ebe20cf7558e859aff9.json",
+  "split": "transfer",
+  "permutation_seed": 20261013,
+  "original_tags_in_display_order": [
+    5,
+    3,
+    6,
+    4,
+    1,
+    2
+  ],
+  "answer_alias_groups": [
+    [
+      "nephrons"
+    ]
+  ],
+  "semantic_assessment": {
+    "id": "nih_kidney_nephrons",
+    "reviewer_type": "agent",
+    "human_validation": null,
+    "blocks_sha256": "b5280b5f2f017d93df3356785737c1f39a94cadcfb1acb40669c1010a66cdbb4",
+    "text_units": [
+      {
+        "tag": 5,
+        "assessment": "supports_statement_in_page_context",
+        "evidence_quote": "Each of your kidneys is made up of about a million filtering units called nephrons. Each nephron includes a filter, called the glomerulus , and a tubule . The nephrons work through a two-step process: the glomerulus filters your blood, and the tubule returns needed substances to your blood and removes wastes.",
+        "source_offset": [
+          4509,
+          4819
+        ],
+        "note": "Assessment uses the page entity and the exact target question; lexical answer occurrence alone is not entailment.",
+        "original_tag": 1
+      },
+      {
+        "tag": 6,
+        "assessment": "related_context_without_full_explicit_answer",
+        "evidence_quote": "The kidneys are two bean-shaped organs, each about the size of a fist. They are located just below the rib cage, one on each side of your spine.",
+        "source_offset": [
+          3356,
+          3500
+        ],
+        "note": "Assessment uses the page entity and the exact target question; lexical answer occurrence alone is not entailment.",
+        "original_tag": 2
+      },
+      {
+        "tag": 2,
+        "assessment": "related_context_without_full_explicit_answer",
+        "evidence_quote": "Healthy kidneys filter about a half cup of blood every minute, removing wastes and extra water to make urine . The urine flows from the kidneys to the bladder through two thin tubes of muscle called ureters, one on each side of your bladder. Your bladder stores urine. Your kidneys, ureters, and bladder are part of your urinary tract .",
+        "source_offset": [
+          3501,
+          3837
+        ],
+        "note": "Assessment uses the page entity and the exact target question; lexical answer occurrence alone is not entailment.",
+        "original_tag": 3
+      },
+      {
+        "tag": 4,
+        "assessment": "related_context_without_full_explicit_answer",
+        "evidence_quote": "Your kidneys remove wastes and extra fluid from your body. Your kidneys also remove acid that is produced by the cells of your body and maintain a healthy balance of water, salts, and minerals—such as sodium , calcium , phosphorus , and potassium —in your blood.",
+        "source_offset": [
+          3961,
+          4223
+        ],
+        "note": "Assessment uses the page entity and the exact target question; lexical answer occurrence alone is not entailment.",
+        "original_tag": 4
+      },
+      {
+        "tag": 3,
+        "assessment": "source_page_entity_metadata",
+        "evidence_quote": "Your Kidneys & How They Work",
+        "source_offset": [
+          0,
+          28
+        ],
+        "note": "Assessment uses the page entity and the exact target question; lexical answer occurrence alone is not entailment.",
+        "original_tag": 6
+      }
+    ],
+    "image": {
+      "file": "image.png",
+      "sha256": "285d17bccccff2bb6594077eb8c1b8207dd5c5d3dc73c18e733692a279e10112",
+      "visually_inspected": true,
+      "artifact_status": "readable_article_image",
+      "assessment": "related_visual_context_not_standalone_full_answer",
+      "visible_evidence": "Diagram titled The Nephron labels glomerulus and tubule; identifies the structure, while its kidney filtering role requires textual context.",
+      "tag": 1
+    }
+  },
+  "original_cohort_same_entity": [],
+  "original_cohort_related_topic": []
+}

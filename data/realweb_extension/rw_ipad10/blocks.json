@@ -1,0 +1,46 @@
+{
+  "units": [
+    {
+      "tag": 1,
+      "type": "T",
+      "role": "fact",
+      "caption": false,
+      "text": "The iPad (10th generation) (also referred to as the iPad 10.9 in (280 mm) ) is a tablet computer developed and marketed by Apple as the successor to the ninth-generation iPad . It was announced on October 18, 2022, and was released on October 26, 2022. [ 3 ] [ 4 ] [ 5 ] [ 6 ]"
+    },
+    {
+      "tag": 2,
+      "type": "T",
+      "role": "context",
+      "caption": false,
+      "text": "The design of the tenth-generation iPad more closely resembles the higher-end iPad Air and Pro models, with flatter sides and no home button. As with the iPad Air and Mini, the Touch ID sensor is located in the power button. It is available in silver, blue, pink, and yellow color finishes. [ 7 ] [ better source needed ]"
+    },
+    {
+      "tag": 3,
+      "type": "I",
+      "role": "image",
+      "caption": false,
+      "image": "image.png"
+    },
+    {
+      "tag": 4,
+      "type": "T",
+      "role": "caption",
+      "caption": true,
+      "text": "iPad (10th generation) image"
+    },
+    {
+      "tag": 5,
+      "type": "T",
+      "role": "adjacent",
+      "caption": false,
+      "text": "Like the iPad Air, it has a 10.9 in (280 mm) 2360x1640 Liquid Retina display ; an increase from the previous 10.2 in (260 mm) model, but it is not laminated. [ 7 ] [ better source needed ] The tenth-generation iPad uses an A14 Bionic processor, previously seen in the fourth-generation iPad Air and the iPhone 12 in 2020. The chip has a 6-core CPU, a 4-core GPU, and a 16-core Neural Engine. [ 7 ] [ better source needed"
+    },
+    {
+      "tag": 6,
+      "type": "T",
+      "role": "distractor",
+      "caption": false,
+      "text": "The tenth-generation iPad has Bluetooth 5.2 and Wi-Fi 6 (802.11ax) wireless capabilities, as well as sub-6 GHz 5G on cellular models. It is the first base model iPad to use USB-C instead of the Lightning connector ; connectivity is limited to USB 2.0 transfer speeds, with support for external displays at 1080p resolution at a refresh rate of 60 Hz, or 2160p at 30 Hz. [ 7 ] The tenth-generation iPad does not include a"
+    }
+  ]
+}

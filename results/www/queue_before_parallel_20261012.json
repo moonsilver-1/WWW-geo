@@ -1,0 +1,57 @@
+{
+  "qwen3vl8b": {
+    "status": "complete",
+    "pid": 3812775,
+    "gpu": 0,
+    "gpu_uuid": "GPU-84122489-4201-55c9-df7f-31acea960606",
+    "command": "python -u run_web_eval.py --model qwen3vl8b --device cuda:0 --workers 4",
+    "gpu_policy": "shared",
+    "required_free_mib": 30720,
+    "prelaunch_free_mib": 37441,
+    "reserve_mib": 4096,
+    "attempts": 1,
+    "started_at_unix": 1791772491.6401172,
+    "exit_code": 0
+  },
+  "internvl35_8b": {
+    "status": "complete",
+    "pid": 3812786,
+    "gpu": 2,
+    "gpu_uuid": "GPU-ff4fe7b2-40cd-3393-b59a-9f7df9a491c5",
+    "command": "python -u run_web_eval.py --model internvl35_8b --device cuda:2 --workers 4",
+    "gpu_policy": "shared",
+    "required_free_mib": 30720,
+    "prelaunch_free_mib": 35155,
+    "reserve_mib": 4096,
+    "attempts": 1,
+    "started_at_unix": 1791772492.2119038,
+    "exit_code": 0
+  },
+  "smolvlm2_22b": {
+    "status": "complete",
+    "pid": 4018649,
+    "gpu": 2,
+    "gpu_uuid": "GPU-ff4fe7b2-40cd-3393-b59a-9f7df9a491c5",
+    "command": "python -u run_web_eval.py --model smolvlm2_22b --device cuda:2 --workers 4",
+    "gpu_policy": "shared",
+    "required_free_mib": 12288,
+    "prelaunch_free_mib": 36379,
+    "reserve_mib": 4096,
+    "attempts": 1,
+    "started_at_unix": 1791790971.7534945,
+    "exit_code": 0
+  },
+  "pixtral12b": {
+    "status": "running",
+    "pid": 262911,
+    "gpu": 0,
+    "gpu_uuid": "GPU-84122489-4201-55c9-df7f-31acea960606",
+    "command": "python -u run_web_eval.py --model pixtral12b --device cuda:0 --workers 4",
+    "gpu_policy": "shared",
+    "required_free_mib": 32768,
+    "prelaunch_free_mib": 33547,
+    "reserve_mib": 4096,
+    "attempts": 1,
+    "started_at_unix": 1791814468.0118346
+  }
+}

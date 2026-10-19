@@ -1,0 +1,185 @@
+{
+  "id": "apple_watch9",
+  "url": "https://support.apple.com/en-us/111833",
+  "publisher": "Apple",
+  "question": "Which chip powers Apple Watch Series 9?",
+  "statement": "Apple Watch Series 9 uses the S9 SiP.",
+  "answer": "S9",
+  "source_anchor": "S9 SiP",
+  "units": [
+    {
+      "tag": 1,
+      "type": "I",
+      "role": "image",
+      "caption": false,
+      "image": "image.png",
+      "original_tag": 5,
+      "lexical_answer_match": false
+    },
+    {
+      "tag": 2,
+      "type": "T",
+      "role": "context",
+      "caption": false,
+      "text": "watchOS is the world’s most advanced wearable operating system, with apps and features designed to keep you active, healthy, safe, and connected.",
+      "source_offset": [
+        2277,
+        2422
+      ],
+      "original_tag": 4,
+      "lexical_answer_match": false
+    },
+    {
+      "tag": 3,
+      "type": "T",
+      "role": "source_heading",
+      "caption": false,
+      "text": "Apple Watch Series 9 - Tech Specs",
+      "source_offset": [
+        0,
+        33
+      ],
+      "original_tag": 6,
+      "lexical_answer_match": false
+    },
+    {
+      "tag": 4,
+      "type": "T",
+      "role": "context",
+      "caption": false,
+      "text": "Vitals app featuring heart rate, respiratory rate, wrist temperature, and sleep duration 29",
+      "source_offset": [
+        1494,
+        1585
+      ],
+      "original_tag": 3,
+      "lexical_answer_match": false
+    },
+    {
+      "tag": 5,
+      "type": "T",
+      "role": "context",
+      "caption": false,
+      "text": "Cycle Tracking with retrospective ovulation estimates 3",
+      "source_offset": [
+        1382,
+        1437
+      ],
+      "original_tag": 2,
+      "lexical_answer_match": false
+    },
+    {
+      "tag": 6,
+      "type": "T",
+      "role": "fact",
+      "caption": false,
+      "text": "S9 SiP with 64‑bit dual‑core processor",
+      "source_offset": [
+        999,
+        1037
+      ],
+      "original_tag": 1,
+      "lexical_answer_match": true
+    }
+  ],
+  "image_url": "https://cdsassets.apple.com/live/7WUAS350/images/tech-specs/apple-watch-series-9.png",
+  "image_alt": "apple-watch-series-9",
+  "original_image_size": [
+    1000,
+    1000
+  ],
+  "source_html_sha256": "98bb43c584f250392994a46765fa35a860a7a0de65a767b6ca58eda198b321a9",
+  "image_original_sha256": "dda62d268f9cdca308afab7319ae9dbc13c4534ddc1d69d9be927a0ddcdf17a2",
+  "status": "frozen_before_inference",
+  "human_validation": null,
+  "source_record": "data/www_candidate_sources/apple_watch9/98bb43c584f250392994a46765fa35a860a7a0de65a767b6ca58eda198b321a9.json",
+  "split": "transfer",
+  "permutation_seed": 20261013,
+  "original_tags_in_display_order": [
+    5,
+    4,
+    6,
+    3,
+    2,
+    1
+  ],
+  "answer_alias_groups": [
+    [
+      "S9"
+    ]
+  ],
+  "semantic_assessment": {
+    "id": "apple_watch9",
+    "reviewer_type": "agent",
+    "human_validation": null,
+    "blocks_sha256": "caabcdcd27a7a2acd3ca6c5c0c7f5d8d3bf5ea432ed1cd7253e7ed741ec2057a",
+    "text_units": [
+      {
+        "tag": 6,
+        "assessment": "supports_statement_in_page_context",
+        "evidence_quote": "S9 SiP with 64‑bit dual‑core processor",
+        "source_offset": [
+          999,
+          1037
+        ],
+        "note": "Assessment uses the page entity and the exact target question; lexical answer occurrence alone is not entailment.",
+        "original_tag": 1
+      },
+      {
+        "tag": 5,
+        "assessment": "related_context_without_full_explicit_answer",
+        "evidence_quote": "Cycle Tracking with retrospective ovulation estimates 3",
+        "source_offset": [
+          1382,
+          1437
+        ],
+        "note": "Assessment uses the page entity and the exact target question; lexical answer occurrence alone is not entailment.",
+        "original_tag": 2
+      },
+      {
+        "tag": 4,
+        "assessment": "related_context_without_full_explicit_answer",
+        "evidence_quote": "Vitals app featuring heart rate, respiratory rate, wrist temperature, and sleep duration 29",
+        "source_offset": [
+          1494,
+          1585
+        ],
+        "note": "Assessment uses the page entity and the exact target question; lexical answer occurrence alone is not entailment.",
+        "original_tag": 3
+      },
+      {
+        "tag": 2,
+        "assessment": "related_context_without_full_explicit_answer",
+        "evidence_quote": "watchOS is the world’s most advanced wearable operating system, with apps and features designed to keep you active, healthy, safe, and connected.",
+        "source_offset": [
+          2277,
+          2422
+        ],
+        "note": "Assessment uses the page entity and the exact target question; lexical answer occurrence alone is not entailment.",
+        "original_tag": 4
+      },
+      {
+        "tag": 3,
+        "assessment": "source_page_entity_metadata",
+        "evidence_quote": "Apple Watch Series 9 - Tech Specs",
+        "source_offset": [
+          0,
+          33
+        ],
+        "note": "Assessment uses the page entity and the exact target question; lexical answer occurrence alone is not entailment.",
+        "original_tag": 6
+      }
+    ],
+    "image": {
+      "file": "image.png",
+      "sha256": "dceea60e4dfc091851e8e829673745d4945d4a151b5f0a13233e19041bbcd7c0",
+      "visually_inspected": true,
+      "artifact_status": "readable_article_image",
+      "assessment": "related_visual_context_not_standalone_full_answer",
+      "visible_evidence": "Product photograph matches the page product type; internal chip specification or total microphone count is not visibly established.",
+      "tag": 1
+    }
+  },
+  "original_cohort_same_entity": [],
+  "original_cohort_related_topic": []
+}

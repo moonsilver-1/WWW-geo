@@ -1,0 +1,475 @@
+{
+  "model": "qwen3vl8b",
+  "revision": "0c351dd01ed87e9c1b53cbc748cba10e6187ff3b",
+  "checks": [
+    {
+      "page": "rw_jwst",
+      "state": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "reference_tokens": 18,
+      "response_tokens": 20
+    },
+    {
+      "page": "rw_jwst",
+      "state": [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      "reference_tokens": 18,
+      "response_tokens": 20
+    },
+    {
+      "page": "rw_hubble",
+      "state": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "reference_tokens": 15,
+      "response_tokens": 17
+    },
+    {
+      "page": "rw_hubble",
+      "state": [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      "reference_tokens": 15,
+      "response_tokens": 17
+    },
+    {
+      "page": "rw_iphone15",
+      "state": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "reference_tokens": 18,
+      "response_tokens": 20
+    },
+    {
+      "page": "rw_iphone15",
+      "state": [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      "reference_tokens": 18,
+      "response_tokens": 20
+    },
+    {
+      "page": "rw_ps5",
+      "state": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "reference_tokens": 17,
+      "response_tokens": 19
+    },
+    {
+      "page": "rw_ps5",
+      "state": [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      "reference_tokens": 17,
+      "response_tokens": 19
+    },
+    {
+      "page": "rw_mrna",
+      "state": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "reference_tokens": 23,
+      "response_tokens": 25
+    },
+    {
+      "page": "rw_mrna",
+      "state": [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      "reference_tokens": 23,
+      "response_tokens": 25
+    },
+    {
+      "page": "rw_vitaminc",
+      "state": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "reference_tokens": 24,
+      "response_tokens": 26
+    },
+    {
+      "page": "rw_vitaminc",
+      "state": [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      "reference_tokens": 24,
+      "response_tokens": 26
+    },
+    {
+      "page": "rw_mars2020",
+      "state": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "reference_tokens": 22,
+      "response_tokens": 24
+    },
+    {
+      "page": "rw_mars2020",
+      "state": [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      "reference_tokens": 22,
+      "response_tokens": 24
+    },
+    {
+      "page": "rw_voyager1",
+      "state": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "reference_tokens": 18,
+      "response_tokens": 20
+    },
+    {
+      "page": "rw_voyager1",
+      "state": [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      "reference_tokens": 18,
+      "response_tokens": 20
+    },
+    {
+      "page": "rw_kepler",
+      "state": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "reference_tokens": 13,
+      "response_tokens": 15
+    },
+    {
+      "page": "rw_kepler",
+      "state": [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      "reference_tokens": 13,
+      "response_tokens": 15
+    },
+    {
+      "page": "rw_iss",
+      "state": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "reference_tokens": 22,
+      "response_tokens": 24
+    },
+    {
+      "page": "rw_iss",
+      "state": [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      "reference_tokens": 22,
+      "response_tokens": 24
+    },
+    {
+      "page": "rw_switch",
+      "state": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "reference_tokens": 20,
+      "response_tokens": 22
+    },
+    {
+      "page": "rw_switch",
+      "state": [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      "reference_tokens": 20,
+      "response_tokens": 22
+    },
+    {
+      "page": "rw_ipad10",
+      "state": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "reference_tokens": 18,
+      "response_tokens": 20
+    },
+    {
+      "page": "rw_ipad10",
+      "state": [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      "reference_tokens": 18,
+      "response_tokens": 20
+    },
+    {
+      "page": "rw_xboxseries",
+      "state": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "reference_tokens": 21,
+      "response_tokens": 23
+    },
+    {
+      "page": "rw_xboxseries",
+      "state": [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      "reference_tokens": 21,
+      "response_tokens": 23
+    },
+    {
+      "page": "rw_model3",
+      "state": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "reference_tokens": 14,
+      "response_tokens": 16
+    },
+    {
+      "page": "rw_model3",
+      "state": [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      "reference_tokens": 14,
+      "response_tokens": 16
+    },
+    {
+      "page": "rw_penicillin",
+      "state": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "reference_tokens": 15,
+      "response_tokens": 17
+    },
+    {
+      "page": "rw_penicillin",
+      "state": [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      "reference_tokens": 15,
+      "response_tokens": 17
+    },
+    {
+      "page": "rw_insulin",
+      "state": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "reference_tokens": 13,
+      "response_tokens": 15
+    },
+    {
+      "page": "rw_insulin",
+      "state": [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      "reference_tokens": 13,
+      "response_tokens": 15
+    },
+    {
+      "page": "rw_vitamind",
+      "state": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "reference_tokens": 9,
+      "response_tokens": 11
+    },
+    {
+      "page": "rw_vitamind",
+      "state": [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      "reference_tokens": 9,
+      "response_tokens": 11
+    },
+    {
+      "page": "rw_aspirin",
+      "state": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "reference_tokens": 12,
+      "response_tokens": 14
+    },
+    {
+      "page": "rw_aspirin",
+      "state": [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      "reference_tokens": 12,
+      "response_tokens": 14
+    }
+  ],
+  "passed": true
+}

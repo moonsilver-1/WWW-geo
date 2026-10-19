@@ -1,0 +1,187 @@
+{
+  "id": "nih_diabetes_overview",
+  "url": "https://www.niddk.nih.gov/health-information/diabetes/overview/what-is-diabetes",
+  "publisher": "NIH/NIDDK",
+  "question": "Which organ makes insulin?",
+  "statement": "The pancreas makes insulin.",
+  "answer": "pancreas",
+  "source_anchor": "Insulin is a hormone made by the pancreas",
+  "units": [
+    {
+      "tag": 1,
+      "type": "T",
+      "role": "fact",
+      "caption": false,
+      "text": "Insulin is a hormone made by the pancreas that helps glucose get into your cells to be used for energy. If you have diabetes, your body doesn’t make enough—or any—insulin, or doesn’t use insulin properly. Glucose then stays in your blood and doesn’t reach your cells.",
+      "source_offset": [
+        3086,
+        3353
+      ],
+      "original_tag": 1,
+      "lexical_answer_match": true
+    },
+    {
+      "tag": 2,
+      "type": "T",
+      "role": "context",
+      "caption": false,
+      "text": "Diabetes is a disease that occurs when your blood glucose, also called blood sugar, is too high. Glucose is your body’s main source of energy. Your body can make glucose, but glucose also comes from the food you eat.",
+      "source_offset": [
+        2869,
+        3085
+      ],
+      "original_tag": 2,
+      "lexical_answer_match": false
+    },
+    {
+      "tag": 3,
+      "type": "I",
+      "role": "image",
+      "caption": false,
+      "image": "image.png",
+      "original_tag": 5,
+      "lexical_answer_match": false
+    },
+    {
+      "tag": 4,
+      "type": "T",
+      "role": "context",
+      "caption": false,
+      "text": "The most common types of diabetes are type 1, type 2, and gestational diabetes.",
+      "source_offset": [
+        3722,
+        3801
+      ],
+      "original_tag": 4,
+      "lexical_answer_match": false
+    },
+    {
+      "tag": 5,
+      "type": "T",
+      "role": "source_heading",
+      "caption": false,
+      "text": "What Is Diabetes?",
+      "source_offset": [
+        0,
+        17
+      ],
+      "original_tag": 6,
+      "lexical_answer_match": false
+    },
+    {
+      "tag": 6,
+      "type": "T",
+      "role": "context",
+      "caption": false,
+      "text": "Diabetes raises the risk for damage to the eyes, kidneys, nerves, and heart. Diabetes is also linked to some types of cancer. Taking steps to prevent or manage diabetes may lower your risk of developing diabetes health problems.",
+      "source_offset": [
+        3354,
+        3582
+      ],
+      "original_tag": 3,
+      "lexical_answer_match": false
+    }
+  ],
+  "image_url": "https://www.niddk.nih.gov/-/media/Images/Health-Information/Diabetes/BloodGlucoseImage2Feb231200x800.jpg",
+  "image_alt": "On the left, a diagram of a blood vessel that has a normal blood glucose level and contains fewer glucose molecules. On the right, a diagram of a blood vessel that has a high blood glucose level and contains more glucose molecules.",
+  "original_image_size": [
+    1200,
+    800
+  ],
+  "source_html_sha256": "d442f8f3889c89d951e582310348ade2c6af22b1faf1415c2212eb73a0493470",
+  "image_original_sha256": "884b52cc1cde0bc2566dfa612e6a962190049ac39f6ecb0621fb744cd445de0b",
+  "status": "frozen_before_inference",
+  "human_validation": null,
+  "source_record": "data/www_candidate_sources/nih_diabetes_overview/d442f8f3889c89d951e582310348ade2c6af22b1faf1415c2212eb73a0493470.json",
+  "split": "transfer",
+  "permutation_seed": 20261013,
+  "original_tags_in_display_order": [
+    1,
+    2,
+    5,
+    4,
+    6,
+    3
+  ],
+  "answer_alias_groups": [
+    [
+      "pancreas"
+    ]
+  ],
+  "semantic_assessment": {
+    "id": "nih_diabetes_overview",
+    "reviewer_type": "agent",
+    "human_validation": null,
+    "blocks_sha256": "2e9a9ae5db5d154e084be939db061ea04e71ccb6f41fddd33ea8cf56224e109c",
+    "text_units": [
+      {
+        "tag": 1,
+        "assessment": "supports_statement_in_page_context",
+        "evidence_quote": "Insulin is a hormone made by the pancreas that helps glucose get into your cells to be used for energy. If you have diabetes, your body doesn’t make enough—or any—insulin, or doesn’t use insulin properly. Glucose then stays in your blood and doesn’t reach your cells.",
+        "source_offset": [
+          3086,
+          3353
+        ],
+        "note": "Assessment uses the page entity and the exact target question; lexical answer occurrence alone is not entailment.",
+        "original_tag": 1
+      },
+      {
+        "tag": 2,
+        "assessment": "related_context_without_full_explicit_answer",
+        "evidence_quote": "Diabetes is a disease that occurs when your blood glucose, also called blood sugar, is too high. Glucose is your body’s main source of energy. Your body can make glucose, but glucose also comes from the food you eat.",
+        "source_offset": [
+          2869,
+          3085
+        ],
+        "note": "Assessment uses the page entity and the exact target question; lexical answer occurrence alone is not entailment.",
+        "original_tag": 2
+      },
+      {
+        "tag": 6,
+        "assessment": "related_context_without_full_explicit_answer",
+        "evidence_quote": "Diabetes raises the risk for damage to the eyes, kidneys, nerves, and heart. Diabetes is also linked to some types of cancer. Taking steps to prevent or manage diabetes may lower your risk of developing diabetes health problems.",
+        "source_offset": [
+          3354,
+          3582
+        ],
+        "note": "Assessment uses the page entity and the exact target question; lexical answer occurrence alone is not entailment.",
+        "original_tag": 3
+      },
+      {
+        "tag": 4,
+        "assessment": "related_context_without_full_explicit_answer",
+        "evidence_quote": "The most common types of diabetes are type 1, type 2, and gestational diabetes.",
+        "source_offset": [
+          3722,
+          3801
+        ],
+        "note": "Assessment uses the page entity and the exact target question; lexical answer occurrence alone is not entailment.",
+        "original_tag": 4
+      },
+      {
+        "tag": 5,
+        "assessment": "source_page_entity_metadata",
+        "evidence_quote": "What Is Diabetes?",
+        "source_offset": [
+          0,
+          17
+        ],
+        "note": "Assessment uses the page entity and the exact target question; lexical answer occurrence alone is not entailment.",
+        "original_tag": 6
+      }
+    ],
+    "image": {
+      "file": "image.png",
+      "sha256": "f5fa45cf331146925bf99172da8b353bae1382451cadd9233cba44bacae76be0",
+      "visually_inspected": true,
+      "artifact_status": "readable_article_image",
+      "assessment": "related_visual_context_not_standalone_full_answer",
+      "visible_evidence": "Normal versus high blood glucose vessels are shown; pancreas and insulin production are not depicted.",
+      "tag": 3
+    }
+  },
+  "original_cohort_same_entity": [],
+  "original_cohort_related_topic": [
+    "rw_insulin"
+  ]
+}

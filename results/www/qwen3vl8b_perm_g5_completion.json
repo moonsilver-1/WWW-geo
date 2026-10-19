@@ -1,0 +1,9 @@
+{
+  "pages": 2,
+  "eligible_cubes": 2,
+  "parsed_state_counts": {
+    "rw_vitaminc": 64,
+    "rw_model3": 64
+  },
+  "raw_rows": 128
+}

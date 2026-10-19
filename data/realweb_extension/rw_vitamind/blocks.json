@@ -1,0 +1,46 @@
+{
+  "units": [
+    {
+      "tag": 1,
+      "type": "T",
+      "role": "fact",
+      "caption": false,
+      "text": "Vitamin D is a group of structurally related, fat-soluble compounds responsible for increasing intestinal absorption of calcium , along with numerous other biological functions. [ 1 ] [ 2 ] In humans, the most important compounds within this group are vitamin D 3 ( cholecalciferol ) and vitamin D 2 ( ergocalciferol ). [ 2 ] [ 3 ]"
+    },
+    {
+      "tag": 2,
+      "type": "T",
+      "role": "context",
+      "caption": false,
+      "text": "Unlike the other twelve vitamins , vitamin D is only conditionally essential in the diet, as with adequate skin exposure to the ultraviolet B (UVB) radiation component of sunlight there is synthesis of cholecalciferol in the deeper layers of the skin's epidermis . Vitamin D can also be obtained through diet, food fortification and dietary supplements . [ 2 ] For most people, skin synthesis contributes more than dieta"
+    },
+    {
+      "tag": 3,
+      "type": "I",
+      "role": "image",
+      "caption": false,
+      "image": "image.jpg"
+    },
+    {
+      "tag": 4,
+      "type": "T",
+      "role": "caption",
+      "caption": true,
+      "text": "X-ray of the legs of a two-year-old child with rickets showing bowing of the femur and low bone density"
+    },
+    {
+      "tag": 5,
+      "type": "T",
+      "role": "adjacent",
+      "caption": false,
+      "text": "Cholecalciferol is converted in the liver to calcifediol (also known as calcidiol or 25-hydroxycholecalciferol), while ergocalciferol is converted to ercalcidiol (25-hydroxyergocalciferol). These two vitamin D metabolites, collectively referred to as 25-hydroxyvitamin D or 25(OH)D, are measured in serum to assess a person's vitamin D status. Calcifediol is further hydroxylated by the kidneys and certain immune cells "
+    },
+    {
+      "tag": 6,
+      "type": "T",
+      "role": "distractor",
+      "caption": false,
+      "text": "The discovery of the vitamin in 1922 was due to an effort to identify the dietary deficiency in children with rickets . [ 6 ] [ 7 ] Adolf Windaus received the Nobel Prize in Chemistry in 1928 for his work on the constitution of sterols and their connection with vitamins. [ 8 ] Present day, government food fortification programs in some countries and recommendations to consume vitamin D supplements are intended to pre"
+    }
+  ]
+}

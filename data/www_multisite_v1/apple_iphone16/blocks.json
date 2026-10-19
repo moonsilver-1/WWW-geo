@@ -1,0 +1,185 @@
+{
+  "id": "apple_iphone16",
+  "url": "https://support.apple.com/en-us/121029",
+  "publisher": "Apple",
+  "question": "Which chip powers iPhone 16?",
+  "statement": "iPhone 16 uses the A18 chip.",
+  "answer": "A18",
+  "source_anchor": "A18 chip",
+  "units": [
+    {
+      "tag": 1,
+      "type": "T",
+      "role": "source_heading",
+      "caption": false,
+      "text": "iPhone 16 - Tech Specs",
+      "source_offset": [
+        0,
+        22
+      ],
+      "original_tag": 6,
+      "lexical_answer_match": false
+    },
+    {
+      "tag": 2,
+      "type": "T",
+      "role": "context",
+      "caption": false,
+      "text": "Support for display of multiple languages and characters simultaneously",
+      "source_offset": [
+        940,
+        1011
+      ],
+      "original_tag": 4,
+      "lexical_answer_match": false
+    },
+    {
+      "tag": 3,
+      "type": "T",
+      "role": "context",
+      "caption": false,
+      "text": "1000 nits max brightness (typical); 1600 nits peak brightness (HDR); 2000 nits peak brightness (outdoor); 1 nit minimum brightness",
+      "source_offset": [
+        768,
+        898
+      ],
+      "original_tag": 3,
+      "lexical_answer_match": false
+    },
+    {
+      "tag": 4,
+      "type": "T",
+      "role": "context",
+      "caption": false,
+      "text": "Aluminum design, Ceramic Shield front, Color-infused glass back (Black, Pink, Teal, Ultramarine)",
+      "source_offset": [
+        284,
+        380
+      ],
+      "original_tag": 2,
+      "lexical_answer_match": false
+    },
+    {
+      "tag": 5,
+      "type": "I",
+      "role": "image",
+      "caption": false,
+      "image": "image.png",
+      "original_tag": 5,
+      "lexical_answer_match": false
+    },
+    {
+      "tag": 6,
+      "type": "T",
+      "role": "fact",
+      "caption": false,
+      "text": "Chip A18 chip 6‑core CPU with 2 performance and 4 efficiency cores 5‑core GPU 16‑core Neural Engine",
+      "source_offset": [
+        1736,
+        1835
+      ],
+      "original_tag": 1,
+      "lexical_answer_match": true
+    }
+  ],
+  "image_url": "https://cdsassets.apple.com/live/7WUAS350/images/tech-specs/iphone-16.png",
+  "image_alt": "iphone-16.png",
+  "original_image_size": [
+    960,
+    960
+  ],
+  "source_html_sha256": "5ece4c1d7d819388f18184dd8543618fdb42d3e241ce61cc71d3e976a535c4f0",
+  "image_original_sha256": "f7e7b9da2793c65e8e59f8a23e2bcef12e6254302d265b35da0579f8d4d9debc",
+  "status": "frozen_before_inference",
+  "human_validation": null,
+  "source_record": "data/www_candidate_sources/apple_iphone16/5ece4c1d7d819388f18184dd8543618fdb42d3e241ce61cc71d3e976a535c4f0.json",
+  "split": "transfer",
+  "permutation_seed": 20261013,
+  "original_tags_in_display_order": [
+    6,
+    4,
+    3,
+    2,
+    5,
+    1
+  ],
+  "answer_alias_groups": [
+    [
+      "A18"
+    ]
+  ],
+  "semantic_assessment": {
+    "id": "apple_iphone16",
+    "reviewer_type": "agent",
+    "human_validation": null,
+    "blocks_sha256": "850783dd7208e3bd52bff5269fe441a17ecb1f6a7f2ad0e545d95bc91b049f9b",
+    "text_units": [
+      {
+        "tag": 6,
+        "assessment": "supports_statement_in_page_context",
+        "evidence_quote": "Chip A18 chip 6‑core CPU with 2 performance and 4 efficiency cores 5‑core GPU 16‑core Neural Engine",
+        "source_offset": [
+          1736,
+          1835
+        ],
+        "note": "Assessment uses the page entity and the exact target question; lexical answer occurrence alone is not entailment.",
+        "original_tag": 1
+      },
+      {
+        "tag": 4,
+        "assessment": "related_context_without_full_explicit_answer",
+        "evidence_quote": "Aluminum design, Ceramic Shield front, Color-infused glass back (Black, Pink, Teal, Ultramarine)",
+        "source_offset": [
+          284,
+          380
+        ],
+        "note": "Assessment uses the page entity and the exact target question; lexical answer occurrence alone is not entailment.",
+        "original_tag": 2
+      },
+      {
+        "tag": 3,
+        "assessment": "related_context_without_full_explicit_answer",
+        "evidence_quote": "1000 nits max brightness (typical); 1600 nits peak brightness (HDR); 2000 nits peak brightness (outdoor); 1 nit minimum brightness",
+        "source_offset": [
+          768,
+          898
+        ],
+        "note": "Assessment uses the page entity and the exact target question; lexical answer occurrence alone is not entailment.",
+        "original_tag": 3
+      },
+      {
+        "tag": 2,
+        "assessment": "related_context_without_full_explicit_answer",
+        "evidence_quote": "Support for display of multiple languages and characters simultaneously",
+        "source_offset": [
+          940,
+          1011
+        ],
+        "note": "Assessment uses the page entity and the exact target question; lexical answer occurrence alone is not entailment.",
+        "original_tag": 4
+      },
+      {
+        "tag": 1,
+        "assessment": "source_page_entity_metadata",
+        "evidence_quote": "iPhone 16 - Tech Specs",
+        "source_offset": [
+          0,
+          22
+        ],
+        "note": "Assessment uses the page entity and the exact target question; lexical answer occurrence alone is not entailment.",
+        "original_tag": 6
+      }
+    ],
+    "image": {
+      "file": "image.png",
+      "sha256": "1b034c99a90fd36ecb5e12ca7400f7da87a88e3593b39e08c7dc4488f19a3761",
+      "visually_inspected": true,
+      "artifact_status": "readable_article_image",
+      "assessment": "related_visual_context_not_standalone_full_answer",
+      "visible_evidence": "Product photograph matches the page product type; internal chip specification or total microphone count is not visibly established.",
+      "tag": 5
+    }
+  },
+  "original_cohort_same_entity": [],
+  "original_cohort_related_topic": []
+}

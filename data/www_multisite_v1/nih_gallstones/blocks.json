@@ -1,0 +1,185 @@
+{
+  "id": "nih_gallstones",
+  "url": "https://www.niddk.nih.gov/health-information/digestive-diseases/gallstones/definition-facts",
+  "publisher": "NIH/NIDDK",
+  "question": "In which organ do gallstones form?",
+  "statement": "Gallstones form in the gallbladder.",
+  "answer": "gallbladder",
+  "source_anchor": "form in your gallbladder",
+  "units": [
+    {
+      "tag": 1,
+      "type": "T",
+      "role": "context",
+      "caption": false,
+      "text": "Cholesterol stones are usually yellow-green in color and are made of mostly hardened cholesterol. In some countries, cholesterol stones make up about 75 percent of gallstones. 1",
+      "source_offset": [
+        3193,
+        3370
+      ],
+      "original_tag": 4,
+      "lexical_answer_match": false
+    },
+    {
+      "tag": 2,
+      "type": "I",
+      "role": "image",
+      "caption": false,
+      "image": "image.png",
+      "original_tag": 5,
+      "lexical_answer_match": false
+    },
+    {
+      "tag": 3,
+      "type": "T",
+      "role": "fact",
+      "caption": false,
+      "text": "Gallstones are hard, pebble-like pieces of material, usually made of cholesterol or bilirubin , that form in your gallbladder . Gallstones can range in size from a grain of sand to a golf ball. The gallbladder can make one large gallstone, hundreds of tiny stones, or both small and large stones.",
+      "source_offset": [
+        2364,
+        2660
+      ],
+      "original_tag": 1,
+      "lexical_answer_match": true
+    },
+    {
+      "tag": 4,
+      "type": "T",
+      "role": "source_heading",
+      "caption": false,
+      "text": "Definition & Facts for Gallstones",
+      "source_offset": [
+        0,
+        33
+      ],
+      "original_tag": 6,
+      "lexical_answer_match": false
+    },
+    {
+      "tag": 5,
+      "type": "T",
+      "role": "context",
+      "caption": false,
+      "text": "However, most gallstones don’t cause blockages and are painless, also called “silent” gallstones. Silent gallstones usually don’t need medical treatment.",
+      "source_offset": [
+        2948,
+        3101
+      ],
+      "original_tag": 3,
+      "lexical_answer_match": false
+    },
+    {
+      "tag": 6,
+      "type": "T",
+      "role": "context",
+      "caption": false,
+      "text": "When gallstones block the bile ducts of your biliary tract , the gallstones can cause sudden pain in your upper right abdomen . This pain is called a gallbladder attack, or biliary colic. If your symptoms continue and they’re left untreated, gallstones can cause serious complications .",
+      "source_offset": [
+        2661,
+        2947
+      ],
+      "original_tag": 2,
+      "lexical_answer_match": true
+    }
+  ],
+  "image_url": "https://www.niddk.nih.gov/-/media/Images/Health-Information/Digestive-Diseases/gallbladderAnatomy_600x486.jpg",
+  "image_alt": "Illustration of the anatomy of the gallbladder; shows the liver, common hepatic duct, cystic duct, common bile duct, pancreas, and small intestine. The inset shows the liver, bile ducts, gallbladder, pancreas, and small intestine.",
+  "original_image_size": [
+    600,
+    486
+  ],
+  "source_html_sha256": "c5cef3050f750e797d953f33178e977d8c23831862e7fe3a8ea9693e7e62e072",
+  "image_original_sha256": "9b553ef5c56566e96501c266ef12cb7d93ad38adc00e6c354960aa5e334be0a4",
+  "status": "frozen_before_inference",
+  "human_validation": null,
+  "source_record": "data/www_candidate_sources/nih_gallstones/c5cef3050f750e797d953f33178e977d8c23831862e7fe3a8ea9693e7e62e072.json",
+  "split": "transfer",
+  "permutation_seed": 20261013,
+  "original_tags_in_display_order": [
+    4,
+    5,
+    1,
+    6,
+    3,
+    2
+  ],
+  "answer_alias_groups": [
+    [
+      "gallbladder"
+    ]
+  ],
+  "semantic_assessment": {
+    "id": "nih_gallstones",
+    "reviewer_type": "agent",
+    "human_validation": null,
+    "blocks_sha256": "fd06c197a8962a60fd177eb40c37e5017616211d395f52e316e134115944bdad",
+    "text_units": [
+      {
+        "tag": 3,
+        "assessment": "supports_statement_in_page_context",
+        "evidence_quote": "Gallstones are hard, pebble-like pieces of material, usually made of cholesterol or bilirubin , that form in your gallbladder . Gallstones can range in size from a grain of sand to a golf ball. The gallbladder can make one large gallstone, hundreds of tiny stones, or both small and large stones.",
+        "source_offset": [
+          2364,
+          2660
+        ],
+        "note": "Assessment uses the page entity and the exact target question; lexical answer occurrence alone is not entailment.",
+        "original_tag": 1
+      },
+      {
+        "tag": 6,
+        "assessment": "related_context_without_full_explicit_answer",
+        "evidence_quote": "When gallstones block the bile ducts of your biliary tract , the gallstones can cause sudden pain in your upper right abdomen . This pain is called a gallbladder attack, or biliary colic. If your symptoms continue and they’re left untreated, gallstones can cause serious complications .",
+        "source_offset": [
+          2661,
+          2947
+        ],
+        "note": "Assessment uses the page entity and the exact target question; lexical answer occurrence alone is not entailment.",
+        "original_tag": 2
+      },
+      {
+        "tag": 5,
+        "assessment": "related_context_without_full_explicit_answer",
+        "evidence_quote": "However, most gallstones don’t cause blockages and are painless, also called “silent” gallstones. Silent gallstones usually don’t need medical treatment.",
+        "source_offset": [
+          2948,
+          3101
+        ],
+        "note": "Assessment uses the page entity and the exact target question; lexical answer occurrence alone is not entailment.",
+        "original_tag": 3
+      },
+      {
+        "tag": 1,
+        "assessment": "related_context_without_full_explicit_answer",
+        "evidence_quote": "Cholesterol stones are usually yellow-green in color and are made of mostly hardened cholesterol. In some countries, cholesterol stones make up about 75 percent of gallstones. 1",
+        "source_offset": [
+          3193,
+          3370
+        ],
+        "note": "Assessment uses the page entity and the exact target question; lexical answer occurrence alone is not entailment.",
+        "original_tag": 4
+      },
+      {
+        "tag": 4,
+        "assessment": "source_page_entity_metadata",
+        "evidence_quote": "Definition & Facts for Gallstones",
+        "source_offset": [
+          0,
+          33
+        ],
+        "note": "Assessment uses the page entity and the exact target question; lexical answer occurrence alone is not entailment.",
+        "original_tag": 6
+      }
+    ],
+    "image": {
+      "file": "image.png",
+      "sha256": "6d658c10fccea8f4e49f3bf79e98a9915037372c6e8cf47532f1a57407d3fd74",
+      "visually_inspected": true,
+      "artifact_status": "readable_article_image",
+      "assessment": "related_visual_context_not_standalone_full_answer",
+      "visible_evidence": "Labeled abdominal anatomy shows the gallbladder, ducts and adjacent organs; it does not depict stones forming.",
+      "tag": 2
+    }
+  },
+  "original_cohort_same_entity": [],
+  "original_cohort_related_topic": []
+}

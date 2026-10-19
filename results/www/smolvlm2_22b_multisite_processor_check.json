@@ -1,0 +1,639 @@
+{
+  "model": "smolvlm2_22b",
+  "revision": "482adb537c021c86670beed01cd58990d01e72e4",
+  "cohort_sha256": "92b19d663cadaf7512f86e2af7c620cb443cbf3f91e973a474191f8105ea4468",
+  "checks": [
+    {
+      "page": "apple_airpods_max1",
+      "state": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "reference_tokens": 12,
+      "response_tokens": 14
+    },
+    {
+      "page": "apple_airpods_max1",
+      "state": [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      "reference_tokens": 12,
+      "response_tokens": 14
+    },
+    {
+      "page": "apple_airpods_pro2",
+      "state": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "reference_tokens": 14,
+      "response_tokens": 16
+    },
+    {
+      "page": "apple_airpods_pro2",
+      "state": [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      "reference_tokens": 14,
+      "response_tokens": 16
+    },
+    {
+      "page": "apple_ipad10",
+      "state": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "reference_tokens": 14,
+      "response_tokens": 16
+    },
+    {
+      "page": "apple_ipad10",
+      "state": [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      "reference_tokens": 14,
+      "response_tokens": 16
+    },
+    {
+      "page": "apple_iphone14",
+      "state": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "reference_tokens": 13,
+      "response_tokens": 15
+    },
+    {
+      "page": "apple_iphone14",
+      "state": [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      "reference_tokens": 13,
+      "response_tokens": 15
+    },
+    {
+      "page": "apple_iphone15",
+      "state": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "reference_tokens": 13,
+      "response_tokens": 15
+    },
+    {
+      "page": "apple_iphone15",
+      "state": [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      "reference_tokens": 13,
+      "response_tokens": 15
+    },
+    {
+      "page": "apple_iphone16",
+      "state": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "reference_tokens": 11,
+      "response_tokens": 13
+    },
+    {
+      "page": "apple_iphone16",
+      "state": [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      "reference_tokens": 11,
+      "response_tokens": 13
+    },
+    {
+      "page": "apple_macbookair_m2",
+      "state": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "reference_tokens": 16,
+      "response_tokens": 18
+    },
+    {
+      "page": "apple_macbookair_m2",
+      "state": [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      "reference_tokens": 16,
+      "response_tokens": 18
+    },
+    {
+      "page": "apple_watch9",
+      "state": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "reference_tokens": 12,
+      "response_tokens": 14
+    },
+    {
+      "page": "apple_watch9",
+      "state": [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      "reference_tokens": 12,
+      "response_tokens": 14
+    },
+    {
+      "page": "nasa_cassini",
+      "state": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "reference_tokens": 5,
+      "response_tokens": 7
+    },
+    {
+      "page": "nasa_cassini",
+      "state": [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      "reference_tokens": 5,
+      "response_tokens": 7
+    },
+    {
+      "page": "nasa_curiosity",
+      "state": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "reference_tokens": 9,
+      "response_tokens": 11
+    },
+    {
+      "page": "nasa_curiosity",
+      "state": [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      "reference_tokens": 9,
+      "response_tokens": 11
+    },
+    {
+      "page": "nasa_europa_clipper",
+      "state": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "reference_tokens": 16,
+      "response_tokens": 18
+    },
+    {
+      "page": "nasa_europa_clipper",
+      "state": [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      "reference_tokens": 16,
+      "response_tokens": 18
+    },
+    {
+      "page": "nasa_juno",
+      "state": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "reference_tokens": 16,
+      "response_tokens": 18
+    },
+    {
+      "page": "nasa_juno",
+      "state": [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      "reference_tokens": 16,
+      "response_tokens": 18
+    },
+    {
+      "page": "nasa_new_horizons",
+      "state": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "reference_tokens": 17,
+      "response_tokens": 19
+    },
+    {
+      "page": "nasa_new_horizons",
+      "state": [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      "reference_tokens": 17,
+      "response_tokens": 19
+    },
+    {
+      "page": "nasa_perseverance",
+      "state": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "reference_tokens": 11,
+      "response_tokens": 13
+    },
+    {
+      "page": "nasa_perseverance",
+      "state": [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      "reference_tokens": 11,
+      "response_tokens": 13
+    },
+    {
+      "page": "nasa_psyche",
+      "state": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "reference_tokens": 15,
+      "response_tokens": 17
+    },
+    {
+      "page": "nasa_psyche",
+      "state": [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      "reference_tokens": 15,
+      "response_tokens": 17
+    },
+    {
+      "page": "nasa_webb_mirrors",
+      "state": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "reference_tokens": 10,
+      "response_tokens": 12
+    },
+    {
+      "page": "nasa_webb_mirrors",
+      "state": [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      "reference_tokens": 10,
+      "response_tokens": 12
+    },
+    {
+      "page": "nih_celiac",
+      "state": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "reference_tokens": 8,
+      "response_tokens": 10
+    },
+    {
+      "page": "nih_celiac",
+      "state": [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      "reference_tokens": 8,
+      "response_tokens": 10
+    },
+    {
+      "page": "nih_constipation",
+      "state": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "reference_tokens": 16,
+      "response_tokens": 18
+    },
+    {
+      "page": "nih_constipation",
+      "state": [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      "reference_tokens": 16,
+      "response_tokens": 18
+    },
+    {
+      "page": "nih_diabetes_overview",
+      "state": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "reference_tokens": 5,
+      "response_tokens": 7
+    },
+    {
+      "page": "nih_diabetes_overview",
+      "state": [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      "reference_tokens": 5,
+      "response_tokens": 7
+    },
+    {
+      "page": "nih_gallstones",
+      "state": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "reference_tokens": 7,
+      "response_tokens": 9
+    },
+    {
+      "page": "nih_gallstones",
+      "state": [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      "reference_tokens": 7,
+      "response_tokens": 9
+    },
+    {
+      "page": "nih_gerd",
+      "state": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "reference_tokens": 13,
+      "response_tokens": 15
+    },
+    {
+      "page": "nih_gerd",
+      "state": [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      "reference_tokens": 13,
+      "response_tokens": 15
+    },
+    {
+      "page": "nih_kidney_nephrons",
+      "state": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "reference_tokens": 11,
+      "response_tokens": 13
+    },
+    {
+      "page": "nih_kidney_nephrons",
+      "state": [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      "reference_tokens": 11,
+      "response_tokens": 13
+    },
+    {
+      "page": "nih_lactose",
+      "state": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "reference_tokens": 13,
+      "response_tokens": 15
+    },
+    {
+      "page": "nih_lactose",
+      "state": [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      "reference_tokens": 13,
+      "response_tokens": 15
+    },
+    {
+      "page": "nih_peptic_ulcers",
+      "state": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "reference_tokens": 16,
+      "response_tokens": 18
+    },
+    {
+      "page": "nih_peptic_ulcers",
+      "state": [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      "reference_tokens": 16,
+      "response_tokens": 18
+    }
+  ],
+  "passed": true,
+  "tokenizer_options": {},
+  "runner_sha256": {
+    "frozen_cohort.py": "2d2650ae457b323016ab1cb969bc5bab4344b21cc6fa99042d2555687fc081e0",
+    "validate_frozen_processor.py": "bf84cbbdf156f28a90a9b04b61e83414d6f59995ba1e051fb36298be1d152655",
+    "run_web_eval.py": "742b5f458610f81fb0864aa827ebed2f345b8dcd218495ae51b74a27e0e136c1",
+    "vendor_inputs.py": "db52c8b3eeed8e0c31e9734242d5c41a36d151510c7ec986820a70dfff6416bd"
+  }
+}

@@ -1,0 +1,44 @@
+Shared allocation cuda:0: 21.17GiB free; 4.00GiB reserve; allocator cap 17.17GiB
+Shared allocation cuda:1: 19.76GiB free; 4.00GiB reserve; allocator cap 15.76GiB
+`torch_dtype` is deprecated! Use `dtype` instead!
+Loading checkpoint shards:   0%|          | 0/7 [00:00<?, ?it/s]Loading checkpoint shards:  14%|█▍        | 1/7 [00:02<00:17,  2.93s/it]Loading checkpoint shards:  29%|██▊       | 2/7 [00:05<00:14,  2.93s/it]Loading checkpoint shards:  43%|████▎     | 3/7 [00:07<00:09,  2.47s/it]Loading checkpoint shards:  57%|█████▋    | 4/7 [00:09<00:06,  2.20s/it]Loading checkpoint shards:  71%|███████▏  | 5/7 [00:11<00:04,  2.12s/it]Loading checkpoint shards:  86%|████████▌ | 6/7 [00:12<00:01,  1.89s/it]Loading checkpoint shards: 100%|██████████| 7/7 [00:12<00:00,  1.86s/it]
+Some parameters are on the meta device because they were offloaded to the disk.
+Traceback (most recent call last):
+  File "/data/cyf/codes/TauTrajDiff/WWW/run_web_eval.py", line 288, in <module>
+    main()
+  File "/data/cyf/codes/TauTrajDiff/WWW/run_web_eval.py", line 225, in main
+    reader = Reader(args.model, runtime_device)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/cyf/codes/TauTrajDiff/WWW/run_web_eval.py", line 89, in __init__
+    self.model = cls.from_pretrained(model, torch_dtype=torch.bfloat16,
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/cyf/codes/TauTrajDiff/WWW/.venv/lib/python3.11/site-packages/transformers/models/auto/auto_factory.py", line 597, in from_pretrained
+    return model_class.from_pretrained(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.cache/huggingface/modules/transformers_modules/phi4vision15b/modeling_phi4_visionr.py", line 1010, in from_pretrained
+    model.to(dtype)
+  File "/data/miniconda/envs/ABS/lib/python3.11/site-packages/accelerate/big_modeling.py", line 468, in wrapper
+    raise RuntimeError("You can't move a model that has some modules offloaded to cpu or disk.")
+RuntimeError: You can't move a model that has some modules offloaded to cpu or disk.
+Shared allocation cuda:0: 21.17GiB free; 4.00GiB reserve; allocator cap 17.17GiB
+Shared allocation cuda:1: 19.76GiB free; 4.00GiB reserve; allocator cap 15.76GiB
+`torch_dtype` is deprecated! Use `dtype` instead!
+Loading checkpoint shards:   0%|          | 0/7 [00:00<?, ?it/s]Loading checkpoint shards:  14%|█▍        | 1/7 [00:02<00:13,  2.30s/it]Loading checkpoint shards:  29%|██▊       | 2/7 [00:03<00:08,  1.76s/it]Loading checkpoint shards:  43%|████▎     | 3/7 [00:05<00:06,  1.64s/it]Loading checkpoint shards:  57%|█████▋    | 4/7 [00:06<00:04,  1.51s/it]Loading checkpoint shards:  71%|███████▏  | 5/7 [00:07<00:02,  1.45s/it]Loading checkpoint shards:  86%|████████▌ | 6/7 [00:09<00:01,  1.41s/it]Loading checkpoint shards: 100%|██████████| 7/7 [00:09<00:00,  1.31s/it]
+Some parameters are on the meta device because they were offloaded to the disk.
+Traceback (most recent call last):
+  File "/data/cyf/codes/TauTrajDiff/WWW/run_web_eval.py", line 288, in <module>
+    main()
+  File "/data/cyf/codes/TauTrajDiff/WWW/run_web_eval.py", line 225, in main
+    reader = Reader(args.model, runtime_device)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/cyf/codes/TauTrajDiff/WWW/run_web_eval.py", line 89, in __init__
+    self.model = cls.from_pretrained(model, torch_dtype=torch.bfloat16,
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/cyf/codes/TauTrajDiff/WWW/.venv/lib/python3.11/site-packages/transformers/models/auto/auto_factory.py", line 597, in from_pretrained
+    return model_class.from_pretrained(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.cache/huggingface/modules/transformers_modules/phi4vision15b/modeling_phi4_visionr.py", line 1010, in from_pretrained
+    model.to(dtype)
+  File "/data/miniconda/envs/ABS/lib/python3.11/site-packages/accelerate/big_modeling.py", line 468, in wrapper
+    raise RuntimeError("You can't move a model that has some modules offloaded to cpu or disk.")
+RuntimeError: You can't move a model that has some modules offloaded to cpu or disk.

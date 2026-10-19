@@ -1,0 +1,46 @@
+{
+  "units": [
+    {
+      "tag": 1,
+      "type": "T",
+      "role": "fact",
+      "caption": false,
+      "text": "Voyager 1 is a space probe launched by NASA on September 5, 1977, as part of the Voyager program , to study the outer Solar System and the interstellar space beyond the Sun's heliosphere . It was launched 16 days after its twin, Voyager 2 . It communicates through the NASA Deep Space Network (DSN) to receive routine commands and to transmit data to Earth. Real-time distance and velocity data are provided by NASA and "
+    },
+    {
+      "tag": 2,
+      "type": "T",
+      "role": "context",
+      "caption": false,
+      "text": "The probe made flybys of Jupiter , Saturn , and Saturn's largest moon , Titan . NASA had a choice of either conducting a Pluto or Titan flyby. Exploration of Titan took priority because it was known to have a substantial atmosphere. [ 7 ] [ 8 ] [ 9 ] Voyager 1 studied the weather, magnetic fields , and rings of the two gas giants and was the first probe to provide detailed images of their moons."
+    },
+    {
+      "tag": 3,
+      "type": "I",
+      "role": "image",
+      "caption": false,
+      "image": "image.png"
+    },
+    {
+      "tag": 4,
+      "type": "T",
+      "role": "caption",
+      "caption": true,
+      "text": "Artist's rendering of the Voyager spacecraft, a small-bodied spacecraft with a large, central dish with multiple arms and antennas extending from the dish"
+    },
+    {
+      "tag": 5,
+      "type": "T",
+      "role": "adjacent",
+      "caption": false,
+      "text": "As part of the Voyager program and like its sister craft Voyager 2 , the spacecraft's extended mission is to locate and study the regions and boundaries of the outer heliosphere and to begin exploring the interstellar medium. Voyager 1 crossed the heliopause and entered interstellar space on August 25, 2012, making it the first spacecraft to do so. [ 10 ] [ 11 ] Two years later, Voyager 1 began experiencing a third w"
+    },
+    {
+      "tag": 6,
+      "type": "T",
+      "role": "distractor",
+      "caption": false,
+      "text": "In 2017, the Voyager team successfully fired the spacecraft's trajectory correction maneuver (TCM) thrusters for the first time since 1980, enabling the mission to be extended by two to three years. [ 13 ] Voyager 1 experienced successful revivals of several thrusters in 2018, 2019, and 2025. [ 14 ]"
+    }
+  ]
+}

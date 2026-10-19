@@ -1,0 +1,26 @@
+{
+  "reason": "FP32 pixel input versus BF16 vision weights",
+  "runtime_error_rows": 2,
+  "old_queue_pid": 3818920,
+  "old_worker": {
+    "status": "failed",
+    "pid": 195465,
+    "gpu": 0,
+    "gpu_uuid": "GPU-84122489-4201-55c9-df7f-31acea960606",
+    "command": "python -u run_web_eval.py --model pixtral12b --device cuda:0 --workers 4",
+    "gpu_policy": "shared",
+    "required_free_mib": 32768,
+    "prelaunch_free_mib": 33547,
+    "reserve_mib": 4096,
+    "attempts": 2,
+    "started_at_unix": 1791812125.0060148,
+    "exit_code": 1
+  },
+  "raw_sha256": "b14c33ee2c1b1aefa39f9189bb398648553338b423245bb3411755f54d7e0593",
+  "new_runner_sha256": "9d7c429f9c9ac624d508e4f2b60db0ccce8cf5bf98b82f8a520ae569c27a0efd",
+  "tokenizer_options": {
+    "fix_mistral_regex": true
+  },
+  "cpu_checks": 36,
+  "time_unix": 1791814456.5965672
+}

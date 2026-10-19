@@ -1,0 +1,186 @@
+{
+  "id": "apple_airpods_max1",
+  "url": "https://support.apple.com/en-us/111858",
+  "publisher": "Apple",
+  "question": "How many microphones does AirPods Max 1 have in total?",
+  "statement": "AirPods Max 1 has nine microphones in total.",
+  "answer": "nine",
+  "source_anchor": "Nine microphones total:",
+  "units": [
+    {
+      "tag": 1,
+      "type": "T",
+      "role": "context",
+      "caption": false,
+      "text": "Three microphones for voice pickup (two shared with Active Noise Cancellation and one additional microphone)",
+      "source_offset": [
+        668,
+        776
+      ],
+      "original_tag": 3,
+      "lexical_answer_match": false
+    },
+    {
+      "tag": 2,
+      "type": "T",
+      "role": "context",
+      "caption": false,
+      "text": "Press to switch between Active Noise Cancellation and Transparency mode",
+      "source_offset": [
+        1079,
+        1150
+      ],
+      "original_tag": 4,
+      "lexical_answer_match": false
+    },
+    {
+      "tag": 3,
+      "type": "T",
+      "role": "fact",
+      "caption": false,
+      "text": "Nine microphones total:",
+      "source_offset": [
+        596,
+        619
+      ],
+      "original_tag": 1,
+      "lexical_answer_match": true
+    },
+    {
+      "tag": 4,
+      "type": "T",
+      "role": "source_heading",
+      "caption": false,
+      "text": "AirPods Max 1 - Tech Specs",
+      "source_offset": [
+        0,
+        26
+      ],
+      "original_tag": 6,
+      "lexical_answer_match": false
+    },
+    {
+      "tag": 5,
+      "type": "I",
+      "role": "image",
+      "caption": false,
+      "image": "image.png",
+      "original_tag": 5,
+      "lexical_answer_match": false
+    },
+    {
+      "tag": 6,
+      "type": "T",
+      "role": "context",
+      "caption": false,
+      "text": "Personalized Spatial Audio with dynamic head tracking 1",
+      "source_offset": [
+        359,
+        414
+      ],
+      "original_tag": 2,
+      "lexical_answer_match": false
+    }
+  ],
+  "image_url": "https://cdsassets.apple.com/live/SZLF0YNV/images/sp/111858_sp835_airpods_max.png",
+  "image_alt": "No alt supplied for Image",
+  "original_image_size": [
+    540,
+    416
+  ],
+  "source_html_sha256": "76421f51cc29ad829ff2a68d4863d1a881ad8eb9e9fc8da32f65636239aabd4d",
+  "image_original_sha256": "91612c26c4c2ce650820d9a485afb0879ecbc39d07689a2ccd58c7416dbde013",
+  "status": "frozen_before_inference",
+  "human_validation": null,
+  "source_record": "data/www_candidate_sources/apple_airpods_max1/76421f51cc29ad829ff2a68d4863d1a881ad8eb9e9fc8da32f65636239aabd4d.json",
+  "split": "transfer",
+  "permutation_seed": 20261013,
+  "original_tags_in_display_order": [
+    3,
+    4,
+    1,
+    6,
+    5,
+    2
+  ],
+  "answer_alias_groups": [
+    [
+      "nine",
+      "9"
+    ]
+  ],
+  "semantic_assessment": {
+    "id": "apple_airpods_max1",
+    "reviewer_type": "agent",
+    "human_validation": null,
+    "blocks_sha256": "01342dc2cc53fdb85e165ec779dcc1122b7190aad934a6fe1957b027f93bfcd4",
+    "text_units": [
+      {
+        "tag": 3,
+        "assessment": "supports_statement_in_page_context",
+        "evidence_quote": "Nine microphones total:",
+        "source_offset": [
+          596,
+          619
+        ],
+        "note": "Assessment uses the page entity and the exact target question; lexical answer occurrence alone is not entailment.",
+        "original_tag": 1
+      },
+      {
+        "tag": 6,
+        "assessment": "related_context_without_full_explicit_answer",
+        "evidence_quote": "Personalized Spatial Audio with dynamic head tracking 1",
+        "source_offset": [
+          359,
+          414
+        ],
+        "note": "Assessment uses the page entity and the exact target question; lexical answer occurrence alone is not entailment.",
+        "original_tag": 2
+      },
+      {
+        "tag": 1,
+        "assessment": "partial_component_count",
+        "evidence_quote": "Three microphones for voice pickup (two shared with Active Noise Cancellation and one additional microphone)",
+        "source_offset": [
+          668,
+          776
+        ],
+        "note": "Voice pickup count and shared microphones do not establish total nine.",
+        "original_tag": 3
+      },
+      {
+        "tag": 2,
+        "assessment": "related_context_without_full_explicit_answer",
+        "evidence_quote": "Press to switch between Active Noise Cancellation and Transparency mode",
+        "source_offset": [
+          1079,
+          1150
+        ],
+        "note": "Assessment uses the page entity and the exact target question; lexical answer occurrence alone is not entailment.",
+        "original_tag": 4
+      },
+      {
+        "tag": 4,
+        "assessment": "source_page_entity_metadata",
+        "evidence_quote": "AirPods Max 1 - Tech Specs",
+        "source_offset": [
+          0,
+          26
+        ],
+        "note": "Assessment uses the page entity and the exact target question; lexical answer occurrence alone is not entailment.",
+        "original_tag": 6
+      }
+    ],
+    "image": {
+      "file": "image.png",
+      "sha256": "82521c70268797c3b8ebc7c1b60b71a59d6aa3330144ae64718b26a2faf59901",
+      "visually_inspected": true,
+      "artifact_status": "readable_article_image",
+      "assessment": "related_visual_context_not_standalone_full_answer",
+      "visible_evidence": "Product photograph matches the page product type; internal chip specification or total microphone count is not visibly established.",
+      "tag": 5
+    }
+  },
+  "original_cohort_same_entity": [],
+  "original_cohort_related_topic": []
+}
